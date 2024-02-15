@@ -5,6 +5,7 @@ function sc_pathfind_draw()
 	var _base_x, _base_y;
 	_base_x = grid
 	_base_y = grid
+	/*
 	for(var _w = 0; _w <= array_length(map); _w++) { 
 		draw_line(_base_x+_w*grid-grid,
 		_base_y+0-grid,
@@ -17,7 +18,8 @@ function sc_pathfind_draw()
 		_base_x+(array_length(map))*grid-grid, 
 		_base_y+_h*grid-grid)
 	}
-	
+	*/
+
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_center)
 	for(var _w = 0; _w < array_length(map); _w++) { 

@@ -3,12 +3,35 @@
 
 var _dist	= point_distance(x, y, ind_path_tx, ind_path_ty);
 
-if (ind_path != -1)
+
+if (_dist > 16)
 {
-	
-	if (_dist > 16)
+	var _ind = array_length(ind_path)
+	if (_ind > 1)
 	{
-		//x += ind_spd * sin(point_direction(x, y, ind_path_tx, ind_path_ty));
-		//y += ind_spd * cos(point_direction(x, y, ind_path_tx, ind_path_ty));
+		var _tx	= ind_path[@ _ind-2].x;
+		var _ty	= ind_path[@ _ind-2].y;
+		//x += sin(point_direction(x, y, _tx*grid, _ty*grid));
+		//y += cos(point_direction(x, y, _tx*grid, _ty*grid));
+		//x += sin(point_direction(x, y, ind_path_tx, ind_path_ty));
+		//y += cos(point_direction(x, y, ind_path_tx, ind_path_ty));
+		move_towards_point(_tx*grid+grid/2, _ty*grid+grid/2, ind_spd);
+		
+		if (int64(x/grid) == _tx && int64(y/grid) == _ty)
+		{
+			array_delete(ind_path, _ind-1, 1);
+		}
 	}
+	else
+	{
+		speed = 0;
+	}
+}
+else if (_dist > 8)
+{
+	move_towards_point(ind_path_tx, ind_path_ty, ind_spd);
+}
+else
+{
+	speed = 0;
 }
