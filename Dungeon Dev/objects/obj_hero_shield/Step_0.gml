@@ -11,10 +11,7 @@ if (_dist > 16)
 	{
 		var _tx	= ind_path[@ _ind-2].x;
 		var _ty	= ind_path[@ _ind-2].y;
-		//x += sin(point_direction(x, y, _tx*grid, _ty*grid));
-		//y += cos(point_direction(x, y, _tx*grid, _ty*grid));
-		//x += sin(point_direction(x, y, ind_path_tx, ind_path_ty));
-		//y += cos(point_direction(x, y, ind_path_tx, ind_path_ty));
+		
 		move_towards_point(_tx*grid+grid/2, _ty*grid+grid/2, ind_spd);
 		
 		if (int64(x/grid) == _tx && int64(y/grid) == _ty)
@@ -35,3 +32,5 @@ else
 {
 	speed = 0;
 }
+
+sc_physics_step();

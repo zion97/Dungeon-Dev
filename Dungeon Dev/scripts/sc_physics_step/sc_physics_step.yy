@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "as_map_destroy",
+  "name": "sc_physics_step",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "as_pathfinding",
-    "path": "folders/Scripts/as_pathfinding.yy",
+    "name": "physics",
+    "path": "folders/Scripts/physics.yy",
   },
 }
