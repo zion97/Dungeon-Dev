@@ -14,6 +14,7 @@
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"pathfind","order":3,"path":"folders/Scripts/pathfind.yy",},
     {"name":"pause","order":4,"path":"folders/Scripts/pause.yy",},
+    {"name":"physics","order":5,"path":"folders/Scripts/physics.yy",},
     {"name":"utility","order":2,"path":"folders/Scripts/utility.yy",},
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
@@ -23,7 +24,6 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"tile sprite","order":1,"path":"folders/Tile Sets/tile sprite.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"physics","order":5,"path":"folders/Scripts/physics.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
