@@ -1,4 +1,5 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
-//sc_pathfind_draw_test();
-draw_self();
+
+sc_step();
+sc_physics_step();

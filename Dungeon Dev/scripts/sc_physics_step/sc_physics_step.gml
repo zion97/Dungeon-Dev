@@ -25,7 +25,6 @@ function sc_physics_step()
 		{
 			vspeed	= 0;
 		}
-		image_xscale = 1;
 	}
 	else if (vspeed < 0)	
 	{
@@ -33,7 +32,6 @@ function sc_physics_step()
 		{
 			vspeed	= 0;
 		}
-		image_xscale = -1;
 	}
 	
 	

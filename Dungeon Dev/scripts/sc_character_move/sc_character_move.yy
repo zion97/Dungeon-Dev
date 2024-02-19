@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "instance_create",
+  "name": "sc_character_move",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "utility",
-    "path": "folders/Scripts/utility.yy",
+    "name": "character move",
+    "path": "folders/Scripts/character move.yy",
   },
 }
