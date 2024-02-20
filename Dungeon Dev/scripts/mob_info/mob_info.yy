@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "sc_character_ad",
+  "name": "mob_info",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

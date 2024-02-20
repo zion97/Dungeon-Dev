@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_hero_shield",
+  "name": "obj_mob_goblin",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_create","path":"objects/obj_pa_character/obj_pa_character.yy",},"value":"sc_info_hero_shield",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_create","path":"objects/obj_pa_character/obj_pa_character.yy",},"value":"sc_info_mob_goblin",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_step","path":"objects/obj_pa_character/obj_pa_character.yy",},"value":"sc_character_move",},
   ],
   "parent": {
-    "name": "hero",
-    "path": "folders/Objects/hero.yy",
+    "name": "mob",
+    "path": "folders/Objects/mob.yy",
   },
   "parentObjectId": {
     "name": "obj_pa_character",

@@ -22,9 +22,3 @@ sc_pathfind_create();
 global.roomBuffer = -1;
 
 global.screenBuffer = -1;
-
-//surface_resize(application_surface, 640, 360);
-
-show_debug_message("테스트");
-show_debug_message(surface_get_width(application_surface));
-show_debug_message(surface_get_height(application_surface));

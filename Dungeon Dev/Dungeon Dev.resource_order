@@ -13,7 +13,7 @@
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
-    {"name":"character move","order":6,"path":"folders/Scripts/character move.yy",},
+    {"name":"character script","order":6,"path":"folders/Scripts/character script.yy",},
     {"name":"pathfind","order":3,"path":"folders/Scripts/pathfind.yy",},
     {"name":"pause","order":4,"path":"folders/Scripts/pause.yy",},
     {"name":"physics","order":5,"path":"folders/Scripts/physics.yy",},
@@ -24,6 +24,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"tile sprite","order":1,"path":"folders/Tile Sets/tile sprite.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"mob","order":5,"path":"folders/Objects/mob.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
@@ -37,9 +38,11 @@
     {"name":"sc_physics_step","order":1,"path":"scripts/sc_physics_step/sc_physics_step.yy",},
     {"name":"AStarPathfinding_object_path","order":2,"path":"objects/AStarPathfinding_object_path/AStarPathfinding_object_path.yy",},
     {"name":"sc_character_create","order":1,"path":"scripts/sc_character_create/sc_character_create.yy",},
+    {"name":"mob_info","order":3,"path":"scripts/mob_info/mob_info.yy",},
     {"name":"sc_dump","order":3,"path":"scripts/sc_dump/sc_dump.yy",},
     {"name":"sc_pathfind_draw_test","order":4,"path":"scripts/sc_pathfind_draw_test/sc_pathfind_draw_test.yy",},
     {"name":"t_index","order":1,"path":"tilesets/t_index/t_index.yy",},
+    {"name":"Script15","order":4,"path":"scripts/Script15/Script15.yy",},
     {"name":"sc_pathfind_draw","order":2,"path":"scripts/sc_pathfind_draw/sc_pathfind_draw.yy",},
   ],
 }

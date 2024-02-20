@@ -6,18 +6,23 @@ function sc_character_ad()
 	var _target	= noone;
 	with (obj_pa_character)
 	{
-		if (ind_ally == other.ind_ally)	break;
-		
-		var _i = point_distance(x, y, other.x, other.y);
-		if (_dist > _i)
+		if (ind_ally != other.ind_ally)	
 		{
-			_dist	= _i;
-			_target	= id;
+			var _i = point_distance(x, y, other.x, other.y);
+			if (_dist > _i)
+			{
+				_dist	= _i;
+				_target	= id;
+			}
 		}
 	}
+	
 	if (_dist != 99999)
 	{
-		ind_ad	= _target;
+		ind_ad		= _target;
+		ind_path_tx	= _target.x;
+		ind_path_ty	= _target.y;
+		ind_path	= sc_pathfind(x, y, ind_path_tx, ind_path_ty);
 		return true;
 	}
 	return false;
