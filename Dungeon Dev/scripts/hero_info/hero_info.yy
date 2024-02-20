@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Script15",
+  "name": "hero_info",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

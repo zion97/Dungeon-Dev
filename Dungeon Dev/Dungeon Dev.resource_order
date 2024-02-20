@@ -8,6 +8,7 @@
     {"name":"as_pathfinding","order":1,"path":"folders/Objects/as_pathfinding.yy",},
     {"name":"control obj","order":3,"path":"folders/Objects/control obj.yy",},
     {"name":"hero","order":2,"path":"folders/Objects/hero.yy",},
+    {"name":"mob","order":5,"path":"folders/Objects/mob.yy",},
     {"name":"parent obj","order":4,"path":"folders/Objects/parent obj.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
@@ -24,7 +25,6 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"tile sprite","order":1,"path":"folders/Tile Sets/tile sprite.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"mob","order":5,"path":"folders/Objects/mob.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
@@ -42,7 +42,7 @@
     {"name":"sc_dump","order":3,"path":"scripts/sc_dump/sc_dump.yy",},
     {"name":"sc_pathfind_draw_test","order":4,"path":"scripts/sc_pathfind_draw_test/sc_pathfind_draw_test.yy",},
     {"name":"t_index","order":1,"path":"tilesets/t_index/t_index.yy",},
-    {"name":"Script15","order":4,"path":"scripts/Script15/Script15.yy",},
+    {"name":"hero_info","order":4,"path":"scripts/hero_info/hero_info.yy",},
     {"name":"sc_pathfind_draw","order":2,"path":"scripts/sc_pathfind_draw/sc_pathfind_draw.yy",},
   ],
 }
