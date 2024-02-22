@@ -6,7 +6,6 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_create","path":"objects/obj_pa_character/obj_pa_character.yy",},"value":"sc_info_mob_goblin",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_step","path":"objects/obj_pa_character/obj_pa_character.yy",},"value":"sc_character_move",},
   ],
   "parent": {
     "name": "mob",
@@ -32,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_h_shield_stand",
-    "path": "sprites/spr_h_shield_stand/spr_h_shield_stand.yy",
+    "name": "spr_mob_goblin_stand",
+    "path": "sprites/spr_mob_goblin_stand/spr_mob_goblin_stand.yy",
   },
   "spriteMaskId": null,
   "visible": true,

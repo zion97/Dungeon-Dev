@@ -3,8 +3,8 @@
 function sc_info_mob_goblin()
 {
 	ind_ally	= 2;
-	ind_spd		= 2;
+	ind_spd		= 1;
 	
-	ind_spr_stand	= spr_dump;
-	ind_spr_run		= spr_dump;
+	ind_spr_stand	= spr_mob_goblin_stand;
+	ind_spr_walk	= spr_mob_goblin_walk;
 }

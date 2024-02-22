@@ -20,9 +20,7 @@ function sc_character_ad()
 	if (_dist != 99999)
 	{
 		ind_ad		= _target;
-		ind_path_tx	= _target.x;
-		ind_path_ty	= _target.y;
-		ind_path	= sc_pathfind(x, y, ind_path_tx, ind_path_ty);
+		alarm[0]	= 1;
 		return true;
 	}
 	return false;

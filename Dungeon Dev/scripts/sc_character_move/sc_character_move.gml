@@ -2,17 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_character_move()
 {
-	if (ind_ad == noone)
-	{
-		sc_character_ad();
-	}
 	var _dist	= point_distance(x, y, ind_path_tx, ind_path_ty);
 	
-	if (_dist > 16)
+	if (_dist > 32)
 	{
-		var _ind = array_length(ind_path)
+		//sc_pathfind();
+		var _ind = array_length(ind_path);
 		if (_ind > 1)
 		{
+			sprite_index	= ind_spr_walk;
 			var _tx	= ind_path[@ _ind-2].x;
 			var _ty	= ind_path[@ _ind-2].y;
 			
@@ -20,20 +18,24 @@ function sc_character_move()
 			
 			if (int64(x/grid) == _tx && int64(y/grid) == _ty)
 			{
-				array_delete(ind_path, _ind-1, 1);
+				//sc_pathfind();
+				array_delete(ind_path, -1, 1);
 			}
 		}
 		else
 		{
 			speed = 0;
+			sprite_index	= ind_spr_stand;
 		}
 	}
 	else if (_dist > 4)
 	{
 		move_towards_point(ind_path_tx, ind_path_ty, ind_spd);
+		sprite_index	= ind_spr_walk;
 	}
 	else
 	{
 		speed = 0;
+		sprite_index	= ind_spr_stand;
 	}
 }
