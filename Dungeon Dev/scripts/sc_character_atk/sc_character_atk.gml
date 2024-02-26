@@ -1,8 +1,12 @@
 // v2.3.0에 대한 스크립트 어셋 변경됨 자세한 정보는
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
-function AtkStruct(_func, _dmg, _range) constructor
+function sc_character_atk(_inst)
 {
-	ind_func	= _func;
-	ind_dmg		= _dmg;
-	ind_range	= _range;
+	var _dmg	= ind_atk_dmg;
+	with(_inst)
+	{
+		ind_hp		-= _dmg;
+		image_blend	= c_red;
+		alarm[1]	= 6;
+	}
 }

@@ -6,4 +6,7 @@ function sc_physics_create()
 	ph_speed_y	= 0;
 	ph_dir		= 0;
 	
+	var _layer		= layer_get_id("Instances");
+	ph_depth		= layer_get_depth(_layer);
+	depth			= ind_death + y/room_height*100;
 }

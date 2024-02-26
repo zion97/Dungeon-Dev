@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "atk_struct",
+  "name": "atk_script",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

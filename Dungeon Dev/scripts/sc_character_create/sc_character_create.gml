@@ -7,17 +7,25 @@ function sc_character_create()
 	ind_path_gx		= 0;
 	ind_path_gy		= 0;
 	ind_path		= [];
-	ind_delay		= 0;
+	ind_state		= 0;
+	ind_process		= 0;
+	ind_ad			= noone;
+	ind_hp			= 1;
+	ind_death		= false;
 	sc_character_reset_delay();
 	
-	ind_state		= 0;
-	ind_delay_max	= 150;
-	ind_ad			= noone;
-	
+	ind_atk_sc		= sc_dump;
+	ind_death_sc	= sc_dump;
+	ind_atk_range	= 0;
+	ind_atk_dmg		= 0;
+	ind_hp_max		= 1;
+	ind_delay		= 20;
 	ind_ally		= 1;
 	ind_spd			= 3;
 	grid = 16;
 	
 	ind_spr_stand	= spr_dump;
 	ind_spr_walk	= spr_dump;
+	ind_spr_atk		= spr_dump;
+	ind_spr_death	= spr_dump;
 }

@@ -2,31 +2,69 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_character_step()
 {
-	with(ind_ad)
-	{
-		other.ind_path_tx	= x;
-		other.ind_path_ty	= y;
-	}
 	
-	if (ind_state == 0)
+	if (!ind_death)
 	{
-		sprite_index	= ind_spr_stand;
-		ind_delay++;
-		
-		if (ind_delay > ind_delay_max)
+		with(ind_ad)
 		{
-			if (sc_character_ad())
+			other.ind_path_tx	= x;
+			other.ind_path_ty	= y;
+		}
+		
+		if (ind_state == 0)
+		{
+			sprite_index	= ind_spr_stand;
+			ind_process++;
+			
+			if (ind_process > ind_delay)
 			{
-				ind_state	= 1;
+				if (sc_character_ad())
+				{
+					ind_state	= 1;
+					ind_process	= 0;
+				}
+				else
+				{
+					sc_character_reset_delay();
+					if (ind_ad != noone)
+					{
+						ind_ad	= noone;
+						x		+= irandom_range(-2, 2);
+						y		+= irandom_range(-2, 2);
+					}
+				}
 			}
-			sc_character_reset_delay();
+		}
+		else if (ind_state == 1)
+		{
+			var _dist	= point_distance(x, y, ind_path_tx, ind_path_ty);
+			if (_dist < ind_atk_range)
+			{
+				speed = 0;
+				ind_state	= 2;
+				ind_process	= 0;
+				sc_set_dir();
+			}
+			else
+			{
+				sc_character_move(_dist);
+			}
+		}
+		else if (ind_state == 2)
+		{
+			ind_atk_sc();
+		}
+		
+		if (ind_hp <= 0)
+		{
+			speed		= 0;
+			ind_death	= true;
+			ind_process	= 0;
 		}
 	}
-	else if (ind_state == 1)
+	else
 	{
-		sc_character_move();
+		ind_death_sc();
 	}
-	
-	
 	
 }

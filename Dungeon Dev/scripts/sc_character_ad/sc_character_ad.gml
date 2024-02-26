@@ -6,7 +6,7 @@ function sc_character_ad()
 	var _target	= noone;
 	with (obj_pa_character)
 	{
-		if (ind_ally != other.ind_ally)	
+		if (ind_ally != other.ind_ally && !ind_death)	
 		{
 			var _i = point_distance(x, y, other.x, other.y);
 			if (_dist > _i)

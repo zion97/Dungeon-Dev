@@ -1,8 +1,8 @@
 // v2.3.0에 대한 스크립트 어셋 변경됨 자세한 정보는
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
-function sc_character_move()
+function sc_character_move(_dist)
 {
-	var _dist	= point_distance(x, y, ind_path_tx, ind_path_ty);
+	//var _dist	= point_distance(x, y, ind_path_tx, ind_path_ty);
 	
 	if (_dist > 32)
 	{
