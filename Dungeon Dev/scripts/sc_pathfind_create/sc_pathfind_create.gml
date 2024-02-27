@@ -80,7 +80,7 @@ function sc_pathfind_create()
 		for(var _h = 0; _h < height; _h++) {
 			map[@ _w][@ _h] = new cell(_w,_h) 
 			var _value = tilemap_get(_tile_col, _w, _h);
-			if (_value == 3)	map[@ _w][@ _h].value = cell_type.closed
+			if (_value == 1)	map[@ _w][@ _h].value = cell_type.closed
 		}
 	}
 	

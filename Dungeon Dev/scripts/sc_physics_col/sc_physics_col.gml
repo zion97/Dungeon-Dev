@@ -6,7 +6,7 @@ function sc_physics_col(_x, _y)
 	var _tile_id	= layer_tilemap_get_id("Tile_col");
 	var _tile_col	= tilemap_get_at_pixel(_tile_id, _x, _y);
 
-	if (_tile_col == 3)
+	if (_tile_col == 1)
 	{
 		return 1;
 	}
