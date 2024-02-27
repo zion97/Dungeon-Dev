@@ -25,8 +25,8 @@ if (ind_enter || ind_click)
 	}
 	draw_set_alpha(1);
 	draw_line_width(x-9, y-8, x+7, y-8, 1);
-	draw_line_width(x-9, y-8, x-8, y+7, 1);
-	draw_line_width(x+7, y+7, x-8, y+7, 1);
+	draw_line_width(x-9, y-8, x-9, y+7, 1);
+	draw_line_width(x+7, y+7, x-9, y+7, 1);
 	draw_line_width(x+7, y+7, x+7, y-8, 1);
 }
 draw_set_alpha(1);
