@@ -4,7 +4,7 @@ function sc_info_hero_shield()
 {
 	ind_atk_sc		= sc_atk_melee_5f_3;
 	ind_death_sc	= sc_death_4f;
-	ind_atk_range	= 16;
+	ind_atk_range	= 12;
 	ind_atk_dmg		= 10;
 	ind_hp_max		= 125;
 	ind_hp			= ind_hp_max
@@ -21,7 +21,7 @@ function sc_info_hero_sword()
 {
 	ind_atk_sc		= sc_atk_melee_5f_3;
 	ind_death_sc	= sc_death_4f;
-	ind_atk_range	= 16;
+	ind_atk_range	= 12;
 	ind_atk_dmg		= 25;
 	ind_hp_max		= 50;
 	ind_hp			= ind_hp_max

@@ -3,7 +3,17 @@
 
 if (ind_click && ind_col)
 {
+	if (ind_bx < 0)
+	{
+		instance_destroy();
+	}
 	x	= ind_bx;
 	y	= ind_by;
 }
+else
+{
+	ind_bx	= x;
+	ind_by	= y;
+}
 ind_click	= false;
+ind_dep_ui	= false;

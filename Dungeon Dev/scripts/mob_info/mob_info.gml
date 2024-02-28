@@ -4,7 +4,7 @@ function sc_info_mob_goblin()
 {
 	ind_atk_sc		= sc_atk_melee_5f_4;
 	ind_death_sc	= sc_death_4f;
-	ind_atk_range	= 16;
+	ind_atk_range	= 12;
 	ind_atk_dmg		= 5;
 	ind_hp_max		= 50;
 	ind_hp			= ind_hp_max
@@ -15,4 +15,21 @@ function sc_info_mob_goblin()
 	ind_spr_walk	= spr_mob_goblin_walk;
 	ind_spr_atk		= spr_mob_goblin_atk;
 	ind_spr_death	= spr_mob_goblin_death;
+}
+
+function sc_info_mob_orc_shield()
+{
+	ind_atk_sc		= sc_atk_melee_5f_4;
+	ind_death_sc	= sc_death_4f;
+	ind_atk_range	= 12;
+	ind_atk_dmg		= 5;
+	ind_hp_max		= 150;
+	ind_hp			= ind_hp_max
+	ind_ally		= 2;
+	ind_spd			= 1;
+	
+	ind_spr_stand	= spr_mob_orc_shield_stand;
+	ind_spr_walk	= spr_mob_orc_shield_walk;
+	ind_spr_atk		= spr_mob_orc_shield_atk;
+	ind_spr_death	= spr_mob_orc_shield_death;
 }

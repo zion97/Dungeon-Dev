@@ -3,6 +3,8 @@
 sc_pathfind_create();
 sc_control_tile();
 
-global.roomBuffer = -1;
+instance_create_depth(0, 0, 0, Camera_stage);
+uc_set_x(room_width/2);
+uc_set_target_x(room_width/2);
 
-global.screenBuffer = -1;
+ind_dep_num	= -1;
