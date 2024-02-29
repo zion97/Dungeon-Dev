@@ -131,6 +131,7 @@
     {"name":"uc_init_static","order":2,"path":"scripts/uc_init_static/uc_init_static.yy",},
     {"name":"obj_control_pause","order":1,"path":"objects/obj_control_pause/obj_control_pause.yy",},
     {"name":"spr_h_sword_walk","order":2,"path":"sprites/spr_h_sword_walk/spr_h_sword_walk.yy",},
+    {"name":"obj_control_talk","order":3,"path":"objects/obj_control_talk/obj_control_talk.yy",},
     {"name":"uc_get_mouse_borders_maxspeed","order":1,"path":"scripts/uc_get_mouse_borders_maxspeed/uc_get_mouse_borders_maxspeed.yy",},
     {"name":"rm_logo","order":2,"path":"rooms/rm_logo/rm_logo.yy",},
     {"name":"spr_deploy_back","order":1,"path":"sprites/spr_deploy_back/spr_deploy_back.yy",},

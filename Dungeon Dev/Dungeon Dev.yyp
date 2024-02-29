@@ -91,7 +91,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tile sprite","folderPath":"folders/Tile Sets/tile sprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"stage01.csv","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -163,6 +165,7 @@
     {"id":{"name":"uc_init_static","path":"scripts/uc_init_static/uc_init_static.yy",},},
     {"id":{"name":"obj_control_pause","path":"objects/obj_control_pause/obj_control_pause.yy",},},
     {"id":{"name":"spr_h_sword_walk","path":"sprites/spr_h_sword_walk/spr_h_sword_walk.yy",},},
+    {"id":{"name":"obj_control_talk","path":"objects/obj_control_talk/obj_control_talk.yy",},},
     {"id":{"name":"uc_get_mouse_borders_maxspeed","path":"scripts/uc_get_mouse_borders_maxspeed/uc_get_mouse_borders_maxspeed.yy",},},
     {"id":{"name":"rm_logo","path":"rooms/rm_logo/rm_logo.yy",},},
     {"id":{"name":"spr_deploy_back","path":"sprites/spr_deploy_back/spr_deploy_back.yy",},},

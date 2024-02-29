@@ -10,16 +10,6 @@ function sc_physics_col(_x, _y)
 	{
 		return 1;
 	}
-/*
-	if (collision_point(_x, _y, obj_pa_obstacle, true, true))
-	{
-		return 1;
-	}
-	
-	if (ind_col_half && collision_point(_x, _y, obj_pa_obstacle_half, true, true))
-	{
-		return 1;
-	}
-	*/
+
 	return 0;
 }
