@@ -11,8 +11,12 @@ ind_state	= 0;
 
 ind_name	= "";
 ind_text	= "";
+ind_que		= array_create(3, "");
+ind_que_num	= 0;
+ind_que_sel	= 0;
+ind_que_nxt	= array_create(3, 0);
 ind_pic		= spr_dump;
-ind_pin_num	= 0;
+ind_pic2	= spr_dump;
 
 ind_alp		= 1;
 alarm[0]	= 1;

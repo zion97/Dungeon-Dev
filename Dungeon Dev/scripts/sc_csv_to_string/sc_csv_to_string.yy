@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "cs script",
-    "path": "folders/Scripts/cs script.yy",
+    "name": "setting",
+    "path": "folders/Scripts/cs script/setting.yy",
   },
 }
