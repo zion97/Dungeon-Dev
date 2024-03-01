@@ -3,8 +3,9 @@
 sc_pathfind_create();
 sc_control_tile();
 
-instance_create_depth(0, 0, 0, Camera_stage);
-uc_set_x(room_width/2);
-uc_set_target_x(room_width/2);
+sc_create_stage_camera();
 
 ind_dep_num	= -1;
+ind_alp		= 1
+
+alarm[0]	= 1;

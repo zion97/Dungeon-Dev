@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_control_talk",
+  "name": "obj_cs_h_sword",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "control obj",
-    "path": "folders/Objects/control obj.yy",
+    "name": "cs obj",
+    "path": "folders/Objects/cs obj.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_h_sword_stand",
+    "path": "sprites/spr_h_sword_stand/spr_h_sword_stand.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

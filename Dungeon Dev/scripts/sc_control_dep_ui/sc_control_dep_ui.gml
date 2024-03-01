@@ -2,6 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_control_dep_ui()
 {
+	draw_set_alpha(1);
+	draw_set_color(c_white);
 	var _port_w	= uc_get_port_width();
 	var _port_h	= uc_get_port_height();
 	draw_sprite_ext(spr_deploy_back, 0, _port_w/2, _port_h+100, 3, 3, 0, c_white, 1);
