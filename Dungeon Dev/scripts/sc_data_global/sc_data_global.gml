@@ -6,6 +6,8 @@ function sc_data_global()
 	global.screenBuffer = -1;
 	
 	global.lan			= 0;
+	global.vol			= 3;
+	global.vol_bgm		= 3;
 	
 	global.font_name	= array_create(5);
 	global.font_name[0]	= font_add("font\\font_kr.otf", 32, 0, 0, 32, 55203);

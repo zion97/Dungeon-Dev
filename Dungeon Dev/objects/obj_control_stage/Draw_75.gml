@@ -3,3 +3,4 @@
 draw_set_alpha(ind_alp);
 draw_set_color(#000000);
 draw_rectangle(-5, -5, 2600, 1085, false);
+draw_set_alpha(1);

@@ -11,5 +11,6 @@ function sc_cs_set_dia(_line, _nxt = ind_process + 1, _pic = spr_dump, _pic2 = s
 	ind_que_nxt[0]	= _nxt;
 	ind_que_sel		= 0;
 	
+	SE_Play(s_cs_talk);
 	ind_state		= 1;
 }

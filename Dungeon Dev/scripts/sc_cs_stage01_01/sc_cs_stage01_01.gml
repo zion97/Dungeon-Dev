@@ -34,6 +34,7 @@ function sc_cs_stage01_01()
 		
 	case 7:
 		sc_cs_set_dia(10,,spr_pic_maw_laugh);
+		SE_Play(s_cs_door_open);
 		break;
 		
 	case 8:
@@ -41,7 +42,7 @@ function sc_cs_stage01_01()
 		break;
 		
 	case 9:
-		sc_cs_set_dia(12,, spr_pic_maw);
+		sc_cs_set_dia(12,15, spr_pic_maw);
 		break;
 		
 	case 10:
@@ -50,6 +51,7 @@ function sc_cs_stage01_01()
 		
 	case 11:
 		sc_cs_set_dia(15,, spr_pic_maw_ember);
+		SE_Play(s_cs_door_open);
 		break;
 		
 	case 12:
@@ -62,6 +64,18 @@ function sc_cs_stage01_01()
 		
 	case 14:
 		sc_cs_set_dia(18,, spr_pic_maw);
+		break;
+		
+	case 15:
+		sc_cs_set_dia(19,,,spr_pic_maw);
+		break;
+		
+	case 16:
+		sc_cs_set_clean(60);
+		break;
+		
+	case 17:
+		sc_cs_set_clean(,,true);
 		break;
 	}
 }

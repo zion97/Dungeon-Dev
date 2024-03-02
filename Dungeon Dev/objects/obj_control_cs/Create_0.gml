@@ -18,6 +18,8 @@ ind_que_nxt	= array_create(3, 0);
 ind_pic		= spr_dump;
 ind_pic2	= spr_dump;
 
+BGM_Play(music_mr,,10);
+
 ind_alp		= 1;
 alarm[0]	= 1;
-alarm[2]	= 60;
+alarm[2]	= 90;

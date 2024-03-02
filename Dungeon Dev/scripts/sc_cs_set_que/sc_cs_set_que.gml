@@ -15,5 +15,6 @@ function sc_cs_set_que(_line, _num, _nxt, _pic = spr_dump, _pic2 = spr_dump)
 	ind_pic		= _pic;
 	ind_pic2	= _pic2;
 	
+	SE_Play(s_cs_talk);
 	ind_state	= 2;
 }
