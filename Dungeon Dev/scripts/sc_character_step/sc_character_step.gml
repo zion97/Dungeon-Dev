@@ -60,6 +60,10 @@ function sc_character_step()
 			speed		= 0;
 			ind_death	= true;
 			ind_process	= 0;
+			with (obj_control_stage)
+			{
+				alarm[2]	= 1;
+			}
 		}
 	}
 	else

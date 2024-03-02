@@ -2,6 +2,10 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_character_ad()
 {
+	with (ind_ad)
+	{
+		if (ind_hp > 0) return true;
+	}
 	var _dist	= 99999;
 	var _target	= noone;
 	with (obj_pa_character)

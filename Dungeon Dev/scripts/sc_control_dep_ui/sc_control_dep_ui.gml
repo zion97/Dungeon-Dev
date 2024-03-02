@@ -26,10 +26,19 @@ function sc_control_dep_ui()
 				3, 3, 0, c_white, 1);
 			draw_sprite_ext(global.mob_struct[mob_list[_i]].ind_spr_stand, 0, 180 + _i*200, _port_h-150, 
 				6, 6, 0, c_white, 1);
-				
+			
+			var _l	= 0;
 			draw_set_color(#000000);
-			draw_text(180 + _i*200, _port_h-80, global.mob_struct[mob_list[_i]].ind_hp_max);
-			draw_text(180 + _i*200, _port_h-50, global.mob_struct[mob_list[_i]].ind_atk_dmg);
+			draw_set_font(global.font_num);
+			draw_set_halign(fa_center);
+			draw_set_valign(fa_middle);
+			_l	= string_width(global.mob_struct[mob_list[_i]].ind_hp_max);
+			draw_sprite(spr_icon_hp, 0, 150 + _i*200 - _l/2, _port_h-80);
+			draw_text(160 + _i*200, _port_h-80, global.mob_struct[mob_list[_i]].ind_hp_max);
+			
+			_l	= string_width(global.mob_struct[mob_list[_i]].ind_atk_dmg);
+			draw_sprite(spr_icon_dmg, 0, 200 + _i*200, _port_h-80);
+			draw_text(210 + _i*200 + _l/2, _port_h-80, global.mob_struct[mob_list[_i]].ind_atk_dmg);
 		}
 	}
 }

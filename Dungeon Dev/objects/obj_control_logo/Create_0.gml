@@ -5,7 +5,7 @@ sc_data_global();
 
 image_alpha	= 0;
 
-var _time	= 0;
+var _time	= 80;
 
 alarm[0]	= _time+40;
 alarm[1]	= _time;

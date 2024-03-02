@@ -134,7 +134,19 @@ function sc_cs_stage01_01_2()
 		sc_cs_set_dia(35,, spr_pic_maw_laugh);
 		break;
 		
-	case 50:
+	case 33:
+		sc_cs_set_dia(36,, spr_pic_maw);
+		break;
+		
+	case 34:
+		sc_cs_set_clean(60);
+		break;
+		
+	case 35:
+		sc_cs_set_clean(,,true);
+		break;
+		
+	case 36:
 		alarm[1] = 1;
 		break;
 	}

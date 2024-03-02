@@ -29,7 +29,10 @@
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"dep_inst","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"obj_hero_shield","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"dep_hp","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-1","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"dep_dmg","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-1","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"create_sc","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"sc_dump","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"dep_class","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-1","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"dep_goal","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-1","varType":0,},
   ],
   "solid": false,
   "spriteId": null,

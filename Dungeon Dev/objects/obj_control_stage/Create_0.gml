@@ -7,5 +7,7 @@ sc_create_stage_camera();
 
 ind_dep_num	= -1;
 ind_alp		= 1
+ind_state	= 0;
+ind_clear	= false;
 
 alarm[0]	= 1;

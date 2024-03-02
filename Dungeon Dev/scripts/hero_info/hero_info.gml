@@ -15,6 +15,9 @@ function sc_info_hero_shield()
 	ind_spr_walk	= spr_h_shield_walk;
 	ind_spr_atk		= spr_h_shield_atk;
 	ind_spr_death	= spr_h_shield_death;
+	
+	ind_s_atk		= s_sword02;
+	ind_s_death		= s_dump;
 }
 
 function sc_info_hero_sword()
@@ -32,4 +35,7 @@ function sc_info_hero_sword()
 	ind_spr_walk	= spr_h_sword_walk;
 	ind_spr_atk		= spr_h_sword_atk;
 	ind_spr_death	= spr_h_sword_death;
+	
+	ind_s_atk		= s_sword02;
+	ind_s_death		= s_dump;
 }

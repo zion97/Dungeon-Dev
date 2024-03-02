@@ -12,6 +12,9 @@ function sc_character_create()
 	ind_ad			= noone;
 	ind_hp			= 1;
 	ind_death		= false;
+	ind_class		= 0;
+	ind_goal		= 0;
+	ind_goal_max	= 0;
 	sc_character_reset_delay();
 	
 	ind_atk_sc		= sc_dump;
@@ -28,4 +31,7 @@ function sc_character_create()
 	ind_spr_walk	= spr_dump;
 	ind_spr_atk		= spr_dump;
 	ind_spr_death	= spr_dump;
+	
+	ind_s_atk		= s_dump;
+	ind_s_death		= s_dump;
 }

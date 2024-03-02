@@ -6,7 +6,7 @@ function sc_info_mob_goblin()
 	ind_death_sc	= sc_death_4f;
 	ind_atk_range	= 12;
 	ind_atk_dmg		= 5;
-	ind_hp_max		= 50;
+	ind_hp_max		= 75;
 	ind_hp			= ind_hp_max
 	ind_ally		= 2;
 	ind_spd			= 1;
@@ -15,6 +15,9 @@ function sc_info_mob_goblin()
 	ind_spr_walk	= spr_mob_goblin_walk;
 	ind_spr_atk		= spr_mob_goblin_atk;
 	ind_spr_death	= spr_mob_goblin_death;
+	
+	ind_s_atk		= s_sword01;
+	ind_s_death		= s_dump;
 }
 
 function sc_info_mob_orc_shield()
@@ -32,4 +35,7 @@ function sc_info_mob_orc_shield()
 	ind_spr_walk	= spr_mob_orc_shield_walk;
 	ind_spr_atk		= spr_mob_orc_shield_atk;
 	ind_spr_death	= spr_mob_orc_shield_death;
+	
+	ind_s_atk		= s_axe01;
+	ind_s_death		= s_dump;
 }

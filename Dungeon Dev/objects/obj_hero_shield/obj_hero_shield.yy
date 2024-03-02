@@ -12,8 +12,8 @@
     "path": "folders/Objects/hero.yy",
   },
   "parentObjectId": {
-    "name": "obj_pa_character",
-    "path": "objects/obj_pa_character/obj_pa_character.yy",
+    "name": "obj_pa_hero",
+    "path": "objects/obj_pa_hero/obj_pa_hero.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

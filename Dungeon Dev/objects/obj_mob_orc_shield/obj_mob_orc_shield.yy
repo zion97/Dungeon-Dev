@@ -12,8 +12,8 @@
     "path": "folders/Objects/mob.yy",
   },
   "parentObjectId": {
-    "name": "obj_pa_character",
-    "path": "objects/obj_pa_character/obj_pa_character.yy",
+    "name": "obj_pa_mob",
+    "path": "objects/obj_pa_mob/obj_pa_mob.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

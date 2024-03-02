@@ -12,8 +12,8 @@
     "path": "folders/Objects/hero deploy.yy",
   },
   "parentObjectId": {
-    "name": "obj_pa_deploy",
-    "path": "objects/obj_pa_deploy/obj_pa_deploy.yy",
+    "name": "obj_pa_deploy_hero",
+    "path": "objects/obj_pa_deploy_hero/obj_pa_deploy_hero.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

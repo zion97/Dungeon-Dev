@@ -4,14 +4,16 @@
   "name": "obj_dep_shield",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_inst","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"obj_hero_shield",},
+  ],
   "parent": {
     "name": "hero deploy",
     "path": "folders/Objects/hero deploy.yy",
   },
   "parentObjectId": {
-    "name": "obj_pa_deploy",
-    "path": "objects/obj_pa_deploy/obj_pa_deploy.yy",
+    "name": "obj_pa_deploy_hero",
+    "path": "objects/obj_pa_deploy_hero/obj_pa_deploy_hero.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
