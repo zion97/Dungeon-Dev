@@ -82,6 +82,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sound_Manager","folderPath":"folders/Sound_Manager.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"atk","folderPath":"folders/Sounds/atk.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"cs","folderPath":"folders/Sounds/cs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"music","folderPath":"folders/Sounds/music.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
@@ -97,7 +98,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tile sprite","folderPath":"folders/Tile Sets/tile sprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"atk","folderPath":"folders/Sounds/atk.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"font_kr.otf","CopyToMask":-1,"filePath":"datafiles/font",},
@@ -233,6 +233,7 @@
     {"id":{"name":"Scr_Sound_Manager","path":"scripts/Scr_Sound_Manager/Scr_Sound_Manager.yy",},},
     {"id":{"name":"spr_t_index","path":"sprites/spr_t_index/spr_t_index.yy",},},
     {"id":{"name":"spr_cs_que","path":"sprites/spr_cs_que/spr_cs_que.yy",},},
+    {"id":{"name":"spr_icon_coin","path":"sprites/spr_icon_coin/spr_icon_coin.yy",},},
     {"id":{"name":"s_cs_talk","path":"sounds/s_cs_talk/s_cs_talk.yy",},},
     {"id":{"name":"uc_enable_room_bounds_enabled","path":"scripts/uc_enable_room_bounds_enabled/uc_enable_room_bounds_enabled.yy",},},
     {"id":{"name":"obj_dep_orc_shield","path":"objects/obj_dep_orc_shield/obj_dep_orc_shield.yy",},},

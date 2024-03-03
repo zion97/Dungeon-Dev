@@ -39,6 +39,10 @@ function sc_control_dep_ui()
 			_l	= string_width(global.mob_struct[mob_list[_i]].ind_atk_dmg);
 			draw_sprite(spr_icon_dmg, 0, 200 + _i*200, _port_h-80);
 			draw_text(210 + _i*200 + _l/2, _port_h-80, global.mob_struct[mob_list[_i]].ind_atk_dmg);
+			
+			_l	= string_width(global.mob_struct[mob_list[_i]].cost);
+			draw_sprite(spr_icon_coin, 0, 170 + _i*200, _port_h-55);
+			draw_text(180 + _i*200 + _l/2, _port_h-55, global.mob_struct[mob_list[_i]].cost);
 		}
 	}
 }

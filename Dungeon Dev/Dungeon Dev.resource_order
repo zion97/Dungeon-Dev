@@ -71,6 +71,7 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sound_Manager","order":16,"path":"folders/Sound_Manager.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
+    {"name":"atk","order":2,"path":"folders/Sounds/atk.yy",},
     {"name":"music","order":1,"path":"folders/Sounds/music.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"cs","order":4,"path":"folders/Sprites/cs.yy",},
@@ -84,7 +85,6 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"tile sprite","order":1,"path":"folders/Tile Sets/tile sprite.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"atk","order":2,"path":"folders/Sounds/atk.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"uc_set_view_inclination","order":2,"path":"scripts/uc_set_view_inclination/uc_set_view_inclination.yy",},
@@ -182,6 +182,7 @@
     {"name":"uc_delete_instance_following_list","order":3,"path":"scripts/uc_delete_instance_following_list/uc_delete_instance_following_list.yy",},
     {"name":"Scr_Sound_Manager","order":1,"path":"scripts/Scr_Sound_Manager/Scr_Sound_Manager.yy",},
     {"name":"spr_cs_que","order":3,"path":"sprites/spr_cs_que/spr_cs_que.yy",},
+    {"name":"spr_icon_coin","order":8,"path":"sprites/spr_icon_coin/spr_icon_coin.yy",},
     {"name":"uc_enable_room_bounds_enabled","order":2,"path":"scripts/uc_enable_room_bounds_enabled/uc_enable_room_bounds_enabled.yy",},
     {"name":"obj_dep_orc_shield","order":1,"path":"objects/obj_dep_orc_shield/obj_dep_orc_shield.yy",},
     {"name":"uc_get_mouse_shooter_percentage","order":1,"path":"scripts/uc_get_mouse_shooter_percentage/uc_get_mouse_shooter_percentage.yy",},
