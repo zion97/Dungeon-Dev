@@ -33,8 +33,8 @@ function sc_control_dep_ui()
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
 			_l	= string_width(global.mob_struct[mob_list[_i]].ind_hp_max);
-			draw_sprite(spr_icon_hp, 0, 150 + _i*200 - _l/2, _port_h-80);
-			draw_text(160 + _i*200, _port_h-80, global.mob_struct[mob_list[_i]].ind_hp_max);
+			draw_sprite(spr_icon_hp, 0, 152 + _i*200 - _l/2, _port_h-80);
+			draw_text(162 + _i*200, _port_h-80, global.mob_struct[mob_list[_i]].ind_hp_max);
 			
 			_l	= string_width(global.mob_struct[mob_list[_i]].ind_atk_dmg);
 			draw_sprite(spr_icon_dmg, 0, 200 + _i*200, _port_h-80);

@@ -8,6 +8,7 @@ function sc_character_atk(_inst)
 		ind_hp		-= _dmg;
 		image_blend	= c_red;
 		alarm[1]	= 6;
+		if (ind_class == 1)	ind_goal += _dmg;
 	}
 	if (ind_class == 0)	ind_goal += _dmg;
 	SE_Play(ind_s_atk);

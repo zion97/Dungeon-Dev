@@ -99,7 +99,11 @@ function sc_cs_stage01_01_2()
 		break;
 		
 	case 22:
-		sc_cs_set_dia(25, 25, spr_pic_maw);
+		sc_cs_set_dia(25,, spr_pic_maw);
+		break;
+		
+	case 23:
+		sc_cs_set_dia(26, 25,, spr_pic_maw);
 		break;
 		
 	case 25:

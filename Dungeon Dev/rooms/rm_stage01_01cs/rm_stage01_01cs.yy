@@ -1,14 +1,14 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_stage01_cs",
+  "name": "rm_stage01_01cs",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_3257894C","path":"rooms/rm_stage01_cs/rm_stage01_cs.yy",},
-    {"name":"inst_36DC9C18","path":"rooms/rm_stage01_cs/rm_stage01_cs.yy",},
+    {"name":"inst_3257894C","path":"rooms/rm_stage01_01cs/rm_stage01_01cs.yy",},
+    {"name":"inst_36DC9C18","path":"rooms/rm_stage01_01cs/rm_stage01_01cs.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -16,7 +16,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3257894C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_control_cs","path":"objects/obj_control_cs/obj_control_cs.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_control_cs","path":"objects/obj_control_cs/obj_control_cs.yy",},"propertyId":{"name":"cs_sc","path":"objects/obj_control_cs/obj_control_cs.yy",},"value":"sc_cs_stage01_01",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_control_cs","path":"objects/obj_control_cs/obj_control_cs.yy",},"propertyId":{"name":"file_name","path":"objects/obj_control_cs/obj_control_cs.yy",},"value":"stage01.csv",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_control_cs","path":"objects/obj_control_cs/obj_control_cs.yy",},"propertyId":{"name":"next_room","path":"objects/obj_control_cs/obj_control_cs.yy",},"value":"rm_stage01_cs_2",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_control_cs","path":"objects/obj_control_cs/obj_control_cs.yy",},"propertyId":{"name":"next_room","path":"objects/obj_control_cs/obj_control_cs.yy",},"value":"rm_stage01_01cs_2",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36DC9C18","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cs_image","path":"objects/obj_cs_image/obj_cs_image.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_cs_image","path":"objects/obj_cs_image/obj_cs_image.yy",},"propertyId":{"name":"spr_index","path":"objects/obj_cs_image/obj_cs_image.yy",},"value":"spr_cs_castle01",},

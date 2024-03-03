@@ -37,7 +37,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"file_name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"stage01.csv","varType":2,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"csv_num","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"cs_sc","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"sc_dump","varType":5,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"next_room","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"rm_stage01_cs","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"next_room","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"rm_stage01_01","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"music_mr","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"mr_default01","varType":5,},
   ],
   "solid": false,
