@@ -1,35 +1,40 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_stage01_03",
+  "name": "rm_stage01_04",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_41EA4F31_1_1_1","path":"rooms/rm_stage01_03/rm_stage01_03.yy",},
-    {"name":"inst_DAAB156_1","path":"rooms/rm_stage01_03/rm_stage01_03.yy",},
-    {"name":"inst_484EE10E","path":"rooms/rm_stage01_03/rm_stage01_03.yy",},
+    {"name":"inst_41EA4F31_1_1_1_1","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
+    {"name":"inst_DAAB156_1_1","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
+    {"name":"inst_484EE10E_1","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
+    {"name":"inst_2257C78E","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Control","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41EA4F31_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_control_stage","path":"objects/obj_control_stage/obj_control_stage.yy",},"properties":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41EA4F31_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_control_stage","path":"objects/obj_control_stage/obj_control_stage.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_control_stage","path":"objects/obj_control_stage/obj_control_stage.yy",},"propertyId":{"name":"mob_list","path":"objects/obj_control_stage/obj_control_stage.yy",},"value":"0",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_control_stage","path":"objects/obj_control_stage/obj_control_stage.yy",},"propertyId":{"name":"next_room","path":"objects/obj_control_stage/obj_control_stage.yy",},"value":"rm_stage01_04",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_control_stage","path":"objects/obj_control_stage/obj_control_stage.yy",},"propertyId":{"name":"next_room","path":"objects/obj_control_stage/obj_control_stage.yy",},"value":"rm_stage01_03cs",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Deploy","depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DAAB156_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dep_shield","path":"objects/obj_dep_shield/obj_dep_shield.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_hp","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"150",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_dmg","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"25",},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DAAB156_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dep_shield","path":"objects/obj_dep_shield/obj_dep_shield.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_hp","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"100",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_dmg","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"10",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_class","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"1",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"120",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":328.0,"y":120.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_484EE10E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dep_sword","path":"objects/obj_dep_sword/obj_dep_sword.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"300",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_dmg","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"50",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":392.0,"y":120.0,},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"50",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":360.0,"y":120.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_484EE10E_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dep_sword","path":"objects/obj_dep_sword/obj_dep_sword.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"200",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_dmg","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"25",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":424.0,"y":120.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2257C78E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dep_sword","path":"objects/obj_dep_sword/obj_dep_sword.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"200",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_dmg","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"value":"25",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":296.0,"y":120.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[],"depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

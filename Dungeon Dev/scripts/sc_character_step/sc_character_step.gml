@@ -38,7 +38,15 @@ function sc_character_step()
 		else if (ind_state == 1)
 		{
 			var _dist	= point_distance(x, y, ind_path_tx, ind_path_ty);
-			if (_dist < ind_atk_range)
+			var _hp		= 0
+			with (ind_ad)	{ _hp = ind_hp; }
+			if (_hp <= 0)
+			{
+				speed = 0;
+				ind_state	= 0;
+				sc_character_reset_delay();
+			}
+			else if (_dist < ind_atk_range)
 			{
 				speed = 0;
 				ind_state	= 2;

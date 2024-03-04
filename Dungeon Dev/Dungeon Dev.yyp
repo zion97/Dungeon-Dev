@@ -301,6 +301,7 @@
     {"id":{"name":"uc_get_bars_acceleration","path":"scripts/uc_get_bars_acceleration/uc_get_bars_acceleration.yy",},},
     {"id":{"name":"atk_script","path":"scripts/atk_script/atk_script.yy",},},
     {"id":{"name":"sc_control_dep_ui","path":"scripts/sc_control_dep_ui/sc_control_dep_ui.yy",},},
+    {"id":{"name":"rm_stage01_04","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},},
     {"id":{"name":"hero_info","path":"scripts/hero_info/hero_info.yy",},},
     {"id":{"name":"sc_pathfind_draw","path":"scripts/sc_pathfind_draw/sc_pathfind_draw.yy",},},
     {"id":{"name":"sc_cs_stage01_03","path":"scripts/sc_cs_stage01_03/sc_cs_stage01_03.yy",},},
@@ -323,6 +324,7 @@
     {"roomId":{"name":"rm_stage01_02","path":"rooms/rm_stage01_02/rm_stage01_02.yy",},},
     {"roomId":{"name":"rm_stage01_03cs","path":"rooms/rm_stage01_03cs/rm_stage01_03cs.yy",},},
     {"roomId":{"name":"rm_stage01_03","path":"rooms/rm_stage01_03/rm_stage01_03.yy",},},
+    {"roomId":{"name":"rm_stage01_04","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
