@@ -5,6 +5,8 @@ if (ind_click && ind_col)
 {
 	if (ind_bx < 0)
 	{
+		var _cost	= ind_cost;
+		with (obj_control_stage)	{ ind_cost	-= _cost; }
 		instance_destroy();
 	}
 	x	= ind_bx;

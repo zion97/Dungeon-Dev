@@ -10,6 +10,7 @@ function sc_info_mob_goblin()
 	ind_hp			= ind_hp_max
 	ind_ally		= 2;
 	ind_spd			= 1;
+	ind_cost		= 5;
 	
 	ind_spr_stand	= spr_mob_goblin_stand;
 	ind_spr_walk	= spr_mob_goblin_walk;
@@ -30,6 +31,7 @@ function sc_info_mob_orc_shield()
 	ind_hp			= ind_hp_max
 	ind_ally		= 2;
 	ind_spd			= 1;
+	ind_cost		= 15;
 	
 	ind_spr_stand	= spr_mob_orc_shield_stand;
 	ind_spr_walk	= spr_mob_orc_shield_walk;

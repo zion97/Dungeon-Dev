@@ -3,10 +3,20 @@
 
 if (ind_dep_num > -1)
 {
-	with (instance_create_layer(mouse_x, mouse_y, "Deploy", global.mob_struct[ind_dep_num].obj))
+	var _cost	= global.mob_struct[ind_dep_num].ind_cost;
+	if (_cost <= (stage_cost - ind_cost))
 	{
-		ind_bx		= -1;
-		ind_click	= true;
-		ind_enter	= true;
+		with (instance_create_layer(mouse_x, mouse_y, "Deploy", global.mob_struct[ind_dep_num].obj))
+		{
+			ind_bx		= -1;
+			ind_click	= true;
+			ind_enter	= true;
+			ind_cost	= _cost
+		}
+		ind_cost	+= _cost;
+	}
+	else
+	{
+		uc_shake(1, 0.2);
 	}
 }

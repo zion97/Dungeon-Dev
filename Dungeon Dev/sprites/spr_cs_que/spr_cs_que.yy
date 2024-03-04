@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_cs_que",
   "bbox_bottom": 15,
-  "bbox_left": 5,
-  "bbox_right": 555,
+  "bbox_left": 24,
+  "bbox_right": 535,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c123eda9-f661-422a-95c1-79e9b22ea487",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c8d1f9f-c582-44e5-b490-8302bad722e4",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 16,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f0c45c7d-078a-4de0-b58d-2dbbe5329d8f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a4435a83-a365-4a0c-bd91-2a1d3605a7b4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c123eda9-f661-422a-95c1-79e9b22ea487","path":"sprites/spr_cs_que/spr_cs_que.yy",},},},"Disabled":false,"id":"57bc4ace-549e-45cf-bc3d-f1b47b06019a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5c8d1f9f-c582-44e5-b490-8302bad722e4","path":"sprites/spr_cs_que/spr_cs_que.yy",},},},"Disabled":false,"id":"b81ddfbb-c7d4-41e0-ab53-144d67c89bc0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

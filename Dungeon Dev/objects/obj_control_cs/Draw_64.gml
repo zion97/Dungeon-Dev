@@ -16,11 +16,9 @@ if (ind_state == 1 || ind_state == 2)
 	
 	draw_set_color(c_white);
 	draw_sprite(ind_pic, 0, _port_w-700, _port_h);
-	draw_sprite_ext(spr_deploy_back, 0, _port_w/2, _port_h+100, 3, 3, 0, c_white, 1);
+	draw_sprite_ext(spr_talk_back, 0, _port_w/2, _port_h+100, 3, 3, 0, c_white, 1);
 	
-	
-	
-	
+	//draw_sprite_ext(spr_icon_mouse_l, 0, _port_w/2+850, _port_h-50, 3, 3, 0, c_white, 1);
 }
 if (ind_state == 1)
 {

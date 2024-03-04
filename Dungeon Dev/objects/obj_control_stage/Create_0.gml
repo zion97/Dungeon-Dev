@@ -9,5 +9,6 @@ ind_dep_num	= -1;
 ind_alp		= 1
 ind_state	= 0;
 ind_clear	= false;
+ind_cost	= 0;
 
 alarm[0]	= 1;

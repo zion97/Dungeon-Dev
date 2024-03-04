@@ -25,6 +25,7 @@ function sc_character_create()
 	ind_delay		= 20;
 	ind_ally		= 1;
 	ind_spd			= 3;
+	//ind_cost		= 0;
 	grid = 16;
 	
 	ind_spr_stand	= spr_dump;

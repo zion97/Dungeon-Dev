@@ -10,6 +10,13 @@ function sc_character_atk(_inst)
 		alarm[1]	= 6;
 		if (ind_class == 1)	ind_goal += _dmg;
 	}
+	
 	if (ind_class == 0)	ind_goal += _dmg;
+	
+	with (obj_control_stage)
+	{
+		alarm[2]	= 1;
+	}
+	
 	SE_Play(ind_s_atk);
 }
