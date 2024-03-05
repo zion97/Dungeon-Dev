@@ -97,3 +97,28 @@ function BGM_Set( vol , fade_step )
 }
 
 
+function BGM_Stop( fade_step )
+{
+	//기존 브금 재생 종료
+	with( Obj_BGM_Manager )
+	{
+		if ( SM_BGM_Destroy == false )
+		{
+			//페이드 후 재생 종료하기
+			SM_BGM_Destroy = true;
+			
+			
+			//시작볼륨과 끝 볼륨 설정
+			SM_BGM_Vol_Start = SM_BGM_Vol;
+			
+			SM_BGM_Vol_End = 0;
+			
+			
+			//페이드 시간 초기화 + 설정
+			SM_Fade_Time = 0;
+			SM_Fade_Time_Max = fade_step;
+		}
+	}
+}
+
+

@@ -45,6 +45,7 @@
       ],"multiselect":true,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"","varType":6,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"stage_cost","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"20","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"next_room","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"rm_stage01_01","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"music_mr","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"mr_default01","varType":5,},
   ],
   "solid": false,
   "spriteId": null,

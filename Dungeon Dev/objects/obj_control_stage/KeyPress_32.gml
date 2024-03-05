@@ -10,6 +10,6 @@ if (ind_state == 0)
 	{
 		instance_destroy();
 	}
-	
+	ind_cost	= 0;
 	
 }

@@ -5,6 +5,10 @@ if (ind_state == 0)
 {
 	sc_control_dep_ui();
 }
+else if (ind_state == 1)
+{
+	draw_sprite_ext(spr_icon_re, 0, uc_get_port_width()/2, uc_get_port_height()-100, 3, 3, 0, c_white, 1);
+}
 
 var _i = 0;
 with (obj_pa_deploy)

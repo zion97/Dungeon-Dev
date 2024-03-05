@@ -11,4 +11,6 @@ ind_state	= 0;
 ind_clear	= false;
 ind_cost	= 0;
 
+BGM_Play(music_mr,,10);
+
 alarm[0]	= 1;

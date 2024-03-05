@@ -2,5 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_character_reset_delay()
 {
-	ind_process	= irandom_range(-10, 10);
+	ind_process	= irandom_range(0, 5);
 }
