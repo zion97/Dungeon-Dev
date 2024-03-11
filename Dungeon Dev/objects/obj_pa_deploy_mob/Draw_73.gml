@@ -14,6 +14,11 @@ if (ind_click)
 	}
 	draw_set_alpha(0.3);
 	draw_rectangle(x-8, y-8, x+7, y+7, false);
+	
+	draw_set_alpha(0.15);
+	draw_set_color(c_gray);
+	draw_circle(x, y, dep_ad_dist, false);
+	draw_set_alpha(1);
 }
 if (ind_enter || ind_click)
 {

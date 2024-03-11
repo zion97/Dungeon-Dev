@@ -6,7 +6,7 @@ function sc_info_hero_shield()
 	ind_death_sc	= sc_death_4f;
 	ind_atk_range	= 12;
 	ind_atk_dmg		= 10;
-	ind_hp_max		= 125;
+	ind_hp_max		= 150;
 	ind_hp			= ind_hp_max
 	ind_ally		= 1;
 	ind_spd			= 1;
@@ -20,13 +20,33 @@ function sc_info_hero_shield()
 	ind_s_death		= s_dump;
 }
 
+function sc_info_hero_shield_sick()
+{
+	ind_atk_sc		= sc_atk_melee_5f_3;
+	ind_death_sc	= sc_death_4f;
+	ind_atk_range	= 12;
+	ind_atk_dmg		= 10;
+	ind_hp_max		= 50;
+	ind_hp			= ind_hp_max
+	ind_ally		= 1;
+	ind_spd			= 1;
+	
+	ind_spr_stand	= spr_h_shield_sick_stand;
+	ind_spr_walk	= spr_h_shield_sick_walk;
+	ind_spr_atk		= spr_h_shield_sick_atk;
+	ind_spr_death	= spr_h_shield_sick_death;
+	
+	ind_s_atk		= s_sword02;
+	ind_s_death		= s_dump;
+}
+
 function sc_info_hero_sword()
 {
 	ind_atk_sc		= sc_atk_melee_5f_3;
 	ind_death_sc	= sc_death_4f;
 	ind_atk_range	= 12;
 	ind_atk_dmg		= 25;
-	ind_hp_max		= 50;
+	ind_hp_max		= 60;
 	ind_hp			= ind_hp_max
 	ind_ally		= 1;
 	ind_spd			= 1;
@@ -35,6 +55,26 @@ function sc_info_hero_sword()
 	ind_spr_walk	= spr_h_sword_walk;
 	ind_spr_atk		= spr_h_sword_atk;
 	ind_spr_death	= spr_h_sword_death;
+	
+	ind_s_atk		= s_sword02;
+	ind_s_death		= s_dump;
+}
+
+function sc_info_hero_sword_sick()
+{
+	ind_atk_sc		= sc_atk_melee_5f_3;
+	ind_death_sc	= sc_death_4f;
+	ind_atk_range	= 12;
+	ind_atk_dmg		= 25;
+	ind_hp_max		= 20;
+	ind_hp			= ind_hp_max
+	ind_ally		= 1;
+	ind_spd			= 1;
+	
+	ind_spr_stand	= spr_h_sword_sick_stand;
+	ind_spr_walk	= spr_h_sword_sick_walk;
+	ind_spr_atk		= spr_h_sword_sick_atk;
+	ind_spr_death	= spr_h_sword_sick_death;
 	
 	ind_s_atk		= s_sword02;
 	ind_s_death		= s_dump;

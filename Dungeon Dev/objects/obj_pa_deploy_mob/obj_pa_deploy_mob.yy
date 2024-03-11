@@ -13,6 +13,7 @@
   "name":"obj_pa_deploy_mob",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_dep_mob_create",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_ad_dist","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"120",},
   ],
   "parent":{
     "name":"parent obj",

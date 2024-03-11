@@ -33,6 +33,7 @@
     {"$GMObjectProperty":"","%Name":"create_sc","filters":[],"listItems":[],"multiselect":false,"name":"create_sc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sc_dump","varType":5,},
     {"$GMObjectProperty":"","%Name":"dep_class","filters":[],"listItems":[],"multiselect":false,"name":"dep_class","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
     {"$GMObjectProperty":"","%Name":"dep_goal","filters":[],"listItems":[],"multiselect":false,"name":"dep_goal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"","%Name":"dep_ad_dist","filters":[],"listItems":[],"multiselect":false,"name":"dep_ad_dist","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"99999","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

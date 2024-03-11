@@ -22,7 +22,10 @@
     "name":"control obj",
     "path":"folders/Objects/control obj.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_control_parent",
+    "path":"objects/obj_control_parent/obj_control_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

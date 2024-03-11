@@ -6,14 +6,15 @@ function sc_character_ad()
 	{
 		if (ind_hp > 0) return true;
 	}
-	var _dist	= 99999;
-	var _target	= noone;
+	var _dist		= 99999;
+	var _target		= noone;
+	var _ad_dist	= ind_ad_dist;
 	with (obj_pa_character)
 	{
 		if (ind_ally != other.ind_ally && !ind_death)	
 		{
 			var _i = point_distance(x, y, other.x, other.y);
-			if (_dist > _i)
+			if (_dist > _i && _i < _ad_dist)
 			{
 				_dist	= _i;
 				_target	= id;
@@ -24,7 +25,7 @@ function sc_character_ad()
 	if (_dist != 99999)
 	{
 		ind_ad		= _target;
-		alarm[0]	= 1;
+		sc_pathfind_character();
 		return true;
 	}
 	return false;

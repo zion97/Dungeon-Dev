@@ -10,7 +10,7 @@ function sc_pathfind(_start_x, _start_y, _target_x, _target_y)
 {
 	var _path;
 	
-	with (obj_control_stage)
+	with (obj_control_parent)
 	{
 		var _x1 = clamp(_start_x div grid, 0, array_length(map)-1)
 		var _y1 = clamp(_start_y div grid, 0, array_length(map[@ 0])-1)
