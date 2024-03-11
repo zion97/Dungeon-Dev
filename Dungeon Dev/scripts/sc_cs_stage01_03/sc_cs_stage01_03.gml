@@ -53,7 +53,7 @@ function sc_cs_stage01_03()
 		break;
 		
 	case 15:
-		sc_cs_set_clean();
+		sc_cs_set_clean(60);
 		break;
 		
 	case 16:
