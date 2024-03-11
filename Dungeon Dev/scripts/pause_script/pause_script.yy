@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "pause_script",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "pause",
-    "path": "folders/Scripts/pause.yy",
+  "$GMScript":"",
+  "%Name":"pause_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pause_script",
+  "parent":{
+    "name":"pause",
+    "path":"folders/Scripts/pause.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

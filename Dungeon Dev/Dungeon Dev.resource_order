@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
@@ -86,7 +86,7 @@
     {"name":"tile sprite","order":1,"path":"folders/Tile Sets/tile sprite.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"rm_stage01_03","order":6,"path":"rooms/rm_stage01_03/rm_stage01_03.yy",},
     {"name":"uc_set_view_inclination","order":2,"path":"scripts/uc_set_view_inclination/uc_set_view_inclination.yy",},
     {"name":"uc_macros","order":3,"path":"scripts/uc_macros/uc_macros.yy",},

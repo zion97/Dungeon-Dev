@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_data_global",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "control",
-    "path": "folders/Scripts/control.yy",
+  "$GMScript":"",
+  "%Name":"sc_data_global",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_data_global",
+  "parent":{
+    "name":"control",
+    "path":"folders/Scripts/control.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

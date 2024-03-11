@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "death_script",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "character script",
-    "path": "folders/Scripts/character script.yy",
+  "$GMScript":"",
+  "%Name":"death_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"death_script",
+  "parent":{
+    "name":"character script",
+    "path":"folders/Scripts/character script.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
