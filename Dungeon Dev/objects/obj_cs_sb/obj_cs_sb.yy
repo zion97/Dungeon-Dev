@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cs_h_sword_sick",
-  "eventList":[],
+  "%Name":"obj_cs_sb",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_cs_h_sword_sick",
+  "name":"obj_cs_sb",
   "overriddenProperties":[],
   "parent":{
-    "name":"dummy",
-    "path":"folders/Objects/cs obj/dummy.yy",
+    "name":"cs obj",
+    "path":"folders/Objects/cs obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_h_sword_sick_stand",
-    "path":"sprites/spr_h_sword_sick_stand/spr_h_sword_sick_stand.yy",
+    "name":"spr_talk_qu",
+    "path":"sprites/spr_talk_qu/spr_talk_qu.yy",
   },
   "spriteMaskId":null,
   "visible":true,

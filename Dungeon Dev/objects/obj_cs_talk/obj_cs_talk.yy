@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cs_h_sword_sick",
+  "%Name":"obj_cs_talk",
   "eventList":[],
   "managed":true,
-  "name":"obj_cs_h_sword_sick",
+  "name":"obj_cs_talk",
   "overriddenProperties":[],
   "parent":{
-    "name":"dummy",
-    "path":"folders/Objects/cs obj/dummy.yy",
+    "name":"cs obj",
+    "path":"folders/Objects/cs obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_h_sword_sick_stand",
-    "path":"sprites/spr_h_sword_sick_stand/spr_h_sword_sick_stand.yy",
+    "name":"spr_talk_talk",
+    "path":"sprites/spr_talk_talk/spr_talk_talk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

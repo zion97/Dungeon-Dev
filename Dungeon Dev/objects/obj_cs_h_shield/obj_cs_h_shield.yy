@@ -6,8 +6,8 @@
   "name":"obj_cs_h_shield",
   "overriddenProperties":[],
   "parent":{
-    "name":"cs obj",
-    "path":"folders/Objects/cs obj.yy",
+    "name":"dummy",
+    "path":"folders/Objects/cs obj/dummy.yy",
   },
   "parentObjectId":null,
   "persistent":false,

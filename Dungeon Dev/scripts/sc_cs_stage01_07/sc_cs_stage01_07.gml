@@ -1,36 +1,35 @@
 // v2.3.0에 대한 스크립트 어셋 변경됨 자세한 정보는
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
-function sc_cs_stage01_05()
+function sc_cs_stage01_07()
 {
 	switch(ind_process)
 	{
 	case 0:
 		sc_cs_set_clean(120);
-		sc_cs_create_sb(208, 128, 1);
+		with (obj_cs_h_shield_sick)	{ sc_cs_create_sb(x, y, 0); }
 		break;
 		
 	case 1:
 		sc_cs_set_dia(1);
-		sc_cs_create_talk(208, 128);
+		with (obj_cs_h_shield_sick)	{ sc_cs_create_talk(x, y); }
 		break;
 		
 	case 2:
 		sc_cs_set_clean(120);
-		sc_cs_create_sb(160, 128, 0);
+		with (obj_cs_h_shield_sick)	{ sc_cs_create_sb(x, y, 2); }
 		break;
 		
 	case 3:
 		sc_cs_set_dia(2);
-		sc_cs_create_talk(160, 128);
+		with (obj_cs_h_sword_sick)	{ sc_cs_create_talk(x, y); }
 		break;
 		
 	case 4:
-		sc_cs_set_dia(3);
-		sc_cs_create_talk(256, 128);
+		sc_cs_set_clean(60);
 		break;
 		
 	case 5:
-		sc_cs_set_clean(60);
+		sc_cs_set_dia(3,,spr_pic_maw_angry);
 		break;
 		
 	case 6:
@@ -38,26 +37,30 @@ function sc_cs_stage01_05()
 		break;
 		
 	case 7:
-		sc_cs_set_dia(5,,spr_pic_maw);
+		sc_cs_set_dia(5,,,spr_pic_maw_angry);
 		break;
 		
 	case 8:
-		sc_cs_set_dia(6,,,spr_pic_maw);
+		sc_cs_set_que(7,2,[9, 12],,spr_pic_maw);
 		break;
 		
 	case 9:
-		sc_cs_set_dia(7,, spr_pic_maw);
-		break;
-		
-	case 10:
-		sc_cs_set_dia(8,, spr_pic_maw_laugh);
-		break;
-		
-	case 11:
-		sc_cs_set_clean(60);
+		sc_cs_set_dia(10,, spr_pic_maw_laugh);
 		break;
 		
 	case 12:
+		sc_cs_set_dia(13,, spr_pic_maw_ember);
+		break;
+		
+	case 13:
+		sc_cs_set_dia(13,, spr_pic_maw_ember);
+		break;
+		
+	case 14:
+		sc_cs_set_clean(60);
+		break;
+		
+	case 15:
 		sc_cs_set_clean(,,true);
 		break;
 	}

@@ -38,6 +38,7 @@ function sc_cs_stage01_01_2()
 		
 	case 7:
 		sc_cs_set_dia(7);
+		with (obj_cs_h_sword)	{ sc_cs_create_talk(x, y); }
 		break;
 		
 	case 8:
