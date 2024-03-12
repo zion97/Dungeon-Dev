@@ -16,7 +16,7 @@ function sc_cs_stage01_07()
 		
 	case 2:
 		sc_cs_set_clean(120);
-		with (obj_cs_h_shield_sick)	{ sc_cs_create_sb(x, y, 2); }
+		with (obj_cs_h_sword_sick)	{ sc_cs_create_sb(x, y, 2); }
 		break;
 		
 	case 3:
@@ -41,11 +41,11 @@ function sc_cs_stage01_07()
 		break;
 		
 	case 8:
-		sc_cs_set_que(7,2,[9, 12],,spr_pic_maw);
+		sc_cs_set_que(7,2,[9, 12],,spr_pic_maw_angry);
 		break;
 		
 	case 9:
-		sc_cs_set_dia(10,, spr_pic_maw_laugh);
+		sc_cs_set_dia(10, 16, spr_pic_maw_laugh);
 		break;
 		
 	case 12:
@@ -53,14 +53,26 @@ function sc_cs_stage01_07()
 		break;
 		
 	case 13:
-		sc_cs_set_dia(13,, spr_pic_maw_ember);
+		sc_cs_set_dia(14, 16,, spr_pic_maw_ember);
 		break;
 		
-	case 14:
+	case 16:
+		sc_cs_set_dia(17,, spr_pic_maw);
+		break;
+		
+	case 17:
+		sc_cs_set_dia(18,, spr_pic_maw);
+		break;
+		
+	case 18:
+		sc_cs_set_dia(19,, spr_pic_maw);
+		break;
+		
+	case 19:
 		sc_cs_set_clean(60);
 		break;
 		
-	case 15:
+	case 20:
 		sc_cs_set_clean(,,true);
 		break;
 	}
