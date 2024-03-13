@@ -1,10 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_pa_deploy",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_pa_deploy",
   "overriddenProperties":[],
@@ -26,15 +23,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"","%Name":"dep_inst","filters":[],"listItems":[],"multiselect":false,"name":"dep_inst","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_hero_shield","varType":5,},
-    {"$GMObjectProperty":"","%Name":"dep_hp","filters":[],"listItems":[],"multiselect":false,"name":"dep_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
-    {"$GMObjectProperty":"","%Name":"dep_dmg","filters":[],"listItems":[],"multiselect":false,"name":"dep_dmg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
-    {"$GMObjectProperty":"","%Name":"create_sc","filters":[],"listItems":[],"multiselect":false,"name":"create_sc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sc_dump","varType":5,},
-    {"$GMObjectProperty":"","%Name":"dep_class","filters":[],"listItems":[],"multiselect":false,"name":"dep_class","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
-    {"$GMObjectProperty":"","%Name":"dep_goal","filters":[],"listItems":[],"multiselect":false,"name":"dep_goal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
-    {"$GMObjectProperty":"","%Name":"dep_ad_dist","filters":[],"listItems":[],"multiselect":false,"name":"dep_ad_dist","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"99999","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"pathfind_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pathfind_script",
+  "parent":{
+    "name":"pathfind",
+    "path":"folders/Scripts/pathfind.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

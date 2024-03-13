@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dep_cant",
+  "%Name":"obj_pa_deploy_item",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_dep_cant",
+  "name":"obj_pa_deploy_item",
   "overriddenProperties":[],
   "parent":{
-    "name":"deploy inst",
-    "path":"folders/Objects/deploy inst.yy",
+    "name":"parent obj",
+    "path":"folders/Objects/parent obj.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_pa_deploy",
+    "path":"objects/obj_pa_deploy/obj_pa_deploy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,14 +29,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"","%Name":"dep_inst","filters":[],"listItems":[],"multiselect":false,"name":"dep_inst","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_item_heal","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_deploy_cant",
-    "path":"sprites/spr_deploy_cant/spr_deploy_cant.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

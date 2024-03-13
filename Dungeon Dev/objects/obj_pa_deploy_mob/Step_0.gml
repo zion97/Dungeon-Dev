@@ -21,7 +21,7 @@ if (ind_click)
 	
 }
 
-if (collision_point(x, y, obj_pa_deploy, true, true) || sc_physics_col(x, y) || 
+if (collision_point(x, y, obj_pa_deploy_character, true, true) || sc_physics_col(x, y) || 
 	collision_point(x, y, obj_dep_cant, true, true))
 {
 	ind_col	= true;

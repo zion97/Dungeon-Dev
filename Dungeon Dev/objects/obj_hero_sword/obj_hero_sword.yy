@@ -9,7 +9,7 @@
   ],
   "parent":{
     "name":"hero",
-    "path":"folders/Objects/hero.yy",
+    "path":"folders/Objects/game inst/hero.yy",
   },
   "parentObjectId":{
     "name":"obj_pa_hero",

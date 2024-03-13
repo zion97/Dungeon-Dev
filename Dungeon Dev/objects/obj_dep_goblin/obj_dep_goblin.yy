@@ -5,11 +5,11 @@
   "managed":true,
   "name":"obj_dep_goblin",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"propertyId":{"name":"dep_inst","path":"objects/obj_pa_deploy/obj_pa_deploy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_mob_goblin",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_inst","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_mob_goblin",},
   ],
   "parent":{
     "name":"mob deploy",
-    "path":"folders/Objects/mob deploy.yy",
+    "path":"folders/Objects/deploy inst/mob deploy.yy",
   },
   "parentObjectId":{
     "name":"obj_pa_deploy_mob",

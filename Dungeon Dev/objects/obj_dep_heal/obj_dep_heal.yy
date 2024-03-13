@@ -1,0 +1,43 @@
+{
+  "$GMObject":"",
+  "%Name":"obj_dep_heal",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"obj_dep_heal",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_item","path":"objects/obj_pa_deploy_item/obj_pa_deploy_item.yy",},"propertyId":{"name":"dep_inst","path":"objects/obj_pa_deploy_item/obj_pa_deploy_item.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_item_heal",},
+  ],
+  "parent":{
+    "name":"dep item",
+    "path":"folders/Objects/deploy inst/dep item.yy",
+  },
+  "parentObjectId":{
+    "name":"obj_pa_deploy_item",
+    "path":"objects/obj_pa_deploy_item/obj_pa_deploy_item.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"spr_item_potion_hp",
+    "path":"sprites/spr_item_potion_hp/spr_item_potion_hp.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}

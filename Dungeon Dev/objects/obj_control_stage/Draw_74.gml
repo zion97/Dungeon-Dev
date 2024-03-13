@@ -11,7 +11,7 @@ else if (ind_state == 1)
 }
 
 var _i = 0;
-with (obj_pa_deploy)
+with (obj_pa_deploy_character)
 {
 	_i++;
 }

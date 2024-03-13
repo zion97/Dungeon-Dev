@@ -9,7 +9,7 @@
   ],
   "parent":{
     "name":"mob",
-    "path":"folders/Objects/mob.yy",
+    "path":"folders/Objects/game inst/mob.yy",
   },
   "parentObjectId":{
     "name":"obj_pa_mob",
