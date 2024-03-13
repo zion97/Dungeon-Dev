@@ -4,5 +4,7 @@ ind_alp	+= 0.025;
 if (ind_alp < 1)	{ alarm[1] = 1; }
 else				
 { 
-	room_goto(next_room); 
+	//room_goto(next_room); 
+	global.rm_index++;
+	room_goto(global.rm_stage[global.rm_index]);
 }
