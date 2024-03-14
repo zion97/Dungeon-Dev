@@ -2,6 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_data_global()
 {
+	global.steam		= true;
+	
 	global.roomBuffer	= -1;
 	global.screenBuffer = -1;
 	
@@ -12,9 +14,11 @@ function sc_data_global()
 	{	//폰트
 		global.font_name	= array_create(5);
 		global.font_name[0]	= font_add("font\\font_kr.otf", 32, 0, 0, 32, 55203);
+		global.font_name[1]	= font_add("font\\font_kr.otf", 32, 0, 0, 32, 128);
 		
 		global.font_text	= array_create(5);
 		global.font_text[0]	= font_add("font\\font_kr.otf", 24, 0, 0, 32, 55203);
+		global.font_text[1]	= font_add("font\\font_kr.otf", 24, 0, 0, 32, 128);
 		
 		global.font_num		= font_add("font\\font_kr.otf", 16, 0, 0, 32, 128);
 	}
@@ -38,7 +42,7 @@ function sc_data_global()
 		global.rm_stage[6]		= rm_stage01_07cs
 		global.rm_stage[7]		= rm_stage01_08;
 		global.rm_stage[8]		= rm_stage01_09;
-		global.rm_stage[9]		= rm_stage01_10;
+		global.rm_stage[9]		= rm_demo_endcs;
 		global.rm_stage[10]		= rm_stage01_08;
 	}
 }

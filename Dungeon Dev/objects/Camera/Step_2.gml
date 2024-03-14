@@ -326,7 +326,7 @@ camera_set_view_angle(view, view_inclination);
 
 // Enabel and unable the debug mode
 if keyboard_check_pressed(vk_f12) {
-	uc_set_debug_mode(!uc_get_debug_mode());
+	//uc_set_debug_mode(!uc_get_debug_mode());
 }
 
 #endregion

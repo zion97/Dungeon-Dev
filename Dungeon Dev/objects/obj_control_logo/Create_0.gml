@@ -2,6 +2,7 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 sc_data_load();
 sc_data_global();
+sc_create_stage_camera();
 
 image_alpha	= 0;
 

@@ -9,7 +9,7 @@ function sc_cs_stage01_03()
 		break;
 		
 	case 1:
-		sc_cs_set_dia(2,,spr_pic_maw_laugh);
+		sc_cs_set_dia(2,,spr_pic_maw);
 		break;
 		
 	case 2:
@@ -24,6 +24,16 @@ function sc_cs_stage01_03()
 		sc_cs_set_dia(5,,spr_pic_maw_laugh);
 		break;
 		
+	case 5:
+		sc_cs_set_clean(60);
+		break;
+		
+	case 6:
+		sc_cs_set_clean(,,true);
+		break;
+		
+		
+	/*	
 	case 5:
 		sc_cs_set_que(7, 2, [6, 9],, spr_pic_maw);
 		break;
@@ -59,5 +69,6 @@ function sc_cs_stage01_03()
 	case 16:
 		sc_cs_set_clean(,,true);
 		break;
+	*/
 	}
 }

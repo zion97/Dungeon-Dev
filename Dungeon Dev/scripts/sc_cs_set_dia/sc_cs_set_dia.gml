@@ -2,8 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_cs_set_dia(_line, _nxt = ind_process + 1, _pic = spr_dump, _pic2 = spr_dump)
 {
-	ind_name		= sc_csv_to_string(text_file, csv_num, _line);
-	ind_text		= sc_csv_to_string(text_file, csv_num+1, _line);
+	ind_name		= sc_csv_to_string(text_file, csv_num + 2*global.lan, _line);
+	ind_text		= sc_csv_to_string(text_file, csv_num+1 + 2*global.lan, _line);
 					
 	ind_pic			= _pic;
 	ind_pic2		= _pic2;

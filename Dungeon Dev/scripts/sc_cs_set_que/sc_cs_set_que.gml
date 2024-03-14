@@ -4,11 +4,11 @@ function sc_cs_set_que(_line, _num, _nxt, _pic = spr_dump, _pic2 = spr_dump)
 {
 	ind_que_num	= _num;
 	
-	ind_name	= sc_csv_to_string(text_file, csv_num, _line);
+	ind_name	= sc_csv_to_string(text_file, csv_num + 2*global.lan, _line);
 
 	for (var _i = 0; _i < _num; _i++)
 	{
-		ind_que[_i]		= sc_csv_to_string(text_file, csv_num+1, _line+_i);
+		ind_que[_i]		= sc_csv_to_string(text_file, csv_num+1 + 2*global.lan, _line+_i);
 		ind_que_nxt[_i]	= _nxt[_i];
 	}
 	

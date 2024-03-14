@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"steam",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"steam",
+  "parent":{
+    "name":"control",
+    "path":"folders/Scripts/control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

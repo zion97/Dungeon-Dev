@@ -3,16 +3,4 @@
 image_xscale	+= 0.001;
 image_yscale	+= 0.001;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+sc_steam_update();

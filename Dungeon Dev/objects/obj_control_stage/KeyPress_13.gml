@@ -23,5 +23,14 @@ else if (!ind_clear)
 	}
 	var _layer	= layer_get_id("Deploy");
 	layer_set_visible(_layer, true);
+	
+	arr_cell_opened = []; 
+	arr_path = [];
+	for(var _w = 0; _w < width; _w++) {
+		for(var _h = 0; _h < height; _h++) {
+			map[@ _w][@ _h].reset_father();
+		}
+	}
+	
 	ind_state = 0;
 }

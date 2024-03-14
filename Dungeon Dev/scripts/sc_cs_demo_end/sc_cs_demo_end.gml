@@ -5,19 +5,19 @@ function sc_cs_demo_end()
 	switch(ind_process)
 	{
 	case 0:
-		sc_cs_set_dia(1);
+		sc_cs_set_dia(1,,spr_pic_maw_laugh);
 		break;
 		
 	case 1:
-		sc_cs_set_dia(2);
+		sc_cs_set_dia(2,,,spr_pic_maw_laugh);
 		break;
 		
 	case 2:
-		sc_cs_set_dia(3);
+		sc_cs_set_dia(3,,spr_pic_maw);
 		break;
 		
 	case 3:
-		sc_cs_set_dia(4);
+		sc_cs_set_dia(4,,spr_pic_maw_laugh);
 		break;
 		
 	case 4:
@@ -29,39 +29,11 @@ function sc_cs_demo_end()
 		break;
 		
 	case 6:
-		sc_cs_set_dia(7,,spr_pic_maw);
-		break;
-		
-	case 7:
-		sc_cs_set_dia(8,,,spr_pic_maw);
-		break;
-		
-	case 8:
-		sc_cs_set_dia(9,,,spr_pic_maw);
-		break;
-		
-	case 9:
-		sc_cs_set_dia(10,, spr_pic_maw_laugh);
-		break;
-		
-	case 10:
-		sc_cs_set_dia(11,,, spr_pic_maw_laugh);
-		break;
-		
-	case 11:
-		sc_cs_set_dia(12,,, spr_pic_maw_laugh);
-		break;
-		
-	case 12:
-		sc_cs_set_dia(13, 15);
-		break;
-		
-	case 15:
 		sc_cs_set_clean();
 		BGM_Stop(60);
 		break;
 		
-	case 16:
+	case 7:
 		sc_cs_set_clean(,,true);
 		break;
 	}
