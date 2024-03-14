@@ -130,6 +130,8 @@
     {"$GMIncludedFile":"","%Name":"font_kr.otf","CopyToMask":-1,"filePath":"datafiles/font","name":"font_kr.otf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"GMEXT-Steamwork Unix Docs.html","CopyToMask":-1,"filePath":"datafiles","name":"GMEXT-Steamwork Unix Docs.html","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"GMEXT-Steamwork Win Docs.html.lnk","CopyToMask":-1,"filePath":"datafiles","name":"GMEXT-Steamwork Win Docs.html.lnk","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"GMEXT-Steamwork Win Docs.lnk","CopyToMask":0,"filePath":"datafiles","name":"GMEXT-Steamwork Win Docs.lnk","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"GMEXT-Steamwork Win Docs.lnk","CopyToMask":-1,"filePath":"datafiles","name":"GMEXT-Steamwork Win Docs.lnk","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"demo_end.csv","CopyToMask":-1,"filePath":"datafiles/text_data","name":"demo_end.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"stage01_01.csv","CopyToMask":-1,"filePath":"datafiles/text_data","name":"stage01_01.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"stage01_02.csv","CopyToMask":-1,"filePath":"datafiles/text_data","name":"stage01_02.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
