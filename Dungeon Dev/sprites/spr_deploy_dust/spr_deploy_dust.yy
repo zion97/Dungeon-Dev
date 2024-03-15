@@ -41,8 +41,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"ui",
-    "path":"folders/Sprites/ui.yy",
+    "name":"effect",
+    "path":"folders/Sprites/effect.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

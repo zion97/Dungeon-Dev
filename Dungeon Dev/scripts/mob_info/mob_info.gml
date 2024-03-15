@@ -11,6 +11,7 @@ function sc_info_mob_goblin()
 	ind_ally		= 2;
 	ind_spd			= 1;
 	ind_cost		= 5;
+	ind_ad_dist		= 120;
 	
 	ind_spr_stand	= spr_mob_goblin_stand;
 	ind_spr_walk	= spr_mob_goblin_walk;
@@ -32,6 +33,7 @@ function sc_info_mob_orc_shield()
 	ind_ally		= 2;
 	ind_spd			= 1;
 	ind_cost		= 10;
+	ind_ad_dist		= 120;
 	
 	ind_spr_stand	= spr_mob_orc_shield_stand;
 	ind_spr_walk	= spr_mob_orc_shield_walk;
