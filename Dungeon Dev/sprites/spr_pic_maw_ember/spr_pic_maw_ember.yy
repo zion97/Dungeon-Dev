@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"795fed10-bc0b-4dca-a6ee-3a05bdf1d252","name":"795fed10-bc0b-4dca-a6ee-3a05bdf1d252","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0c12470e-1b35-4d89-b929-5b4bb51476ae","name":"0c12470e-1b35-4d89-b929-5b4bb51476ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1333,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8e4d08ed-1835-4d2c-b8ce-1485ac6280cd","blendMode":0,"displayName":"default","isLocked":false,"name":"8e4d08ed-1835-4d2c-b8ce-1485ac6280cd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8dd1b984-afe0-4375-ae0d-34ce6de40c41","blendMode":0,"displayName":"default","isLocked":false,"name":"8dd1b984-afe0-4375-ae0d-34ce6de40c41","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_pic_maw_ember",
   "nineSlice":null,
@@ -50,7 +50,7 @@
     "eventStubScript":null,
     "eventToFunction":{},
     "length":1.0,
-    "lockOrigin":false,
+    "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"795fed10-bc0b-4dca-a6ee-3a05bdf1d252","path":"sprites/spr_pic_maw_ember/spr_pic_maw_ember.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8e9b390c-3ada-4159-bd78-e2c2bc0bae6a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0c12470e-1b35-4d89-b929-5b4bb51476ae","path":"sprites/spr_pic_maw_ember/spr_pic_maw_ember.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"60818c81-7f69-45c0-9c13-85b3ea637282","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
