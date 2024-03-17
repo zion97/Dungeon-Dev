@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_data_global()
 {
-	global.steam		= false;
+	global.steam		= true;
 	
 	global.roomBuffer	= -1;
 	global.screenBuffer = -1;

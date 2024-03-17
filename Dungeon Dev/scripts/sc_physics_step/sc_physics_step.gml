@@ -34,5 +34,5 @@ function sc_physics_step()
 		}
 	}
 	
-	depth			= ph_depth - y/room_height*100;
+	depth			= ph_depth - y/room_height*80;
 }

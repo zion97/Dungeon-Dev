@@ -57,3 +57,29 @@ function sc_atk_melee_5f_4()
 	
 	ind_process++;
 }
+
+function sc_atk_range_5f_3()
+{
+	sprite_index	= ind_spr_atk;
+	
+	if (ind_process < 6)		{ image_index	= 0; }
+	else if (ind_process < 12)	{ image_index	= 1; }
+	else if (ind_process < 18)	
+	{ 
+		image_index	= 2; 
+		if (ind_process == 12)
+		{
+			sc_character_atk_range(ind_ad, ind_range_spr, ind_range_s, ind_range_spd);
+		}
+	}
+	else if (ind_process < 24)	{ image_index	= 3; }
+	else if (ind_process < 30)	{ image_index	= 4; }
+	else
+	{
+		ind_state	= 0;
+		ind_process = 0;
+		return;
+	}
+	
+	ind_process++;
+}
