@@ -5,3 +5,4 @@ image_speed	= 0;
 x	= 16 * (x div 16) + 8;
 y	= 16 * (y div 16) + 8;
 create_sc();
+ind_inst	= noone;

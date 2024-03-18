@@ -60,6 +60,15 @@ function sc_character_step()
 		}
 		else if (ind_state == 2)
 		{
+			with (ind_ad)
+			{
+				if (ind_hp <= 0)
+				{
+					other.ind_state	= 0;
+					other.ind_process = 0;
+					return;
+				}
+			}
 			ind_atk_sc();
 		}
 		

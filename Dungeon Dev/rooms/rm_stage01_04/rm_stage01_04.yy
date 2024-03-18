@@ -13,6 +13,10 @@
     {"name":"inst_4997401A","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
     {"name":"inst_74BBA7F6","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
     {"name":"inst_4280F803","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
+    {"name":"inst_3DAE8398","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
+    {"name":"inst_1D0ED090","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
+    {"name":"inst_BD3629E","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
+    {"name":"inst_205C5AF0","path":"rooms/rm_stage01_04/rm_stage01_04.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -34,6 +38,18 @@
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":504.0,"y":88.0,},
         {"$GMRInstance":"","%Name":"inst_4280F803","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4280F803","objectId":{"name":"obj_dep_shield","path":"objects/obj_dep_shield/obj_dep_shield.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":360.0,"y":120.0,},
+        {"$GMRInstance":"","%Name":"inst_3DAE8398","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DAE8398","objectId":{"name":"obj_dep_sword","path":"objects/obj_dep_sword/obj_dep_sword.yy",},"properties":[
+            {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":408.0,"y":120.0,},
+        {"$GMRInstance":"","%Name":"inst_1D0ED090","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D0ED090","objectId":{"name":"obj_dep_sword","path":"objects/obj_dep_sword/obj_dep_sword.yy",},"properties":[
+            {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":312.0,"y":120.0,},
+        {"$GMRInstance":"","%Name":"inst_BD3629E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_BD3629E","objectId":{"name":"obj_dep_sword","path":"objects/obj_dep_sword/obj_dep_sword.yy",},"properties":[
+            {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":328.0,"y":104.0,},
+        {"$GMRInstance":"","%Name":"inst_205C5AF0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_205C5AF0","objectId":{"name":"obj_dep_sword","path":"objects/obj_dep_sword/obj_dep_sword.yy",},"properties":[
+            {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":392.0,"y":104.0,},
       ],"layers":[],"name":"Deploy","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[],"depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

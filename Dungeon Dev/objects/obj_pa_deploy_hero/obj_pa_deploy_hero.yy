@@ -3,6 +3,7 @@
   "%Name":"obj_pa_deploy_hero",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_pa_deploy_hero",
@@ -11,6 +12,7 @@
     {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_dmg","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"25",},
     {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_class","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_dep_hero_create",},
   ],
   "parent":{
     "name":"parent obj",

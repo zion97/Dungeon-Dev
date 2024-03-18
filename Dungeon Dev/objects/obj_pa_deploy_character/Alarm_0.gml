@@ -5,7 +5,8 @@ var _dmg		= dep_dmg;
 var _class		= dep_class;
 var _goal		= dep_goal;
 //var _ad_dist	= dep_ad_dist;
-with (instance_create_layer(x, y, "Instances", dep_inst))
+ind_inst	= instance_create_layer(x, y, "Instances", dep_inst);
+with (ind_inst)
 {
 	if (_hp > 0)
 	{

@@ -9,7 +9,7 @@ function sc_data_global()
 	
 	global.lan			= 0;
 	global.vol			= 5;
-	global.vol_bgm		= 0;
+	global.vol_bgm		= 4;
 	
 	{	//폰트
 		global.font_name	= array_create(5);

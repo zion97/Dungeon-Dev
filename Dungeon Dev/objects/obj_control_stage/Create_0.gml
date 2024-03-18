@@ -5,12 +5,16 @@ sc_control_tile();
 
 sc_create_stage_camera();
 
-ind_dep_num	= -1;
-ind_alp		= 1
-ind_state	= 0;
-ind_clear	= false;
-ind_cost	= 0;
+ind_dep_num		= -1;
+ind_alp			= 1
+ind_state		= 0;
+ind_clear		= false;
+ind_cost		= 0;
+
+ind_hero_arr	= array_create(10, noone);
+ind_hero_num	= 0;
 
 BGM_Play(music_mr,,10);
 
 alarm[0]	= 1;
+alarm[3]	= 1;

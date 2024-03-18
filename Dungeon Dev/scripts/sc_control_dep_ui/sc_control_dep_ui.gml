@@ -6,6 +6,7 @@ function sc_control_dep_ui()
 	draw_set_color(c_white);
 	var _port_w	= uc_get_port_width();
 	var _port_h	= uc_get_port_height();
+	var _ind_x	= _port_w/2 - 960;
 	
 	draw_sprite_ext(spr_deploy_back, 0, _port_w/2, _port_h+100, 3, 3, 0, c_white, 1);
 	
@@ -23,9 +24,9 @@ function sc_control_dep_ui()
 				ind_dep_num	= _i;
 				_in			= 1;
 			}
-			draw_sprite_ext(spr_deploy_cap, _in, 180 + _i*200, _port_h-115, 
+			draw_sprite_ext(spr_deploy_cap, _in, _ind_x + 180 + _i*200, _port_h-115, 
 				3, 3, 0, c_white, 1);
-			draw_sprite_ext(global.mob_struct[mob_list[_i]].ind_spr_stand, 0, 180 + _i*200, _port_h-150, 
+			draw_sprite_ext(global.mob_struct[mob_list[_i]].ind_spr_stand, 0, _ind_x + 180 + _i*200, _port_h-150, 
 				6, 6, 0, c_white, 1);
 			
 			var _l	= 0;
@@ -34,16 +35,16 @@ function sc_control_dep_ui()
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
 			_l	= string_width(global.mob_struct[mob_list[_i]].ind_hp_max);
-			draw_sprite(spr_icon_hp, 0, 152 + _i*200 - _l/2, _port_h-80);
-			draw_text(162 + _i*200, _port_h-80, global.mob_struct[mob_list[_i]].ind_hp_max);
+			draw_sprite(spr_icon_hp, 0, _ind_x + 152 + _i*200 - _l/2, _port_h-80);
+			draw_text(_ind_x + 162 + _i*200, _port_h-80, global.mob_struct[mob_list[_i]].ind_hp_max);
 			
 			_l	= string_width(global.mob_struct[mob_list[_i]].ind_atk_dmg);
-			draw_sprite(spr_icon_dmg, 0, 200 + _i*200, _port_h-80);
-			draw_text(210 + _i*200 + _l/2, _port_h-80, global.mob_struct[mob_list[_i]].ind_atk_dmg);
+			draw_sprite(spr_icon_dmg, 0, _ind_x + 200 + _i*200, _port_h-80);
+			draw_text(_ind_x + 210 + _i*200 + _l/2, _port_h-80, global.mob_struct[mob_list[_i]].ind_atk_dmg);
 			
 			_l	= string_width(global.mob_struct[mob_list[_i]].ind_cost);
-			draw_sprite(spr_icon_coin, 0, 170 + _i*200, _port_h-55);
-			draw_text(180 + _i*200 + _l/2, _port_h-55, global.mob_struct[mob_list[_i]].ind_cost);
+			draw_sprite(spr_icon_coin, 0, _ind_x + 170 + _i*200, _port_h-55);
+			draw_text(_ind_x + 180 + _i*200 + _l/2, _port_h-55, global.mob_struct[mob_list[_i]].ind_cost);
 		}
 	}
 	var _coin	= string(ind_cost) + "/" + string(stage_cost);
