@@ -7,7 +7,7 @@ if (ind_state == 0)
 }
 else if (ind_state == 1)
 {
-	sc_control_battle_ui();
+	//sc_control_battle_ui();
 	draw_sprite_ext(spr_icon_re, 0, uc_get_port_width()/2, uc_get_port_height()-100, 3, 3, 0, c_white, 1);
 }
 

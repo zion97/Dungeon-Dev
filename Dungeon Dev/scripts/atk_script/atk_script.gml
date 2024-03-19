@@ -6,6 +6,17 @@ function sc_set_dir()
 	else				{ image_xscale = -1; }
 }
 
+function sc_atk_delay_set()
+{
+	ind_state	= 0;
+	var _delay	= 0;
+	with (ind_ad)
+	{
+		if (ind_hp <= 0)	{ _delay = -10; }
+	}
+	ind_process	= _delay;
+}
+
 function sc_atk_melee_5f_3()
 {
 	sprite_index	= ind_spr_atk;
@@ -24,8 +35,7 @@ function sc_atk_melee_5f_3()
 	else if (ind_process < 30)	{ image_index	= 4; }
 	else
 	{
-		ind_state	= 0;
-		ind_process = 0;
+		sc_atk_delay_set();
 		return;
 	}
 	
@@ -50,8 +60,7 @@ function sc_atk_melee_5f_4()
 	else if (ind_process < 30)	{ image_index	= 4; }
 	else
 	{
-		ind_state	= 0;
-		ind_process = 0;
+		sc_atk_delay_set();
 		return;
 	}
 	
@@ -76,8 +85,7 @@ function sc_atk_range_5f_3()
 	else if (ind_process < 30)	{ image_index	= 4; }
 	else
 	{
-		ind_state	= 0;
-		ind_process = 0;
+		sc_atk_delay_set();
 		return;
 	}
 	

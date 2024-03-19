@@ -2,9 +2,17 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_character_atk(_inst)
 {
+	with (obj_control_stage)
+	{
+		alarm[2]	= 1;
+	}
+	
+	SE_Play(ind_s_atk);
+	
 	var _dmg	= ind_atk_dmg;
 	with(_inst)
 	{
+		if (ind_hp <= 0) return;
 		ind_hp		-= _dmg;
 		image_blend	= c_red;
 		alarm[1]	= 6;
@@ -13,12 +21,7 @@ function sc_character_atk(_inst)
 	
 	if (ind_class == 0)	ind_goal += _dmg;
 	
-	with (obj_control_stage)
-	{
-		alarm[2]	= 1;
-	}
 	
-	SE_Play(ind_s_atk);
 }
 
 function sc_character_atk_range(_inst, _spr, _sound, _spd = 5)
