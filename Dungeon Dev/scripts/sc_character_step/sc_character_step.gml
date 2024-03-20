@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_character_step()
 {
+	sc_physics_stop();
 	
 	if (!ind_death)
 	{
@@ -42,13 +43,13 @@ function sc_character_step()
 			with (ind_ad)	{ _hp = ind_hp; }
 			if (_hp <= 0)
 			{
-				speed = 0;
+				//sc_physics_stop();
 				ind_state	= 0;
 				sc_character_reset_delay();
 			}
 			else if (_dist < ind_atk_range)
 			{
-				speed = 0;
+				//sc_physics_stop();
 				ind_state	= 2;
 				ind_process	= 0;
 				sc_set_dir();
@@ -65,7 +66,7 @@ function sc_character_step()
 		
 		if (ind_hp <= 0)
 		{
-			speed		= 0;
+			//sc_physics_stop();
 			ind_death	= true;
 			ind_process	= 0;
 			with (obj_control_stage)

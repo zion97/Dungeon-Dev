@@ -5,6 +5,7 @@ function sc_physics_create()
 	ph_speed_x	= 0;
 	ph_speed_y	= 0;
 	ph_dir		= 0;
+	ph_col_inst	= noone;
 	
 	var _layer		= layer_get_id("Instances");
 	ph_depth		= layer_get_depth(_layer);

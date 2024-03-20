@@ -3,7 +3,6 @@
 function sc_character_move(_dist)
 {
 	//var _dist	= point_distance(x, y, ind_path_tx, ind_path_ty);
-	
 	if (_dist > 32)
 	{
 		//sc_pathfind();

@@ -4,7 +4,7 @@ function sc_info_mob_goblin()
 {
 	ind_atk_sc		= sc_atk_melee_5f_4;
 	ind_death_sc	= sc_death_4f;
-	ind_atk_range	= 12;
+	ind_atk_range	= 16;
 	ind_atk_dmg		= 5;
 	ind_hp_max		= 75;
 	ind_hp			= ind_hp_max
@@ -26,7 +26,7 @@ function sc_info_mob_orc_shield()
 {
 	ind_atk_sc		= sc_atk_melee_5f_4;
 	ind_death_sc	= sc_death_4f;
-	ind_atk_range	= 12;
+	ind_atk_range	= 16;
 	ind_atk_dmg		= 5;
 	ind_hp_max		= 150;
 	ind_hp			= ind_hp_max

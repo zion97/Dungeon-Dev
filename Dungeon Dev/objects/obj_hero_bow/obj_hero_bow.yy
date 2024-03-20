@@ -36,6 +36,9 @@
     "name":"spr_h_bow_stand",
     "path":"sprites/spr_h_bow_stand/spr_h_bow_stand.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_character_col",
+    "path":"sprites/spr_character_col/spr_character_col.yy",
+  },
   "visible":true,
 }

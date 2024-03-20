@@ -36,6 +36,9 @@
     "name":"spr_mob_goblin_stand",
     "path":"sprites/spr_mob_goblin_stand/spr_mob_goblin_stand.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_character_col",
+    "path":"sprites/spr_character_col/spr_character_col.yy",
+  },
   "visible":true,
 }

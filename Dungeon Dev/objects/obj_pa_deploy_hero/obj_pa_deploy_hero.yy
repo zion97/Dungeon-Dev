@@ -40,6 +40,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_character_col",
+    "path":"sprites/spr_character_col/spr_character_col.yy",
+  },
   "visible":true,
 }
