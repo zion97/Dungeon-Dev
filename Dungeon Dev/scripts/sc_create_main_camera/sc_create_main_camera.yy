@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"sc_create_main_camera",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_create_main_camera",
+  "parent":{
+    "name":"control",
+    "path":"folders/Scripts/control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

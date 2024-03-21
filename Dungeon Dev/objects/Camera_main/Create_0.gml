@@ -8,7 +8,7 @@
 //window_set_fullscreen(false);
 // view_width --> Width of the portion of room we will be seeing
 // view_height --> Height of the portion of the room we will be seeing
-view_height	= room_height;
+view_height	= 240;
 aspect_ratio = display_get_width()/display_get_height(); // Relation between the windows size and screen size
 if (aspect_ratio > 22.5/9)	aspect_ratio = 22.5/9;
 if (aspect_ratio < 16/9)	aspect_ratio = 16/9;
