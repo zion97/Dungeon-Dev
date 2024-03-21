@@ -27,9 +27,10 @@ function sc_character_atk(_inst)
 function sc_character_atk_range(_inst, _spr, _sound, _spd = 5)
 {
 	var _dmg	= ind_atk_dmg;
+	var	_id		= id;
 	with (instance_create_layer(x, y, "Instances", obj_pa_range_atk))
 	{
-		ind_parnet		= other.id;
+		ind_parent		= _id;
 		ind_target		= _inst;
 		sprite_index	= _spr
 		ind_dmg			= _dmg;
@@ -42,9 +43,17 @@ function sc_character_atk_range(_inst, _spr, _sound, _spd = 5)
 
 function sc_atk_range()
 {
+	with (obj_control_stage)
+	{
+		alarm[2]	= 1;
+	}
+	
+	SE_Play(ind_s_atk);
+	
 	var _dmg	= ind_dmg;
 	with(ind_target)
 	{
+		if (ind_hp <= 0) return;
 		ind_hp		-= _dmg;
 		image_blend	= c_red;
 		alarm[1]	= 6;
@@ -55,10 +64,5 @@ function sc_atk_range()
 		if (ind_class == 0)	ind_goal += _dmg;
 	}
 	
-	with (obj_control_stage)
-	{
-		alarm[2]	= 1;
-	}
 	
-	SE_Play(ind_s_atk);
 }

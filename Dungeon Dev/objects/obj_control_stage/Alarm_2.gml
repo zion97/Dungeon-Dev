@@ -20,4 +20,5 @@ if (_clear)
 {
 	ind_clear	= true;
 	alarm[1]	= 60;
+	sc_control_set_game_spd();
 }

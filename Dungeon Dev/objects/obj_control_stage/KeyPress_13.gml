@@ -36,3 +36,4 @@ else if (!ind_clear)
 	
 	ind_state = 0;
 }
+sc_control_set_game_spd();

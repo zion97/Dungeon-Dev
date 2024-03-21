@@ -79,9 +79,22 @@ function try_add_to_opened_arr(_x, _y)
 	var _lenght_horizontal, _lenght_vertical;
 	_lenght_horizontal = array_length(map)
 	_lenght_vertical = array_length(map[@ 0])
-	
+	/*
+	if (map[@ _x][@ _y].value > 0)
+	{
+		if (ind_value == -4)	{ ind_value	= map[@ _x][@ _y].value; }
+		if (ind_value > 0)
+		{
+			ind_value--;
+			arr_cell_opened[@ array_length(arr_cell_opened)] = { x : _x, y : _y }
+			//map[@ _x][@ _y].add_father(_x,_y);
+			return;
+		}
+	}
+	ind_value	= -4;
+	*/
 	if(_x+1 < _lenght_horizontal) { 
-		if(map[@ _x+1][@ _y].value == cell_type.free) {
+		if(map[@ _x+1][@ _y].value != cell_type.closed) {
 			if(map[@ _x+1][@ _y].father_x == noone ) { 
 				arr_cell_opened[@ array_length(arr_cell_opened)] = { x : _x+1, y : _y }
 				map[@ _x+1][@ _y].add_father(_x,_y);
@@ -89,7 +102,7 @@ function try_add_to_opened_arr(_x, _y)
 		} 
 	}
 	if(_x-1 >= 0) { 
-		if(map[@ _x-1][@ _y].value == cell_type.free) {
+		if(map[@ _x-1][@ _y].value != cell_type.closed) {
 			if(map[@ _x-1][@ _y].father_x == noone ) { 
 				arr_cell_opened[@ array_length(arr_cell_opened)] = { x : _x-1, y : _y }
 				map[@ _x-1][@ _y].add_father(_x,_y);
@@ -97,7 +110,7 @@ function try_add_to_opened_arr(_x, _y)
 		} 
 	}
 	if(_y+1 < _lenght_vertical) { 
-		if(map[@ _x][@ _y+1].value == cell_type.free) {
+		if(map[@ _x][@ _y+1].value != cell_type.closed) {
 			if(map[@ _x][@ _y+1].father_x == noone  ) { 
 				arr_cell_opened[@ array_length(arr_cell_opened)] = { x : _x, y : _y+1 }
 				map[@ _x][@ _y+1].add_father(_x,_y);
@@ -105,7 +118,7 @@ function try_add_to_opened_arr(_x, _y)
 		} 
 	}
 	if(_y-1 >= 0) { 
-		if(map[@ _x][@ _y-1].value == cell_type.free) {
+		if(map[@ _x][@ _y-1].value != cell_type.closed) {
 			if(map[@ _x][@ _y-1].father_x == noone ) { 
 				arr_cell_opened[@ array_length(arr_cell_opened)] = { x : _x, y : _y-1 }
 				map[@ _x][@ _y-1].add_father(_x,_y);
@@ -115,8 +128,8 @@ function try_add_to_opened_arr(_x, _y)
 	
 	
 	if(_y+1 < _lenght_vertical && _x+1 < _lenght_horizontal) { 
-		if(map[@ _x+1][@ _y+1].value == cell_type.free) {
-			if(map[@ _x+1][@ _y].value == cell_type.free && map[@ _x][@ _y+1].value == cell_type.free) {
+		if(map[@ _x+1][@ _y+1].value != cell_type.closed) {
+			if(map[@ _x+1][@ _y].value != cell_type.closed && map[@ _x][@ _y+1].value != cell_type.closed) {
 				if(map[@ _x+1][@ _y+1].father_x == noone ) { 
 					arr_cell_opened[@ array_length(arr_cell_opened)] = { x : _x+1, y : _y+1 }
 					map[@ _x+1][@ _y+1].add_father(_x,_y);
@@ -126,8 +139,8 @@ function try_add_to_opened_arr(_x, _y)
 	}
 	
 	if(_y-1 >= 0 && _x+1 <_lenght_horizontal) { 
-		if(map[@ _x+1][@ _y-1].value == cell_type.free) {
-			if(map[@ _x+1][@ _y].value == cell_type.free && map[@ _x][@ _y-1].value == cell_type.free) {
+		if(map[@ _x+1][@ _y-1].value != cell_type.closed) {
+			if(map[@ _x+1][@ _y].value != cell_type.closed && map[@ _x][@ _y-1].value != cell_type.closed) {
 				if(map[@ _x+1][@ _y-1].father_x == noone ) { 
 					arr_cell_opened[@ array_length(arr_cell_opened)] = { x : _x+1, y : _y-1 }
 					map[@ _x+1][@ _y-1].add_father(_x,_y);
@@ -137,8 +150,8 @@ function try_add_to_opened_arr(_x, _y)
 	} 
 	
 	if(_y+1 < _lenght_vertical && _x-1 >= 0) { 
-		if(map[@ _x-1][@ _y+1].value == cell_type.free) {
-			if(map[@ _x-1][@ _y].value == cell_type.free && map[@ _x][@ _y+1].value == cell_type.free) {
+		if(map[@ _x-1][@ _y+1].value != cell_type.closed) {
+			if(map[@ _x-1][@ _y].value != cell_type.closed && map[@ _x][@ _y+1].value != cell_type.closed) {
 				if(map[@ _x-1][@ _y+1].father_x == noone ) { 
 					arr_cell_opened[@ array_length(arr_cell_opened)] = { x : _x-1, y : _y+1 }
 					map[@ _x-1][@ _y+1].add_father(_x,_y);
@@ -148,8 +161,8 @@ function try_add_to_opened_arr(_x, _y)
 	}
 	
 	if(_y-1 >= 0 && _x-1 >= 0) {
-		if(map[@ _x-1][@ _y-1].value == cell_type.free) {
-			if(map[@ _x-1][@ _y].value == cell_type.free && map[@ _x][@ _y-1].value == cell_type.free) {
+		if(map[@ _x-1][@ _y-1].value != cell_type.closed) {
+			if(map[@ _x-1][@ _y].value != cell_type.closed && map[@ _x][@ _y-1].value == cell_type.free) {
 				if(map[@ _x-1][@ _y-1].father_x == noone ) { 
 					arr_cell_opened[@ array_length(arr_cell_opened)] = { x : _x-1, y : _y-1 }
 					map[@ _x-1][@ _y-1].add_father(_x,_y);

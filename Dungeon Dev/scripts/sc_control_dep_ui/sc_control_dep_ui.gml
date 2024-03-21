@@ -19,7 +19,8 @@ function sc_control_dep_ui()
 		for (var _i = 0; _i < _arr_len; _i++)
 		{
 			var _in	= 0;
-			if (_my > _port_h-205 && _my < _port_h - 25 && _mx > 114 + _i*200 && _mx < 246 + _i*200)
+			if (_my > _port_h-205 && _my < _port_h - 25 && 
+				_mx > _ind_x + 114 + _i*200 && _mx < _ind_x + 246 + _i*200)
 			{
 				ind_dep_num	= _i;
 				_in			= 1;

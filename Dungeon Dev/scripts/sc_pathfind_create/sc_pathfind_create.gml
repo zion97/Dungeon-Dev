@@ -4,19 +4,21 @@ function sc_pathfind_create()
 {
 	grid = 16
 	
-	arr_cell_opened = []; 
-	arr_path = [];
+	arr_cell_opened	= []; 
+	arr_path		= [];
 	
-	destiny_x = 1
-	destiny_y = 1
+	ind_value		= -4;
 	
-	start_x = 0
-	start_y = 0
+	destiny_x		= 1
+	destiny_y		= 1
+	
+	start_x			= 0
+	start_y			= 0
 	
 	enum cell_type 
 	{
-		free,
-		closed,
+		free		= 0,
+		closed		= 99,
 	}
 	
 	set_map();

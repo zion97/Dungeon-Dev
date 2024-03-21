@@ -9,9 +9,11 @@
 // view_width --> Width of the portion of room we will be seeing
 // view_height --> Height of the portion of the room we will be seeing
 view_height	= room_height;
-view_width	= display_get_width()/display_get_height()*view_height;
-aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
-if (aspect_ratio > 20/9) aspect_ratio = 20/9;
+aspect_ratio = display_get_width()/display_get_height(); // Relation between the windows size and screen size
+if (aspect_ratio > 20/9)	aspect_ratio = 20/9;
+if (aspect_ratio < 16/9)	aspect_ratio = 16/9;
+
+view_width	= aspect_ratio*view_height;
 port_width = port_height*aspect_ratio; // Width of the window where the game will be drawn
 // port_height --> Height of the window where the game will be drawn
 

@@ -4,6 +4,7 @@ sc_pathfind_create();
 sc_control_tile();
 
 sc_create_stage_camera();
+sc_control_set_game_spd();
 
 ind_dep_num		= -1;
 ind_alp			= 1

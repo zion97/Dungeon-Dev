@@ -30,8 +30,8 @@ function sc_character_step()
 					if (ind_ad != noone)
 					{
 						ind_ad	= noone;
-						x		+= irandom_range(-2, 2);
-						y		+= irandom_range(-2, 2);
+						//x		+= irandom_range(-2, 2);
+						//y		+= irandom_range(-2, 2);
 					}
 				}
 			}

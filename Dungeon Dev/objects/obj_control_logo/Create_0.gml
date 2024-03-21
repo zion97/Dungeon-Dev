@@ -4,6 +4,8 @@ sc_data_load();
 sc_data_global();
 sc_create_stage_camera();
 
+sc_control_set_game_spd();
+
 image_alpha	= 0;
 
 var _time	= 80;
