@@ -4,3 +4,6 @@ sc_create_main_camera();
 BGM_Play(mr_main,, 0);
 ind_alp		= 1;
 alarm[0]	= 1;
+
+ind_select	= 0;
+ind_num		= 2;

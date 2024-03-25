@@ -14,13 +14,13 @@ function sc_data_global()
 	global.game_spd		= 0;
 	
 	{	//폰트
-		global.font_name	= array_create(5);
-		global.font_name[0]	= font_add("font\\font_kr.otf", 32, 0, 0, 32, 55203);
-		global.font_name[1]	= font_add("font\\font_kr.otf", 32, 0, 0, 32, 128);
+		global.font_name		= array_create(5);
+		global.font_name[0]		= font_add("font\\font_kr.otf", 32, 0, 0, 32, 55203);
+		global.font_name[1]		= font_add("font\\font_kr.otf", 32, 0, 0, 32, 128);
 		
-		global.font_text	= array_create(5);
-		global.font_text[0]	= font_add("font\\font_kr.otf", 24, 0, 0, 32, 55203);
-		global.font_text[1]	= font_add("font\\font_kr.otf", 24, 0, 0, 32, 128);
+		global.font_text		= array_create(5);
+		global.font_text[0]		= font_add("font\\font_kr.otf", 24, 0, 0, 32, 55203);
+		global.font_text[1]		= font_add("font\\font_kr.otf", 24, 0, 0, 32, 128);
 		
 		global.font_num		= font_add("font\\font_kr.otf", 16, 0, 0, 32, 128);
 	}
