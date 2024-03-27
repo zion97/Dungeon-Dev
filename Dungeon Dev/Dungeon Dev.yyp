@@ -276,7 +276,7 @@
     {"id":{"name":"rm_lan","path":"rooms/rm_lan/rm_lan.yy",},},
     {"id":{"name":"rm_logo","path":"rooms/rm_logo/rm_logo.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
-    {"id":{"name":"rm_theme01","path":"rooms/rm_theme01/rm_theme01.yy",},},
+    {"id":{"name":"rm_theme_select","path":"rooms/rm_theme_select/rm_theme_select.yy",},},
     {"id":{"name":"rm_stage01_01","path":"rooms/rm_stage01_01/rm_stage01_01.yy",},},
     {"id":{"name":"rm_stage01_01cs_2","path":"rooms/rm_stage01_01cs_2/rm_stage01_01cs_2.yy",},},
     {"id":{"name":"rm_stage01_01cs","path":"rooms/rm_stage01_01cs/rm_stage01_01cs.yy",},},
@@ -558,7 +558,7 @@
     {"roomId":{"name":"Room_Steam_UGC","path":"rooms/Room_Steam_UGC/Room_Steam_UGC.yy",},},
     {"roomId":{"name":"Room_Steam_Init","path":"rooms/Room_Steam_Init/Room_Steam_Init.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
-    {"roomId":{"name":"rm_theme01","path":"rooms/rm_theme01/rm_theme01.yy",},},
+    {"roomId":{"name":"rm_theme_select","path":"rooms/rm_theme_select/rm_theme_select.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

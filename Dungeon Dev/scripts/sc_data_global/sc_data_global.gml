@@ -12,6 +12,7 @@ function sc_data_global()
 	global.vol_bgm		= 3;
 	
 	global.game_spd		= 0;
+	global.is_fade		= true;
 	
 	{	//폰트
 		global.font_name		= array_create(5);

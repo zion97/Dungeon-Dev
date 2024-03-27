@@ -7,7 +7,7 @@ ind_select	= false;
 
 ind_func	= array_create(3);
 
-ind_func[0]	= function() { room_goto(rm_stage01_01cs); }
+ind_func[0]	= function() { room_goto(rm_theme_select); }
 ind_func[1]	= function() { room_goto(rm_stage01_01cs); }
 ind_func[2]	= function() { room_goto(rm_stage01_01cs); }
 

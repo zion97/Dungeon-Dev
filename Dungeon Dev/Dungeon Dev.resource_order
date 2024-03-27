@@ -216,7 +216,7 @@
     {"name":"rm_demo_endcs","order":11,"path":"rooms/rm_demo_endcs/rm_demo_endcs.yy",},
     {"name":"rm_logo","order":1,"path":"rooms/rm_logo/rm_logo.yy",},
     {"name":"rm_main","order":2,"path":"rooms/rm_main/rm_main.yy",},
-    {"name":"rm_theme01","order":3,"path":"rooms/rm_theme01/rm_theme01.yy",},
+    {"name":"rm_theme_select","order":3,"path":"rooms/rm_theme_select/rm_theme_select.yy",},
     {"name":"rm_stage01_01","order":2,"path":"rooms/rm_stage01_01/rm_stage01_01.yy",},
     {"name":"rm_stage01_01cs_2","order":1,"path":"rooms/rm_stage01_01cs_2/rm_stage01_01cs_2.yy",},
     {"name":"rm_stage01_02","order":4,"path":"rooms/rm_stage01_02/rm_stage01_02.yy",},
