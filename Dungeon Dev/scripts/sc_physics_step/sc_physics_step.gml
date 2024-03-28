@@ -4,20 +4,18 @@ function sc_physics_step()
 {
 	var _sca	= true;
 	
+	if (ph_col_x != 0 || ph_col_y != 0)
+	{
+		speed	= speed/2;
+		hspeed	+= ph_col_x;
+		vspeed	+= ph_col_y;
+		_sca	= false;
+	}
+	ph_col_x	= 0;
+	ph_col_y	= 0;
+	/*
 	with (ph_col_inst)
 	{
-		/*
-		var _dir		= point_direction(x, y, other.x, other.y);
-		var _l			= angle_difference(_dir, other.direction);
-		if (abs(_l) > 90)
-		{
-			if (_l > 0)	{ _dir -= 90; }
-			else		{ _dir += 90; }
-			other.direction	= _dir;
-			_sca			= false;
-		}
-		*/
-		
 		var _dist	= 6;
 		var _ind_x	= x - other.x;
 		
@@ -52,6 +50,7 @@ function sc_physics_step()
 		
 	}
 	ph_col_inst	= noone;
+	*/
 	
 	if (hspeed > 0)	
 	{

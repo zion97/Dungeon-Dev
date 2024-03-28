@@ -3,6 +3,11 @@
 
 if (!ind_death)
 {
+	sc_physics_col_char(other);
+}
+/*
+if (!ind_death)
+{
 	var _dist	= 999;
 	var _x		= x;
 	var _y		= y;
@@ -16,6 +21,7 @@ if (!ind_death)
 		ph_col_inst	= other.id;
 	}
 }
+*/
 /*
 var _xspd	= (y-other.y)/2;
 var _yspd	= (x-other.x)/20;
