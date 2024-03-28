@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"sc_get_theme_num",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_get_theme_num",
+  "parent":{
+    "name":"control",
+    "path":"folders/Scripts/control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

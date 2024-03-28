@@ -6,5 +6,10 @@ else
 { 
 	//room_goto(next_room); 
 	global.rm_index++;
+	if (global.rm_index > global.ind_clear)
+	{
+		global.ind_clear	= global.rm_index;
+		sc_vsls_save_value("ind_clear", global.ind_clear);
+	}
 	room_goto(global.rm_stage[global.rm_index]);
 }

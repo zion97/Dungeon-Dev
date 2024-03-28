@@ -3,6 +3,7 @@
 function sc_data_global()
 {
 	global.steam		= true;
+	global.save_file	= "dd_save";
 	
 	global.roomBuffer	= -1;
 	global.screenBuffer = -1;

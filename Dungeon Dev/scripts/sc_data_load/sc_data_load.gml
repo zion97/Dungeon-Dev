@@ -2,5 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_data_load()
 {
-	//display_set_gui_size(1920, 1080);
+	VSLS_File_Load(global.save_file);
+	
+	global.ind_clear	= sc_vsls_define_value("ind_clear", 0);
 }
