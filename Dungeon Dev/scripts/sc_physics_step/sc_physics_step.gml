@@ -6,7 +6,12 @@ function sc_physics_step()
 	
 	if (ph_col_x != 0 || ph_col_y != 0)
 	{
-		speed	= speed/2;
+		/*
+		if (angle_difference(point_direction(0, 0, ph_col_x, ph_col_y), direction) > 90)
+		{
+			speed	= speed/4;
+		}
+		*/
 		hspeed	+= ph_col_x;
 		vspeed	+= ph_col_y;
 		_sca	= false;

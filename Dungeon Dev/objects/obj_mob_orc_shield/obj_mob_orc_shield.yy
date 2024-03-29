@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mob_goblin_stand",
-    "path":"sprites/spr_mob_goblin_stand/spr_mob_goblin_stand.yy",
+    "name":"spr_mob_orc_shield_stand",
+    "path":"sprites/spr_mob_orc_shield_stand/spr_mob_orc_shield_stand.yy",
   },
   "spriteMaskId":{
     "name":"spr_character_col",

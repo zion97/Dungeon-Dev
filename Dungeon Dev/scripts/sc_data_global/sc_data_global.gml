@@ -31,6 +31,8 @@ function sc_data_global()
 		global.mob_struct		= array_create(10);
 		global.mob_struct[0]	= new MobDepStruct(0, obj_dep_goblin, sc_info_mob_goblin); 
 		global.mob_struct[1]	= new MobDepStruct(0, obj_dep_orc_shield, sc_info_mob_orc_shield); 
+		global.mob_struct[2]	= new MobDepStruct(0, obj_dep_orc_axe, sc_info_mob_orc_axe); 
+		global.mob_struct[3]	= new MobDepStruct(0, obj_dep_orc_range, sc_info_mob_orc_range); 
 	}
 	
 	{	//룸
@@ -47,6 +49,6 @@ function sc_data_global()
 		global.rm_stage[7]		= rm_stage01_08;
 		global.rm_stage[8]		= rm_stage01_09;
 		global.rm_stage[9]		= rm_demo_endcs;
-		global.rm_stage[10]		= rm_stage01_08;
+		global.rm_stage[10]		= rm_stage01_05test;
 	}
 }

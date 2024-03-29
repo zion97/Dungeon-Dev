@@ -96,7 +96,7 @@ function sc_info_hero_bow()
 	ind_spr_atk		= spr_h_bow_atk;
 	ind_spr_death	= spr_h_bow_death;
 	
-	ind_s_atk		= s_sword02;
+	ind_s_atk		= s_bow01;
 	ind_s_death		= s_dump;
 	
 	ind_range_spr	= spr_h_bow_atk_ef

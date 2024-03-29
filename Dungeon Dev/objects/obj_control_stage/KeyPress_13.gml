@@ -23,6 +23,10 @@ else if (!ind_clear)
 	{
 		instance_destroy();
 	}
+	with (obj_pa_range_atk)
+	{
+		instance_destroy();
+	}
 	var _layer	= layer_get_id("Deploy");
 	layer_set_visible(_layer, true);
 	
@@ -34,6 +38,7 @@ else if (!ind_clear)
 		}
 	}
 	
-	ind_state = 0;
+	ind_state	= 0;
+	alarm[2]	= -10;
 }
 sc_control_set_game_spd();
