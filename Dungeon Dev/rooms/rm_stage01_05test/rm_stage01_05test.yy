@@ -41,8 +41,8 @@
   ],
   "name":"rm_stage01_05test",
   "parent":{
-    "name":"stage01",
-    "path":"folders/Rooms/stage01.yy",
+    "name":"stage02",
+    "path":"folders/Rooms/stage02.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
