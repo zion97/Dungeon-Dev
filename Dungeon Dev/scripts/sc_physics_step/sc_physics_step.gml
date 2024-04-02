@@ -2,60 +2,23 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_physics_step()
 {
-	var _sca	= true;
+	if (hspeed > 0)	
+	{
+		image_xscale = 1;
+	}
+	else if (hspeed < 0)	
+	{
+		image_xscale = -1;
+	}
 	
 	if (ph_col_x != 0 || ph_col_y != 0)
 	{
-		/*
-		if (angle_difference(point_direction(0, 0, ph_col_x, ph_col_y), direction) > 90)
-		{
-			speed	= speed/4;
-		}
-		*/
 		hspeed	+= ph_col_x;
 		vspeed	+= ph_col_y;
-		_sca	= false;
 	}
 	ph_col_x	= 0;
 	ph_col_y	= 0;
-	/*
-	with (ph_col_inst)
-	{
-		var _dist	= 6;
-		var _ind_x	= x - other.x;
-		
-		var _ind_p	= 36;
-		//if (abs(speed) < 0.2)	_ind_p = _ind_p*2;
-		if (abs(_ind_x) < _dist)
-		{
-			if (_ind_x > 0)
-			{
-				hspeed	+= sqrt(_dist - _ind_x)*(_dist - _ind_x)/_ind_p;
-			}
-			else
-			{
-				hspeed	-= sqrt(_dist + _ind_x)*(_dist - _ind_x)/_ind_p;
-			}
-			_sca			= false;
-		}
-		
-		var _ind_y	= y - other.y;
-		if (abs(_ind_y) < _dist)
-		{
-			if (_ind_y > 0)
-			{
-				vspeed	+= sqrt(_dist - _ind_y)*(_dist - _ind_y)/_ind_p;
-			}
-			else
-			{
-				vspeed	-= sqrt(_dist + _ind_y)*(_dist - _ind_y)/_ind_p;
-			}
-			_sca			= false;
-		}
-		
-	}
-	ph_col_inst	= noone;
-	*/
+
 	
 	if (hspeed > 0)	
 	{
@@ -63,7 +26,7 @@ function sc_physics_step()
 		{
 			hspeed	= 0;
 		}
-		if (_sca)	image_xscale = 1;
+		//if (_sca)	image_xscale = 1;
 	}
 	else if (hspeed < 0)	
 	{
@@ -71,7 +34,7 @@ function sc_physics_step()
 		{
 			hspeed	= 0;
 		}
-		if (_sca)	image_xscale = -1;
+		//if (_sca)	image_xscale = -1;
 	}
 	
 	if (vspeed > 0)	
