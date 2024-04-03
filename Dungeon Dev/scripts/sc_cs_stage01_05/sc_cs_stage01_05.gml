@@ -5,28 +5,23 @@ function sc_cs_stage01_05()
 	switch(ind_process)
 	{
 	case 0:
-		sc_cs_set_clean(120);
-		sc_cs_create_sb(208, 128, 1);
+		sc_cs_set_dia(1,, spr_pic_maw_laugh);
 		break;
 		
 	case 1:
-		sc_cs_set_dia(1);
-		sc_cs_create_talk(208, 128);
+		sc_cs_set_dia(2,,spr_pic_maw);
 		break;
 		
 	case 2:
-		sc_cs_set_clean(120);
-		sc_cs_create_sb(160, 128, 0);
+		sc_cs_set_dia(3,,spr_pic_maw);
 		break;
 		
 	case 3:
-		sc_cs_set_dia(2);
-		sc_cs_create_talk(160, 128);
+		sc_cs_set_dia(4,,spr_pic_maw);
 		break;
 		
 	case 4:
-		sc_cs_set_dia(3);
-		sc_cs_create_talk(256, 128);
+		sc_cs_set_dia(5,,spr_pic_maw_laugh);
 		break;
 		
 	case 5:
@@ -34,31 +29,46 @@ function sc_cs_stage01_05()
 		break;
 		
 	case 6:
-		sc_cs_set_dia(4,,spr_pic_maw_angry);
+		sc_cs_set_clean(,,true);
 		break;
 		
-	case 7:
-		sc_cs_set_dia(5,,spr_pic_maw);
+		
+	/*	
+	case 5:
+		sc_cs_set_que(7, 2, [6, 9],, spr_pic_maw);
 		break;
 		
-	case 8:
-		sc_cs_set_dia(6,,,spr_pic_maw);
+	case 6:
+		sc_cs_set_dia(10, 15, spr_pic_maw_laugh);
 		break;
 		
 	case 9:
-		sc_cs_set_dia(7,, spr_pic_maw);
+		sc_cs_set_dia(13,, spr_pic_maw_ember);
 		break;
 		
 	case 10:
-		sc_cs_set_dia(8,, spr_pic_maw_laugh);
+		sc_cs_set_dia(14,, spr_pic_maw_ember);
 		break;
 		
 	case 11:
-		sc_cs_set_clean(60);
+		sc_cs_set_dia(15,,, spr_pic_maw_ember);
 		break;
 		
 	case 12:
+		sc_cs_set_dia(16,, spr_pic_maw_angry);
+		break;
+		
+	case 13:
+		sc_cs_set_dia(17, 15,, spr_pic_maw_angry);
+		break;
+		
+	case 15:
+		sc_cs_set_clean(60);
+		break;
+		
+	case 16:
 		sc_cs_set_clean(,,true);
 		break;
+	*/
 	}
 }
