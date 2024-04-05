@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"ui",
-    "path":"folders/Sprites/ui.yy",
+    "name":"deploy",
+    "path":"folders/Sprites/ui/deploy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

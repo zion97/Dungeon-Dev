@@ -4,3 +4,4 @@ image_speed	= 0;
 //image_alpha	= 0.5;
 x	= 16 * (x div 16) + 8;
 y	= 16 * (y div 16) + 8;
+sc_dep_mob_create();

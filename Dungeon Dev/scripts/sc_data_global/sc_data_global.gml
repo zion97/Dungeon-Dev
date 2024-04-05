@@ -29,10 +29,15 @@ function sc_data_global()
 	
 	{	//몬스터 생성기
 		global.mob_struct		= array_create(10);
-		global.mob_struct[0]	= new MobDepStruct(0, obj_dep_goblin, sc_info_mob_goblin); 
-		global.mob_struct[1]	= new MobDepStruct(0, obj_dep_orc_shield, sc_info_mob_orc_shield); 
-		global.mob_struct[2]	= new MobDepStruct(0, obj_dep_orc_axe, sc_info_mob_orc_axe); 
-		global.mob_struct[3]	= new MobDepStruct(0, obj_dep_orc_range, sc_info_mob_orc_range); 
+		global.mob_struct[0]	= new DepStruct(0, obj_dep_goblin, sc_info_mob_goblin); 
+		global.mob_struct[1]	= new DepStruct(0, obj_dep_orc_shield, sc_info_mob_orc_shield); 
+		global.mob_struct[2]	= new DepStruct(0, obj_dep_orc_axe, sc_info_mob_orc_axe); 
+		global.mob_struct[3]	= new DepStruct(0, obj_dep_orc_range, sc_info_mob_orc_range); 
+	}
+	
+	{	//아이템 생성기
+		global.item_struct		= array_create(10);
+		global.item_struct[0]	= new DepStruct(0, obj_dep_heal, sc_info_mob_goblin); 
 	}
 	
 	{	//룸

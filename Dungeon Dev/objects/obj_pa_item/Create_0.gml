@@ -3,3 +3,4 @@
 ind_active	= false;
 ind_inst	= noone;
 ind_spd		= 0;
+create_sc();

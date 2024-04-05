@@ -49,6 +49,12 @@
         "2",
         "3",
       ],"multiselect":true,"name":"mob_list","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":6,},
+    {"$GMObjectProperty":"","%Name":"item_list","filters":[],"listItems":[
+        "0",
+        "1",
+        "2",
+        "3",
+      ],"multiselect":true,"name":"item_list","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":6,},
     {"$GMObjectProperty":"","%Name":"stage_cost","filters":[],"listItems":[],"multiselect":false,"name":"stage_cost","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
     {"$GMObjectProperty":"","%Name":"next_room","filters":[],"listItems":[],"multiselect":false,"name":"next_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_stage01_01","varType":5,},
     {"$GMObjectProperty":"","%Name":"music_mr","filters":[],"listItems":[],"multiselect":false,"name":"music_mr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"mr_default01","varType":5,},

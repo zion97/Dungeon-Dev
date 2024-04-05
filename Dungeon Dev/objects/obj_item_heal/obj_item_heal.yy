@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_item_heal",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_item","path":"objects/obj_pa_item/obj_pa_item.yy",},"propertyId":{"name":"get_sc","path":"objects/obj_pa_item/obj_pa_item.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_item_heal",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_item","path":"objects/obj_pa_item/obj_pa_item.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_pa_item/obj_pa_item.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_info_item_heal",},
   ],
   "parent":{
     "name":"item",

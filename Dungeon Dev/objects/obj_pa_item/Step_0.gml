@@ -28,7 +28,7 @@ else
 	}
 	else
 	{
-		get_sc();
+		ind_get_sc();
 		instance_destroy();
 	}
 }

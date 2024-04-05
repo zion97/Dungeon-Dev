@@ -10,4 +10,5 @@ function sc_dep_mob_create()
 	
 	ind_bx		= x;
 	ind_by		= y;
+	ind_cost	= 0;
 }

@@ -8,8 +8,16 @@ function sc_control_dep_ui()
 	var _port_h	= uc_get_port_height();
 	var _ind_x	= _port_w/2 - 960;
 	
+	
 	draw_sprite_ext(spr_deploy_back, 0, _port_w/2, _port_h+100, 3, 3, 0, c_white, 1);
 	
+	if		(ind_dep_sel == 0)	{ sc_control_dep_ui_mob(_port_w, _port_h, _ind_x); }
+	else if	(ind_dep_sel == 1)	{  }
+}
+
+
+function sc_control_dep_ui_mob(_port_w, _port_h, _ind_x)
+{
 	var _arr_len = array_length(mob_list);
 	if (_arr_len > 0)
 	{
@@ -55,5 +63,4 @@ function sc_control_dep_ui()
 	draw_sprite_ext(spr_icon_coin, 0, _port_w/2 + 750, _port_h-182, 2, 2, 0, c_white, 1);
 	draw_text(_port_w/2 + 770, _port_h-182, _coin);
 }
-
 
