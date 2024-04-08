@@ -9,9 +9,22 @@ function sc_character_ad()
 	var _dist		= 99999;
 	var _target		= noone;
 	var _ad_dist	= ind_ad_dist;
+	var _ad_mod		= ind_ad_mod;
+	var	_ind_ally	= ind_ally;
+	
 	with (obj_pa_character)
 	{
-		if (ind_ally != other.ind_ally && !ind_death)	
+		var _ind_active	= false;
+		if (_ad_mod == 0)
+		{
+			if (ind_ally != _ind_ally)	{ _ind_active	= true; }
+		}
+		else if (_ad_mod == 1)
+		{
+			if (ind_ally == _ind_ally)	{ _ind_active	= true; }
+		}
+		
+		if (_ind_active && !ind_death && id != other.id)	
 		{
 			var _i = point_distance(x, y, other.x, other.y);
 			if (_dist > _i && _i < _ad_dist)

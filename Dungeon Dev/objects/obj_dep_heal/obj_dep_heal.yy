@@ -1,21 +1,23 @@
 {
   "$GMObject":"",
   "%Name":"obj_dep_heal",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_dep_heal",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_item","path":"objects/obj_pa_deploy_item/obj_pa_deploy_item.yy",},"propertyId":{"name":"dep_inst","path":"objects/obj_pa_deploy_item/obj_pa_deploy_item.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_item_heal",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_inst","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_hero_heal",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_hp","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_dmg","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_class","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_goal","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
   ],
   "parent":{
-    "name":"dep item",
-    "path":"folders/Objects/deploy inst/dep item.yy",
+    "name":"hero deploy",
+    "path":"folders/Objects/deploy inst/hero deploy.yy",
   },
   "parentObjectId":{
-    "name":"obj_pa_deploy_item",
-    "path":"objects/obj_pa_deploy_item/obj_pa_deploy_item.yy",
+    "name":"obj_pa_deploy_hero",
+    "path":"objects/obj_pa_deploy_hero/obj_pa_deploy_hero.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -35,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_item_potion_hp",
-    "path":"sprites/spr_item_potion_hp/spr_item_potion_hp.yy",
+    "name":"spr_h_heal_stand",
+    "path":"sprites/spr_h_heal_stand/spr_h_heal_stand.yy",
   },
   "spriteMaskId":null,
   "visible":true,

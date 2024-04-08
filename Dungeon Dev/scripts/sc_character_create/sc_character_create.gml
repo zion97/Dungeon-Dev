@@ -10,6 +10,7 @@ function sc_character_create()
 	ind_state		= 0;
 	ind_process		= 0;
 	ind_ad			= noone;
+	ind_ad_mod		= 0;
 	ind_hp			= 1;
 	ind_death		= false;
 	ind_class		= -1;

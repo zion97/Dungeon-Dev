@@ -116,3 +116,46 @@ function sc_atk_range_5f_4()
 	
 	ind_process++;
 }
+
+function sc_atk_heal_6f_4()
+{
+	if (ind_process == 0)
+	{
+		var _i		= false;
+		var _ally	= ind_ally;
+		with (obj_pa_character)
+		{
+			if (ind_ally == _ally && ind_hp < ind_hp_max)	{ _i = true; }
+		}
+		if (!_i)
+		{
+			ind_ad	= noone;
+			sc_atk_delay_set();
+			return;
+		}
+	}
+		
+	sprite_index	= ind_spr_atk;
+	
+	if (ind_process < 6)		{ image_index	= 0; }
+	else if (ind_process < 12)	{ image_index	= 1; }
+	else if (ind_process < 16)	{ image_index	= 2; }
+	else if (ind_process < 20)	
+	{ 
+		image_index	= 3; 
+		if (ind_process == 16)
+		{
+			sc_character_heal();
+		}
+	}
+	else if (ind_process < 24)	{ image_index	= 4; }
+	else if (ind_process < 30)	{ image_index	= 5; }
+	else
+	{
+		ind_ad	= noone;
+		sc_atk_delay_set();
+		return;
+	}
+	
+	ind_process++;
+}

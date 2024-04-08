@@ -37,7 +37,7 @@ function sc_data_global()
 	
 	{	//아이템 생성기
 		global.item_struct		= array_create(10);
-		global.item_struct[0]	= new DepStruct(0, obj_dep_heal, sc_info_mob_goblin); 
+		global.item_struct[0]	= new DepStruct(0, obj_dep_item_heal, sc_info_mob_goblin); 
 	}
 	
 	{	//룸
@@ -50,9 +50,9 @@ function sc_data_global()
 		global.rm_stage[3]		= rm_stage01_04;
 		global.rm_stage[4]		= rm_stage01_05cs;
 		global.rm_stage[5]		= rm_stage01_06;
-		global.rm_stage[6]		= rm_stage01_07dcs
+		global.rm_stage[6]		= rm_stage01_07
 		global.rm_stage[7]		= rm_stage01_08;
-		global.rm_stage[8]		= rm_stage01_09d;
+		global.rm_stage[8]		= rm_stage01_09;
 		global.rm_stage[9]		= rm_demo_endcs;
 		global.rm_stage[10]		= rm_stage01_05test;
 	}

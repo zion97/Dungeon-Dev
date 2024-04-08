@@ -103,3 +103,24 @@ function sc_info_hero_bow()
 	ind_range_s		= s_sword01;
 	ind_range_spd	= 5;
 }
+
+function sc_info_hero_heal()
+{
+	ind_atk_sc		= sc_atk_heal_6f_4;
+	ind_death_sc	= sc_death_4f;
+	ind_atk_range	= 64;
+	ind_atk_dmg		= 10;
+	ind_hp_max		= 150;
+	ind_hp			= ind_hp_max
+	ind_ally		= 1;
+	ind_spd			= 1;
+	ind_ad_mod		= 1;
+	
+	ind_spr_stand	= spr_h_heal_stand;
+	ind_spr_walk	= spr_h_heal_walk;
+	ind_spr_atk		= spr_h_heal_atk;
+	ind_spr_death	= spr_h_heal_death;
+	
+	ind_s_atk		= s_sword02;
+	ind_s_death		= s_dump;
+}
