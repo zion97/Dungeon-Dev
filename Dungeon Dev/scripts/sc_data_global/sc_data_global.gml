@@ -24,7 +24,7 @@ function sc_data_global()
 		global.font_text[0]		= font_add("font\\font_kr.otf", 24, 0, 0, 32, 55203);
 		global.font_text[1]		= font_add("font\\font_kr.otf", 24, 0, 0, 32, 128);
 		
-		global.font_num		= font_add("font\\font_kr.otf", 16, 0, 0, 32, 128);
+		global.font_num			= font_add("font\\font_kr.otf", 16, 0, 0, 32, 128);
 	}
 	
 	{	//몬스터 생성기
@@ -53,7 +53,7 @@ function sc_data_global()
 		global.rm_stage[6]		= rm_stage01_07
 		global.rm_stage[7]		= rm_stage01_08;
 		global.rm_stage[8]		= rm_stage01_09;
-		global.rm_stage[9]		= rm_demo_endcs;
+		global.rm_stage[9]		= rm_stage01_10;
 		global.rm_stage[10]		= rm_stage01_05test;
 	}
 }

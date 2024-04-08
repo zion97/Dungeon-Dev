@@ -125,7 +125,7 @@ function sc_atk_heal_6f_4()
 		var _ally	= ind_ally;
 		with (obj_pa_character)
 		{
-			if (ind_ally == _ally && ind_hp < ind_hp_max)	{ _i = true; }
+			if (ind_ally == _ally && ind_hp < ind_hp_max && !ind_death)	{ _i = true; }
 		}
 		if (!_i)
 		{
