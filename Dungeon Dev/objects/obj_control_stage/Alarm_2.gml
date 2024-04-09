@@ -1,5 +1,6 @@
 /// @description 클리어 조건 확인
 // 이 에디터에 코드를 작성할 수 있습니다
+if (ind_clear)	return;
 var _clear	= true;
 with (obj_pa_hero)
 {
