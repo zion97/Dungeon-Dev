@@ -50,7 +50,7 @@ function sc_info_mob_orc_axe()
 	ind_death_sc	= sc_death_4f;
 	ind_atk_range	= 16;
 	ind_atk_dmg		= 20;
-	ind_hp_max		= 75;
+	ind_hp_max		= 100;
 	ind_hp			= ind_hp_max
 	ind_ally		= 2;
 	ind_spd			= 1;
