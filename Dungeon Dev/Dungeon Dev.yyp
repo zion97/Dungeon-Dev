@@ -137,6 +137,7 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/YoYo Extensions Assets/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"font_data.csv","CopyToMask":-1,"filePath":"datafiles/font","name":"font_data.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"font_kr.otf","CopyToMask":-1,"filePath":"datafiles/font","name":"font_kr.otf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"font_num.ttf","CopyToMask":-1,"filePath":"datafiles/font","name":"font_num.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"font_pixel_kr.ttf","CopyToMask":-1,"filePath":"datafiles/font","name":"font_pixel_kr.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},

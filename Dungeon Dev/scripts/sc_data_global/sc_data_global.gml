@@ -16,13 +16,16 @@ function sc_data_global()
 	global.is_fade		= true;
 	
 	{	//폰트
+		var _f_file	= "font\\" + "font_data.csv";
+		var _f_data	= load_csv(_f_file);
+		
 		global.font_name		= array_create(5);
-		global.font_name[0]		= font_add("font\\font_kr.otf", 32, 0, 0, 32, 55203);
-		global.font_name[1]		= font_add("font\\font_kr.otf", 32, 0, 0, 32, 128);
+		global.font_name[0]		= font_add("font\\font_kr.otf", _f_data[#1, 1], 0, 0, _f_data[#1, 4], _f_data[#1, 5]);
+		global.font_name[1]		= font_add("font\\font_kr.otf", _f_data[#2, 1], 0, 0, _f_data[#2, 4], _f_data[#2, 5]);
 		
 		global.font_text		= array_create(5);
-		global.font_text[0]		= font_add("font\\font_kr.otf", 24, 0, 0, 32, 55203);
-		global.font_text[1]		= font_add("font\\font_kr.otf", 24, 0, 0, 32, 128);
+		global.font_text[0]		= font_add("font\\font_kr.otf", _f_data[#1, 2], 0, 0, _f_data[#1, 4], _f_data[#1, 5]);
+		global.font_text[1]		= font_add("font\\font_kr.otf", _f_data[#2, 2], 0, 0, _f_data[#2, 4], _f_data[#2, 5]);
 		
 		global.font_num			= font_add("font\\font_kr.otf", 16, 0, 0, 32, 128);
 	}
