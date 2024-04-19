@@ -21,7 +21,7 @@ function sc_cs_stage01_05()
 		break;
 		
 	case 4:
-		sc_cs_set_dia(5,,spr_pic_maw);
+		sc_cs_set_dia(5, 6,spr_pic_maw_laugh);
 		break;
 		
 	case 5:
@@ -41,11 +41,11 @@ function sc_cs_stage01_05()
 		break;
 		
 	case 11:
-		sc_cs_set_dia(15,, spr_pic_maw_ember);
+		sc_cs_set_dia(15,, spr_pic_maw_angry);
 		break;
 		
 	case 12:
-		sc_cs_set_dia(16,,, spr_pic_maw_ember);
+		sc_cs_set_dia(16,,, spr_pic_maw_angry);
 		break;
 		
 	case 13:
