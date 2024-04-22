@@ -19,7 +19,6 @@
         {"$GMRInstance":"","%Name":"inst_41EA4F31_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41EA4F31_1_1_1_1_1_1_1_1","objectId":{"name":"obj_control_stage","path":"objects/obj_control_stage/obj_control_stage.yy",},"properties":[
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_control_stage","path":"objects/obj_control_stage/obj_control_stage.yy",},"propertyId":{"name":"next_room","path":"objects/obj_control_stage/obj_control_stage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_demo_endcs",},
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_control_stage","path":"objects/obj_control_stage/obj_control_stage.yy",},"propertyId":{"name":"stage_cost","path":"objects/obj_control_stage/obj_control_stage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
-            {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_control_stage","path":"objects/obj_control_stage/obj_control_stage.yy",},"propertyId":{"name":"mob_list","path":"objects/obj_control_stage/obj_control_stage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0, 1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Control","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Deploy","depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -40,8 +39,8 @@
   ],
   "name":"rm_stage01_09d",
   "parent":{
-    "name":"stage02",
-    "path":"folders/Rooms/stage02.yy",
+    "name":"stage03",
+    "path":"folders/Rooms/stage03.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

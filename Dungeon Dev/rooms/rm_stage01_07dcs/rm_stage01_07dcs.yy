@@ -37,8 +37,8 @@
   ],
   "name":"rm_stage01_07dcs",
   "parent":{
-    "name":"stage02",
-    "path":"folders/Rooms/stage02.yy",
+    "name":"stage03",
+    "path":"folders/Rooms/stage03.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

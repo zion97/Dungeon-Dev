@@ -9,7 +9,7 @@ ind_active	= true;
 ind_func	= array_create(3);
 
 ind_func[0]	= function() { room_goto(rm_theme01); }
-ind_func[1]	= function() { room_goto(rm_stage01_01cs); }
+ind_func[1]	= function() { room_goto(rm_theme02); }
 ind_func[2]	= function() { room_goto(rm_stage01_01cs); }
 
 if (ind_button == 0)	{ sprite_index	= spr_theme_button_0; }

@@ -48,7 +48,8 @@
         "1",
         "2",
         "3",
-      ],"multiselect":true,"name":"mob_list","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":6,},
+        "4",
+      ],"multiselect":true,"name":"mob_list","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":6,},
     {"$GMObjectProperty":"","%Name":"item_list","filters":[],"listItems":[
         "0",
         "1",

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sc_cs_stage01_05",
   "parent":{
-    "name":"cs script",
-    "path":"folders/Scripts/cs script.yy",
+    "name":"stage01",
+    "path":"folders/Scripts/cs script/stage01.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
