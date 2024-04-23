@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"sc_get_theme_num",
+  "%Name":"set_theme_script",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_get_theme_num",
+  "name":"set_theme_script",
   "parent":{
     "name":"control",
     "path":"folders/Scripts/control.yy",

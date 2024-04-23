@@ -6,15 +6,11 @@ ind_active	= true;
 //text_file	= load_csv(_file);
 //ind_text	= sc_csv_to_string(text_file, global.lan, 1 + ind_button);
 
-ind_func	= array_create(3);
-
-ind_func[0]	= function() { room_goto(rm_theme01); }
-ind_func[1]	= function() { room_goto(rm_theme02); }
-ind_func[2]	= function() { room_goto(rm_stage01_01cs); }
+sc_set_theme();
 
 if (ind_button == 0)	{ sprite_index	= spr_theme_button_0; }
 
-if (ind_button > sc_get_theme_num(global.ind_clear))
+if (ind_button > sc_get_theme_num(global.ind_clear)+1)
 {
 	sprite_index	= spr_theme_button_lock;
 	ind_active		= false;

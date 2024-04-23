@@ -12,16 +12,18 @@ function sc_control_battle_ui()
 	{
 		for (var _i = 0; _i < ind_hero_num; _i++)
 		{
-			var _spr, _img, _hp, _goal, _class;
+			var _spr, _img, _hp, _hp_max, _goal, _goal_max, _class;
 			var	_go		= false;
 			with (ind_hero_arr[_i].ind_inst)
 			{
-				_spr	= sprite_index;
-				_img	= image_index;
-				_hp		= string(ind_hp) + " / " + string(ind_hp_max);
-				_goal	= string(ind_goal)	+ " / " + string(ind_goal_max);
-				_class	= ind_class;
-				_go		= true;
+				_spr		= sprite_index;
+				_img		= image_index;
+				_hp			= ind_hp;
+				_hp_max		= ind_hp_max;
+				_goal		= ind_goal;
+				_goal_max	= ind_goal_max;
+				_class		= ind_class;
+				_go			= true;
 			}
 			if (!_go)	break;
 			
@@ -37,13 +39,19 @@ function sc_control_battle_ui()
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
 			
-			_l	= string_width(_hp);
+			draw_set_color(#000000);
+			if (_hp <= 0)	{ _hp = 0;	draw_set_color(#BB0000); }
+			var _str	= string(_hp) + "/" + string(_hp_max);
+			_l	= string_width(_str);
 			draw_sprite(spr_icon_hp, 0, _ind_x + 178 + _i*200 - _l/2, _port_h-85);
-			draw_text(_ind_x + 185 + _i*200, _port_h-85, _hp);
+			draw_text(_ind_x + 185 + _i*200, _port_h-85, _str);
 			
-			_l	= string_width(_goal);
+			draw_set_color(#000000);
+			if (_goal >= _goal_max)	{ draw_set_color(#BBBB00); }
+			var _str	= string(_goal) + "/" + string(_goal_max);
+			_l	= string_width(_str);
 			draw_sprite(spr_icon_class, _class, _ind_x + 175 + _i*200 - _l/2, _port_h-55);
-			draw_text(_ind_x + 185 + _i*200, _port_h-55, _goal);
+			draw_text(_ind_x + 185 + _i*200, _port_h-55, _str);
 		}
 	}
 }

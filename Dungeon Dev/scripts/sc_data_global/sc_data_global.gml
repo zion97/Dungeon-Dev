@@ -46,7 +46,7 @@ function sc_data_global()
 	{	//룸
 		global.rm_index			= 0;
 		
-		global.rm_stage			= array_create(50);
+		global.rm_stage			= array_create(50, rm_stage01_01cs);
 		global.rm_stage[0]		= rm_stage01_01cs;
 		global.rm_stage[1]		= rm_stage01_02cs;
 		global.rm_stage[2]		= rm_stage01_03cs;
@@ -63,7 +63,9 @@ function sc_data_global()
 		global.rm_stage[13]		= rm_stage01_14;
 		global.rm_stage[14]		= rm_stage01_15;
 		global.rm_stage[15]		= rm_stage01_16;
+		global.rm_stage[16]		= rm_stage01_clear;
 		
-		global.rm_stage[16]		= rm_stage02_01;
+		global.rm_stage[30]		= rm_stage02_01;
+		global.rm_stage[31]		= rm_stage02_01;
 	}
 }

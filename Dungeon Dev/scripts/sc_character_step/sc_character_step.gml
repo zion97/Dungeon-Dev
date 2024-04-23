@@ -47,7 +47,7 @@ function sc_character_step()
 				ind_state	= 0;
 				sc_character_reset_delay();
 			}
-			else if (_dist < ind_atk_range)
+			else if (_dist <= ind_atk_range)
 			{
 				//sc_physics_stop();
 				ind_state	= 2;
