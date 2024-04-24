@@ -65,7 +65,14 @@ function sc_data_global()
 		global.rm_stage[15]		= rm_stage01_16;
 		global.rm_stage[16]		= rm_stage01_clear;
 		
-		global.rm_stage[30]		= rm_stage02_01;
-		global.rm_stage[31]		= rm_stage02_01;
+		global.rm_stage[30]		= rm_stage02_01cs;
+		global.rm_stage[31]		= rm_stage02_02;
+		global.rm_stage[32]		= rm_stage02_03;
+		global.rm_stage[33]		= rm_stage02_04;
+		global.rm_stage[34]		= rm_stage02_03;
+		global.rm_stage[35]		= rm_stage02_03;
+		global.rm_stage[36]		= rm_stage02_03;
+		global.rm_stage[37]		= rm_stage02_03;
+		global.rm_stage[38]		= rm_stage02_03;
 	}
 }

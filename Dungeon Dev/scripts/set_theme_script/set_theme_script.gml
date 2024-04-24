@@ -21,3 +21,8 @@ function sc_set_theme()
 	ind_func[1]	= function() { room_goto(rm_theme02); }
 	ind_func[2]	= function() { room_goto(rm_stage01_01cs); }
 }
+
+function sc_goto_theme(_rm_num)
+{
+	ind_func[_rm_num]();
+}
