@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"sc_cs_stage01_09",
+  "%Name":"sc_cs_stage01_10",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_cs_stage01_09",
+  "name":"sc_cs_stage01_10",
   "parent":{
     "name":"stage01",
     "path":"folders/Scripts/cs script/stage01.yy",
