@@ -10,6 +10,7 @@ if (!ind_col && ind_cost_c)
 		ind_enter	= false;
 		ind_cost	= other.dep_struct.ind_cost;
 		dep_ad_dist	= other.dep_struct.ind_ad_dist;
+		ind_dep_any	= other.dep_struct.ind_dep_any;
 		
 		ind_bx	= x;
 		ind_by	= y;
@@ -20,6 +21,7 @@ if (!ind_col && ind_cost_c)
 		var _part	= part_system_create_layer(_l, false, p_deploy_dust);
 		part_system_position(_part, x, bbox_bottom);
 	}
+
 	var _cost		= dep_struct.ind_cost;
 	with (obj_control_stage)	{ ind_cost	+= _cost; }
 	

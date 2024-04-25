@@ -17,10 +17,14 @@ else
 	ind_dep_ui	= true;
 }
 
-if (collision_point(x, y, obj_pa_deploy_character, true, true) || sc_physics_col(x, y) || 
-	collision_point(x, y, obj_dep_cant, true, true))
+if (sc_physics_col(x, y) || collision_point(x, y, obj_pa_deploy_character, true, true))	
+{ 
+	ind_col	= true; 
+}
+else
 {
-	ind_col	= true;
+	if (collision_point(x, y, obj_dep_cant, true, true))	{ ind_col	= true; }
+	if (dep_struct.ind_dep_any)								{ ind_col	= false; }
 }
 
 var _stage_cost	= 0;

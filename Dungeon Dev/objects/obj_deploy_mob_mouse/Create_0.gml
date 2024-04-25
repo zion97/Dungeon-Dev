@@ -5,5 +5,6 @@ dep_struct	= global.mob_struct[0];
 ind_col		= false;
 ind_dep_ui	= false;
 ind_cost_c	= false;
+ind_num		= -1;
 image_speed	= 0;
 image_alpha	= 0.5;

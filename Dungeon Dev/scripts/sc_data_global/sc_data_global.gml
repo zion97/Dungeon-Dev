@@ -36,6 +36,7 @@ function sc_data_global()
 		global.mob_struct[1]	= new DepStruct(0, obj_dep_orc_shield, sc_info_mob_orc_shield); 
 		global.mob_struct[2]	= new DepStruct(0, obj_dep_orc_axe, sc_info_mob_orc_axe); 
 		global.mob_struct[3]	= new DepStruct(0, obj_dep_orc_range, sc_info_mob_orc_range); 
+		global.mob_struct[4]	= new DepStruct(0, obj_dep_goblin_thief, sc_info_mob_goblin_thief); 
 	}
 	
 	{	//아이템 생성기
@@ -79,5 +80,10 @@ function sc_data_global()
 		global.rm_stage[39]		= rm_stage02_10;
 		global.rm_stage[40]		= rm_stage02_11;
 		global.rm_stage[41]		= rm_stage02_12;
+		global.rm_stage[42]		= rm_stage02_13;
+		global.rm_stage[43]		= rm_stage02_12;
+		global.rm_stage[44]		= rm_stage02_12;
+		global.rm_stage[45]		= rm_stage02_12;
+		global.rm_stage[46]		= rm_stage02_12;
 	}
 }

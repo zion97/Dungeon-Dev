@@ -30,7 +30,7 @@ function sc_control_dep_ui_mob(_port_w, _port_h, _ind_x)
 			if (_my > _port_h-205 && _my < _port_h - 25 && 
 				_mx > _ind_x + 114 + _i*200 && _mx < _ind_x + 246 + _i*200)
 			{
-				ind_dep_num	= _i;
+				ind_dep_num	= mob_list[_i];
 				_in			= 1;
 			}
 			draw_sprite_ext(spr_deploy_cap, _in, _ind_x + 180 + _i*200, _port_h-115, 

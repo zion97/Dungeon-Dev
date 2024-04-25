@@ -5,6 +5,7 @@ function sc_dep_mob_create()
 	ind_click	= false;
 	ind_enter	= false;
 	ind_dep_ui	= false;
+	ind_dep_any	= false;
 	
 	ind_col		= false;
 	

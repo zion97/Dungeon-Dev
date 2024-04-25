@@ -12,6 +12,7 @@ function sc_info_mob_goblin()
 	ind_spd			= 1;
 	ind_cost		= 5;
 	ind_ad_dist		= 120;
+	ind_dep_any		= false;
 	
 	ind_spr_stand	= spr_mob_goblin_stand;
 	ind_spr_walk	= spr_mob_goblin_walk;
@@ -34,6 +35,7 @@ function sc_info_mob_orc_shield()
 	ind_spd			= 1;
 	ind_cost		= 10;
 	ind_ad_dist		= 120;
+	ind_dep_any		= false;
 	
 	ind_spr_stand	= spr_mob_orc_shield_stand;
 	ind_spr_walk	= spr_mob_orc_shield_walk;
@@ -56,6 +58,7 @@ function sc_info_mob_orc_axe()
 	ind_spd			= 1;
 	ind_cost		= 10;
 	ind_ad_dist		= 120;
+	ind_dep_any		= false;
 	
 	ind_spr_stand	= spr_mob_orc_axe_stand;
 	ind_spr_walk	= spr_mob_orc_axe_walk;
@@ -78,6 +81,7 @@ function sc_info_mob_orc_range()
 	ind_spd			= 1;
 	ind_cost		= 10;
 	ind_ad_dist		= 120;
+	ind_dep_any		= false;
 	
 	ind_spr_stand	= spr_mob_orc_range_stand;
 	ind_spr_walk	= spr_mob_orc_range_walk;
@@ -90,4 +94,27 @@ function sc_info_mob_orc_range()
 	ind_range_spr	= spr_mob_orc_range_atk_ef;
 	ind_range_s		= s_axe01;
 	ind_range_spd	= 3;
+}
+
+function sc_info_mob_goblin_thief()
+{
+	ind_atk_sc		= sc_atk_melee_5f_4;
+	ind_death_sc	= sc_death_4f;
+	ind_atk_range	= 16;
+	ind_atk_dmg		= 10;
+	ind_hp_max		= 100;
+	ind_hp			= ind_hp_max
+	ind_ally		= 2;
+	ind_spd			= 1;
+	ind_cost		= 10;
+	ind_ad_dist		= 120;
+	ind_dep_any		= true;
+	
+	ind_spr_stand	= spr_mob_goblin_thief_stand;
+	ind_spr_walk	= spr_mob_goblin_thief_walk;
+	ind_spr_atk		= spr_mob_goblin_thief_atk;
+	ind_spr_death	= spr_mob_goblin_thief_death;
+	
+	ind_s_atk		= s_sword01;
+	ind_s_death		= s_dump;
 }

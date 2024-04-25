@@ -21,11 +21,22 @@ if (ind_click)
 	
 }
 
+if (sc_physics_col(x, y) || collision_point(x, y, obj_pa_deploy_character, true, true))	
+{ 
+	ind_col	= true; 
+}
+else
+{
+	if (collision_point(x, y, obj_dep_cant, true, true))	{ ind_col	= true; }
+	if (ind_dep_any)										{ ind_col	= false; }
+}
+/*
 if (collision_point(x, y, obj_pa_deploy_character, true, true) || sc_physics_col(x, y) || 
 	collision_point(x, y, obj_dep_cant, true, true))
 {
 	ind_col	= true;
 }
+*/
 if (mouse_x > x-8 && mouse_x < x+8 && mouse_y > y-8 && mouse_y < y+8)
 {
 	ind_enter	= true;
