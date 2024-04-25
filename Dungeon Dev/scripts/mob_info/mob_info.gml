@@ -70,9 +70,9 @@ function sc_info_mob_orc_range()
 {
 	ind_atk_sc		= sc_atk_range_5f_4;
 	ind_death_sc	= sc_death_4f;
-	ind_atk_range	= 100;
+	ind_atk_range	= 120;
 	ind_atk_dmg		= 15;
-	ind_hp_max		= 50;
+	ind_hp_max		= 75;
 	ind_hp			= ind_hp_max
 	ind_ally		= 2;
 	ind_spd			= 1;

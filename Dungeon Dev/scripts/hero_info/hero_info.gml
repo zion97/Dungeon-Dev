@@ -125,7 +125,7 @@ function sc_info_hero_bow()
 {
 	ind_atk_sc		= sc_atk_range_5f_3;
 	ind_death_sc	= sc_death_4f;
-	ind_atk_range	= 100;
+	ind_atk_range	= 120;
 	ind_atk_dmg		= 25;
 	ind_hp_max		= 30;
 	ind_hp			= ind_hp_max
