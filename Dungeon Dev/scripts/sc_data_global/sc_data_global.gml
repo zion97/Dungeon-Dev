@@ -64,7 +64,7 @@ function sc_data_global()
 		global.rm_stage[14]		= rm_stage01_15;
 		global.rm_stage[15]		= rm_stage01_16;
 		global.rm_stage[16]		= rm_stage01_17;
-		global.rm_stage[17]		= rm_stage01_17;
+		global.rm_stage[17]		= rm_stage01_18;
 		global.rm_stage[18]		= rm_stage01_clear;
 		
 		global.rm_stage[30]		= rm_stage02_01cs;
