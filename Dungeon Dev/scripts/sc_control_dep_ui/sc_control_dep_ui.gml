@@ -11,8 +11,33 @@ function sc_control_dep_ui()
 	
 	draw_sprite_ext(spr_deploy_back, 0, _port_w/2, _port_h+100, 3, 3, 0, c_white, 1);
 	
+	ind_button_num	= 0;
+	var _mx		= device_mouse_x_to_gui(0);
+	var _my		= device_mouse_y_to_gui(0);
+	
+	for (var _i = 0; _i < 3; _i++)
+	{
+		if (_my > _port_h-206 + _i*60 && _my < _port_h - 149  + _i*60 && 
+			_mx >_port_w/2 + 747 && _mx < _port_w/2 + 747 + 171)
+		{
+			ind_button_num	= _i+1;
+		}
+	}
+	
+	draw_sprite_ext(spr_deploy_button_esc, sc_is_same(1, ind_button_num), _port_w/2 + 747, _port_h-206, 3, 3, 0, c_white, 1);
+	draw_sprite_ext(spr_deploy_button_enter, sc_is_same(2, ind_button_num), _port_w/2 + 747, _port_h-145, 3, 3, 0, c_white, 1);
+	draw_sprite_ext(spr_deploy_button_space, sc_is_same(3, ind_button_num), _port_w/2 + 747, _port_h-84, 3, 3, 0, c_white, 1);
+	
 	if		(ind_dep_sel == 0)	{ sc_control_dep_ui_mob(_port_w, _port_h, _ind_x); }
 	else if	(ind_dep_sel == 1)	{  }
+	
+	var _coin	= string(ind_cost) + "/" + string(stage_cost);
+	draw_set_font(global.font_text[global.lan]);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_middle);
+	draw_set_color(#25131A);
+	//draw_sprite_ext(spr_icon_coin, 0, _port_w/2 + 540, _port_h-182, 2, 2, 0, c_white, 1);
+	draw_text(_port_w/2 + 568, _port_h-180, _coin);
 }
 
 
@@ -56,11 +81,11 @@ function sc_control_dep_ui_mob(_port_w, _port_h, _ind_x)
 			draw_text(_ind_x + 180 + _i*200 + _l/2, _port_h-55, global.mob_struct[mob_list[_i]].ind_cost);
 		}
 	}
-	var _coin	= string(ind_cost) + "/" + string(stage_cost);
-	draw_set_font(global.font_text[global.lan]);
-	draw_set_halign(fa_left);
-	draw_set_valign(fa_middle);
-	draw_sprite_ext(spr_icon_coin, 0, _port_w/2 + 750, _port_h-182, 2, 2, 0, c_white, 1);
-	draw_text(_port_w/2 + 770, _port_h-182, _coin);
 }
 
+
+function sc_is_same(_i1, _i2)
+{
+	if (_i1 == _i2)	return 1;
+	return 0;
+}

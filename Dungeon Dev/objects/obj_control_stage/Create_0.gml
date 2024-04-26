@@ -8,6 +8,7 @@ sc_control_set_game_spd();
 
 ind_dep_num		= -1;
 ind_dep_sel		= 0;
+ind_button_num	= 0;
 ind_alp			= 1
 ind_state		= 0;
 ind_clear		= false;

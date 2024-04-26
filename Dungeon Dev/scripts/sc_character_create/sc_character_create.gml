@@ -16,6 +16,7 @@ function sc_character_create()
 	ind_class		= -1;
 	ind_goal		= 0;
 	ind_goal_max	= 0;
+	ind_point		= false;
 	sc_character_reset_delay();
 	
 	ind_atk_sc		= sc_dump;
