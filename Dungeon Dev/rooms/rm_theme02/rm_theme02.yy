@@ -25,6 +25,7 @@
     {"name":"inst_8CEAEA6_1","path":"rooms/rm_theme02/rm_theme02.yy",},
     {"name":"inst_29553AFC_1","path":"rooms/rm_theme02/rm_theme02.yy",},
     {"name":"inst_4EB552DF","path":"rooms/rm_theme02/rm_theme02.yy",},
+    {"name":"inst_25DB9F1B","path":"rooms/rm_theme02/rm_theme02.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -105,6 +106,7 @@
         {"$GMRInstance":"","%Name":"inst_4EB552DF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4EB552DF","objectId":{"name":"obj_theme_button","path":"objects/obj_theme_button/obj_theme_button.yy",},"properties":[
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_theme_button","path":"objects/obj_theme_button/obj_theme_button.yy",},"propertyId":{"name":"ind_button","path":"objects/obj_theme_button/obj_theme_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":264.0,"y":80.0,},
+        {"$GMRInstance":"","%Name":"inst_25DB9F1B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25DB9F1B","objectId":{"name":"obj_main_button_back","path":"objects/obj_main_button_back/obj_main_button_back.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":136.0,"y":36.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_2","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_60134C70_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_60134C70_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_theme_button_2","path":"sprites/spr_theme_button_2/spr_theme_button_2.yy",},"x":204.0,"y":80.0,},

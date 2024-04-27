@@ -10,7 +10,7 @@ function sc_data_global()
 	
 	global.lan			= 0;
 	global.vol			= 3;
-	global.vol_bgm		= 3;
+	global.vol_bgm		= 0;
 	
 	global.game_spd		= 0;
 	global.is_fade		= true;
