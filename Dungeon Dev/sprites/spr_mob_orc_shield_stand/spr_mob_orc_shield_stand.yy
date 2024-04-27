@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"orc shield",
-    "path":"folders/Sprites/mob/orc shield.yy",
+    "path":"folders/Sprites/character/mob/orc shield.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

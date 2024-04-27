@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"s_swing01",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.283356,
+  "name":"s_swing01",
+  "parent":{
+    "name":"atk",
+    "path":"folders/Sounds/atk.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"s_swing01.wav",
+  "type":0,
+  "volume":1.0,
+}

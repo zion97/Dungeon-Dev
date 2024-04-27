@@ -30,7 +30,7 @@
   "origin":4,
   "parent":{
     "name":"sword_red",
-    "path":"folders/Sprites/hero/sword_red.yy",
+    "path":"folders/Sprites/character/hero/sword_red.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

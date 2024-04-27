@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"heal",
-    "path":"folders/Sprites/hero/heal.yy",
+    "path":"folders/Sprites/character/hero/heal.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

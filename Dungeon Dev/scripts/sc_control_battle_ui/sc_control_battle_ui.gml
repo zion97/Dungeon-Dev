@@ -65,7 +65,7 @@ function sc_control_battle_ui()
 				3, 3, 0, c_white, 1);
 			//draw_sprite_part_ext(_spr, _img, 18, 21, 108, 102, 
 			//	_ind_x + 180 + _i*200 - 54, _port_h-115-40 - 51,  6, 6, c_white, 1);
-			draw_sprite_ext(_spr, _img, _ind_x + 180 + _i*_dis, _port_h-115-37, 
+			draw_sprite_ext(_spr, _img, _ind_x + 180 + _i*_dis, _port_h-115-39, 
 				6, 6, 0, c_white, 1);
 			
 			

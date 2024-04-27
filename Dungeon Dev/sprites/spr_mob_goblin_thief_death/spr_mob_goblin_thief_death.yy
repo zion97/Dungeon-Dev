@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"goblin thief",
-    "path":"folders/Sprites/mob/goblin thief.yy",
+    "path":"folders/Sprites/character/mob/goblin thief.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

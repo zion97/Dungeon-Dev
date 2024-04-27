@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"sword_sick",
-    "path":"folders/Sprites/hero/sword_sick.yy",
+    "path":"folders/Sprites/character/hero/sword_sick.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -8,13 +8,12 @@ function sc_control_dep_ui()
 	var _port_h	= uc_get_port_height();
 	var _ind_x	= _port_w/2 - 960;
 	
-	
 	draw_sprite_ext(spr_deploy_back, 0, _port_w/2, _port_h+100, 3, 3, 0, c_white, 1);
 	
-	ind_button_num	= 0;
 	var _mx		= device_mouse_x_to_gui(0);
 	var _my		= device_mouse_y_to_gui(0);
 	
+	ind_button_num	= 0;
 	for (var _i = 0; _i < 3; _i++)
 	{
 		if (_my > _port_h-216 + _i*70 && _my < _port_h - 159  + _i*70 && 

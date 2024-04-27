@@ -27,6 +27,10 @@ else if (!ind_clear)
 	{
 		instance_destroy();
 	}
+	with (obj_pa_item)
+	{
+		instance_destroy();
+	}
 	var _layer	= layer_get_id("Deploy");
 	layer_set_visible(_layer, true);
 	

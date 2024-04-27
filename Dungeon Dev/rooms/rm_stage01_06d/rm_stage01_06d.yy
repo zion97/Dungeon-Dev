@@ -56,8 +56,8 @@
   ],
   "name":"rm_stage01_06d",
   "parent":{
-    "name":"stage03",
-    "path":"folders/Rooms/stage03.yy",
+    "name":"stage04",
+    "path":"folders/Rooms/stage04.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"bow_red",
-    "path":"folders/Sprites/hero/bow_red.yy",
+    "path":"folders/Sprites/character/hero/bow_red.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

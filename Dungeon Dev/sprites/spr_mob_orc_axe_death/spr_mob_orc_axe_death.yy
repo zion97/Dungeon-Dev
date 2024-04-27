@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"orc axe",
-    "path":"folders/Sprites/mob/orc axe.yy",
+    "path":"folders/Sprites/character/mob/orc axe.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

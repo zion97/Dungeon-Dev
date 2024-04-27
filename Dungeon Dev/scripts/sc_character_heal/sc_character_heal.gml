@@ -6,6 +6,8 @@ function sc_character_heal()
 	var _goal	= 0;
 	var _ally	= ind_ally;
 	
+	SE_Play(ind_s_atk);
+	
 	with (obj_pa_character)
 	{
 		if (!ind_death && ind_hp < ind_hp_max && _ally == ind_ally)

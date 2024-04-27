@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"sword",
-    "path":"folders/Sprites/hero/sword.yy",
+    "path":"folders/Sprites/character/hero/sword.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

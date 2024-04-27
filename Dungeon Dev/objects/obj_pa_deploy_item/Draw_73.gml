@@ -1,5 +1,6 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
+/*
 draw_set_alpha(1);
 if (ind_dep_ui) return;
 if (ind_click)
@@ -35,3 +36,4 @@ if (ind_enter || ind_click)
 draw_set_alpha(1);
 draw_self();
 ind_enter	= false;
+*/

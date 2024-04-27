@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"orc range",
-    "path":"folders/Sprites/mob/orc range.yy",
+    "path":"folders/Sprites/character/mob/orc range.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

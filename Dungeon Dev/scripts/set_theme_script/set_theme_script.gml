@@ -10,6 +10,10 @@ function sc_get_theme_num(_stage)
 	{
 		return 1;
 	}
+	else if	(_stage < 90)
+	{
+		return 2;
+	}
 	return 0;
 }
 
@@ -19,7 +23,7 @@ function sc_set_theme()
 
 	ind_func[0]	= function() { room_goto(rm_theme01); }
 	ind_func[1]	= function() { room_goto(rm_theme02); }
-	ind_func[2]	= function() { room_goto(rm_stage01_01cs); }
+	ind_func[2]	= function() { room_goto(rm_theme03); }
 }
 
 function sc_goto_theme(_rm_num)

@@ -1,5 +1,6 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
+/*
 if (ind_click)
 {
 	var _port_h	= uc_get_port_height();
@@ -29,3 +30,4 @@ if (mouse_x > x-8 && mouse_x < x+8 && mouse_y > y-8 && mouse_y < y+8)
 {
 	ind_enter	= true;
 }
+*/

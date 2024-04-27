@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"shield_sick",
-    "path":"folders/Sprites/hero/shield_sick.yy",
+    "path":"folders/Sprites/character/hero/shield_sick.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

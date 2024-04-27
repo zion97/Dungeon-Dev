@@ -16,6 +16,13 @@ with (obj_pa_mob)
 		_clear	= false;
 	}
 }
+with (obj_pa_animal)
+{
+	if (ind_hp > 0)
+	{
+		_clear	= false;
+	}
+}
 
 if (_clear)
 {

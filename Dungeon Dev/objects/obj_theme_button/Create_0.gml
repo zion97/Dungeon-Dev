@@ -10,6 +10,7 @@ sc_set_theme();
 
 if (ind_button == 0)	{ sprite_index	= spr_theme_button_1; }
 if (ind_button == 1)	{ sprite_index	= spr_theme_button_2; }
+if (ind_button == 2)	{ sprite_index	= spr_theme_button_3; }
 
 if (ind_button > sc_get_theme_num(global.ind_clear))
 {

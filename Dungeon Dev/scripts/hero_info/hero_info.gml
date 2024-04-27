@@ -186,6 +186,6 @@ function sc_info_hero_heal()
 	ind_spr_atk		= spr_h_heal_atk;
 	ind_spr_death	= spr_h_heal_death;
 	
-	ind_s_atk		= s_sword02;
+	ind_s_atk		= s_heal01;
 	ind_s_death		= s_dump;
 }
