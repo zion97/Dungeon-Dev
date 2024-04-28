@@ -86,6 +86,7 @@ function sc_control_battle_ui()
 			}
 			
 			draw_set_color(c_white);
+			if (_hp < 0)	_hp = 0;
 			_str	= string(_hp) + "/" + string(_hp_max);
 			draw_text(_ind_x + 180 + _i*_dis, _port_h-112 + 30, _str);
 			

@@ -8,6 +8,7 @@ function sc_physics_col_char(_inst)
 		
 		var _dist	= 6;
 		var _ind_x	= x - other.x;
+		var _ind_y	= y - other.y;
 		
 		var _ind_p	= 48;
 		//if (abs(speed) < 0.2)	_ind_p = _ind_p*2;
@@ -16,28 +17,23 @@ function sc_physics_col_char(_inst)
 			if (_ind_x > 0)
 			{
 				other.ph_col_x	-= power(_dist - _ind_x, 2)/_ind_p;
-				//sqrt(_dist - _ind_x)*(_dist - _ind_x)/_ind_p;
 			}
-			else
+			else if (_ind_x < 0)
 			{
 				other.ph_col_x	+= power(_dist + _ind_x, 2)/_ind_p;
-				//sqrt(_dist + _ind_x)*(_dist - _ind_x)/_ind_p;
 			}
 			_sca			= false;
 		}
 		
-		var _ind_y	= y - other.y;
 		if (abs(_ind_y) < _dist)
 		{
 			if (_ind_y > 0)
 			{
 				other.ph_col_y	-= power(_dist - _ind_y, 2)/_ind_p;
-				//sqrt(_dist - _ind_y)*(_dist - _ind_y)/_ind_p;
 			}
-			else
+			else if (_ind_y < 0)
 			{
 				other.ph_col_y	+= power(_dist + _ind_y, 2)/_ind_p;
-				//sqrt(_dist + _ind_y)*(_dist - _ind_y)/_ind_p;
 			}
 			_sca			= false;
 		}

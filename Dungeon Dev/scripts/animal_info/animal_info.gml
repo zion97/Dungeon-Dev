@@ -45,3 +45,49 @@ function sc_info_a_wolf()
 	ind_s_atk		= s_wolf;
 	ind_s_death		= s_dump;
 }
+
+function sc_info_a_boar()
+{
+	ind_atk_sc		= sc_atk_melee_5f_5;
+	ind_death_sc	= sc_death_4f;
+	ind_atk_range	= 16;
+	ind_atk_dmg		= 5;
+	ind_hp_max		= 75;
+	ind_hp			= ind_hp_max
+	ind_ally		= 3;
+	ind_spd			= 1;
+	ind_cost		= 5;
+	ind_ad_dist		= 120;
+	ind_dep_any		= false;
+	
+	ind_spr_stand	= spr_a_boar_stand;
+	ind_spr_walk	= spr_a_boar_walk;
+	ind_spr_atk		= spr_a_boar_atk;
+	ind_spr_death	= spr_a_boar_death;
+	
+	ind_s_atk		= s_wolf;
+	ind_s_death		= s_dump;
+}
+
+function sc_info_a_bear()
+{
+	ind_atk_sc		= sc_atk_melee_5f_5;
+	ind_death_sc	= sc_death_4f;
+	ind_atk_range	= 16;
+	ind_atk_dmg		= 5;
+	ind_hp_max		= 75;
+	ind_hp			= ind_hp_max
+	ind_ally		= 3;
+	ind_spd			= 1;
+	ind_cost		= 5;
+	ind_ad_dist		= 120;
+	ind_dep_any		= false;
+	
+	ind_spr_stand	= spr_a_bear_stand;
+	ind_spr_walk	= spr_a_bear_walk;
+	ind_spr_atk		= spr_a_bear_atk;
+	ind_spr_death	= spr_a_bear_death;
+	
+	ind_s_atk		= s_bear;
+	ind_s_death		= s_dump;
+}

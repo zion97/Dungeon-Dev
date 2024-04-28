@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_data_global()
 {
-	global.steam		= true;
+	global.steam		= false;
 	global.save_file	= "dd_save";
 	
 	global.roomBuffer	= -1;
@@ -10,7 +10,7 @@ function sc_data_global()
 	
 	global.lan			= 0;
 	global.vol			= 3;
-	global.vol_bgm		= 0;
+	global.vol_bgm		= 3;
 	
 	global.game_spd		= 0;
 	global.is_fade		= true;
@@ -85,16 +85,21 @@ function sc_data_global()
 		global.rm_stage[44]		= rm_stage02_15;
 		global.rm_stage[45]		= rm_stage02_16;
 		global.rm_stage[46]		= rm_stage02_clear;
-		
+
 		global.rm_stage[60]		= rm_stage03_01cs;
 		global.rm_stage[61]		= rm_stage03_02;
-		global.rm_stage[62]		= rm_stage03_02;
-		global.rm_stage[63]		= rm_stage03_02;
-		global.rm_stage[64]		= rm_stage03_02;
-		global.rm_stage[65]		= rm_stage03_02;
-		global.rm_stage[66]		= rm_stage03_02;
-		global.rm_stage[67]		= rm_stage03_02;
-		global.rm_stage[68]		= rm_stage03_02;
-		global.rm_stage[69]		= rm_stage03_02;
+		global.rm_stage[62]		= rm_stage03_03;
+		global.rm_stage[63]		= rm_stage03_04;
+		global.rm_stage[64]		= rm_stage03_05;
+		global.rm_stage[65]		= rm_stage03_06cs;
+		global.rm_stage[66]		= rm_stage03_07;
+		global.rm_stage[67]		= rm_stage03_08;
+		global.rm_stage[68]		= rm_stage03_09;
+		global.rm_stage[69]		= rm_stage03_10;
+		global.rm_stage[70]		= rm_stage03_11cs;
+		global.rm_stage[71]		= rm_stage03_12;
+		global.rm_stage[72]		= rm_stage03_13;
+		global.rm_stage[73]		= rm_stage03_14;
+		global.rm_stage[74]		= rm_endcs;
 	}
 }
