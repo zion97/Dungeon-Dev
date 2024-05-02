@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"sc_cs_stage02_05d",
+  "%Name":"sc_cs_stage04_01",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_cs_stage02_05d",
+  "name":"sc_cs_stage04_01",
   "parent":{
-    "name":"cs script",
-    "path":"folders/Scripts/cs script.yy",
+    "name":"stage04",
+    "path":"folders/Scripts/cs script/stage04.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
