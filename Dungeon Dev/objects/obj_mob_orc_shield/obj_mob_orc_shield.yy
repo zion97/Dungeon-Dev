@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_mob_orc_shield",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_create","path":"objects/obj_pa_character/obj_pa_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_info_mob_orc_shield",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_create","path":"objects/obj_pa_character/obj_pa_character.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_info_mob_orc_shield",},
   ],
   "parent":{
     "name":"mob",

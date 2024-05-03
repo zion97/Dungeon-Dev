@@ -9,7 +9,7 @@ function sc_cs_stage04_01()
 		break;
 		
 	case 1:
-		sc_cs_set_dia(1,,spr_pic_maw_angry);
+		sc_cs_set_dia(1,,spr_pic_maw_ember);
 		break;
 		
 	case 2:

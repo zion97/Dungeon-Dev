@@ -100,6 +100,17 @@ function sc_data_global()
 		global.rm_stage[71]		= rm_stage03_12;
 		global.rm_stage[72]		= rm_stage03_13;
 		global.rm_stage[73]		= rm_stage03_14;
-		global.rm_stage[74]		= rm_endcs;
+		global.rm_stage[74]		= rm_stage03_clear;
+		
+		global.rm_stage[90]		= rm_stage04_01cs;
+		global.rm_stage[91]		= rm_stage04_02;
+		global.rm_stage[92]		= rm_stage04_03;
+		global.rm_stage[93]		= rm_stage04_04cs;
+		global.rm_stage[94]		= rm_stage04_05;
+		global.rm_stage[95]		= rm_stage04_06;
+		global.rm_stage[96]		= rm_stage04_07;
+		global.rm_stage[97]		= rm_theme04;
+		global.rm_stage[98]		= rm_stage04_02;
+		global.rm_stage[99]		= rm_stage04_02;
 	}
 }

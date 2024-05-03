@@ -7,7 +7,7 @@
   "managed":true,
   "name":"obj_dep_item_trap",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_item","path":"objects/obj_pa_deploy_item/obj_pa_deploy_item.yy",},"propertyId":{"name":"dep_inst","path":"objects/obj_pa_deploy_item/obj_pa_deploy_item.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_item_trap",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_item","path":"objects/obj_pa_deploy_item/obj_pa_deploy_item.yy",},"propertyId":{"name":"dep_inst","path":"objects/obj_pa_deploy_item/obj_pa_deploy_item.yy",},"resource":{"name":"obj_item_trap","path":"objects/obj_item_trap/obj_item_trap.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_item_trap",},
   ],
   "parent":{
     "name":"dep item",

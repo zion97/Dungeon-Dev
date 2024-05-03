@@ -15,8 +15,8 @@ if (ind_click)
 		
 		SE_Play(s_deploy);
 			
-		var _l		= layer_get_id("Instances");
-		var _part	= part_system_create_layer(_l, false, p_deploy_dust);
+		//var _l		= layer_get_id("Instances");
+		var _part	= part_system_create_layer("Instances", false, p_deploy_dust);
 		part_system_position(_part, x, bbox_bottom);
 	}
 	else
@@ -28,8 +28,8 @@ if (ind_click)
 			
 			SE_Play(s_deploy);
 			
-			var _l		= layer_get_id("Instances");
-			var _part	= part_system_create_layer(_l, false, p_deploy_dust);
+			//var _l		= layer_get_id("Instances");
+			var _part	= part_system_create_layer("Instances", false, p_deploy_dust);
 			part_system_position(_part, x, bbox_bottom);
 		}
 	}

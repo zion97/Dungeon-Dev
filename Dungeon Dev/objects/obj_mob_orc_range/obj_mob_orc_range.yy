@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_mob_orc_range",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_create","path":"objects/obj_pa_character/obj_pa_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_info_mob_orc_range",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_create","path":"objects/obj_pa_character/obj_pa_character.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_info_mob_orc_range",},
   ],
   "parent":{
     "name":"mob",

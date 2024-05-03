@@ -37,8 +37,8 @@
   ],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"sc_create","filters":[],"listItems":[],"multiselect":false,"name":"sc_create","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sc_dump","varType":5,},
-    {"$GMObjectProperty":"","%Name":"sc_step","filters":[],"listItems":[],"multiselect":false,"name":"sc_step","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sc_character_step","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sc_create","filters":[],"listItems":[],"multiselect":false,"name":"sc_create","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sc_dump","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sc_step","filters":[],"listItems":[],"multiselect":false,"name":"sc_step","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sc_character_step","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

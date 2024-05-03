@@ -12,8 +12,8 @@
   "managed":true,
   "name":"obj_pa_deploy_mob",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_dep_mob_create",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_ad_dist","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"120",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resource":{"name":"sc_dep_mob_create","path":"scripts/sc_dep_mob_create/sc_dep_mob_create.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_dep_mob_create",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_ad_dist","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"120",},
   ],
   "parent":{
     "name":"parent obj",

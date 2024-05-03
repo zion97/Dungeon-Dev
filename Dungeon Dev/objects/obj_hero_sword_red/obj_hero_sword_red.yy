@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_hero_sword_red",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_create","path":"objects/obj_pa_character/obj_pa_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_info_hero_sword_red",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"sc_create","path":"objects/obj_pa_character/obj_pa_character.yy",},"resource":{"name":"sc_dump","path":"scripts/sc_dump/sc_dump.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_info_hero_sword_red",},
   ],
   "parent":{
     "name":"hero",

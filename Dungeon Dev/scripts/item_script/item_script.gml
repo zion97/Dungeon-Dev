@@ -19,6 +19,8 @@ function sc_info_item_heal()
 			{
 				ind_hp = ind_hp_max;
 			}
+			var _part	= part_system_create(p_ef_heal);
+			part_system_position(_part, x, y);
 		}
 	}
 }

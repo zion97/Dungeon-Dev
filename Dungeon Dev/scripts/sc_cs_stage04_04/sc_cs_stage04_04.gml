@@ -1,6 +1,6 @@
 // v2.3.0에 대한 스크립트 어셋 변경됨 자세한 정보는
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
-function sc_cs_stage02_07d()
+function sc_cs_stage04_04()
 {
 	switch(ind_process)
 	{
@@ -57,7 +57,7 @@ function sc_cs_stage02_07d()
 		break;
 		
 	case 16:
-		sc_cs_set_dia(17,, spr_pic_maw);
+		sc_cs_set_dia(17,, spr_pic_maw_ember);
 		break;
 		
 	case 17:
@@ -65,14 +65,26 @@ function sc_cs_stage02_07d()
 		break;
 		
 	case 18:
-		sc_cs_set_dia(19,, spr_pic_maw);
+		sc_cs_set_dia(19,, spr_pic_maw_laugh);
 		break;
 		
 	case 19:
-		sc_cs_set_clean(60);
+		sc_cs_set_dia(20,, spr_pic_maw);
 		break;
 		
 	case 20:
+		sc_cs_set_dia(21,, spr_pic_maw);
+		break;
+		
+	case 21:
+		sc_cs_set_dia(22,, spr_pic_maw);
+		break;
+		
+	case 22:
+		sc_cs_set_clean(60);
+		break;
+		
+	case 23:
 		sc_cs_set_clean(,,true);
 		break;
 	}

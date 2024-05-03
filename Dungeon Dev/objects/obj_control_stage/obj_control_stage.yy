@@ -45,7 +45,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"mob_list","filters":[],"listItems":[
+    {"$GMObjectProperty":"v1","%Name":"mob_list","filters":[],"listItems":[
         "0",
         "1",
         "2",
@@ -54,14 +54,14 @@
         "5",
         "6",
       ],"multiselect":true,"name":"mob_list","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":6,},
-    {"$GMObjectProperty":"","%Name":"item_list","filters":[],"listItems":[
+    {"$GMObjectProperty":"v1","%Name":"item_list","filters":[],"listItems":[
         "0",
         "1",
         "2",
         "3",
       ],"multiselect":true,"name":"item_list","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":6,},
-    {"$GMObjectProperty":"","%Name":"stage_cost","filters":[],"listItems":[],"multiselect":false,"name":"stage_cost","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
-    {"$GMObjectProperty":"","%Name":"music_mr","filters":[],"listItems":[],"multiselect":false,"name":"music_mr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"mr_default01","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"stage_cost","filters":[],"listItems":[],"multiselect":false,"name":"stage_cost","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"music_mr","filters":[],"listItems":[],"multiselect":false,"name":"music_mr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"mr_default01","path":"sounds/mr_default01/mr_default01.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"mr_default01","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_dep_goblin_thief",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_inst","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_mob_goblin_thief",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_pa_deploy_character","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"propertyId":{"name":"dep_inst","path":"objects/obj_pa_deploy_character/obj_pa_deploy_character.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_mob_goblin_thief",},
   ],
   "parent":{
     "name":"mob deploy",
