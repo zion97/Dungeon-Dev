@@ -33,7 +33,7 @@ function sc_cs_stage01_06()
 		break;
 		
 	case 7:
-		sc_cs_set_dia(11, 15, spr_pic_maw_laugh);
+		sc_cs_set_dia(11, 16, spr_pic_maw_laugh);
 		break;
 		
 	case 10:
