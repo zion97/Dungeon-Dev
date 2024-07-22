@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_cs_create_sb",
   "isCompatibility":false,
   "isDnD":false,

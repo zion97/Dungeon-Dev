@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_pathfind_create",
   "isCompatibility":false,
   "isDnD":false,

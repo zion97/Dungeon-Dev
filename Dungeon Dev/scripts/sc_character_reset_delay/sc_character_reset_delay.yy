@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_character_reset_delay",
   "isCompatibility":false,
   "isDnD":false,

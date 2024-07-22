@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_create_main_camera",
   "isCompatibility":false,
   "isDnD":false,

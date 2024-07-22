@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_pathfind_draw_test",
   "isCompatibility":false,
   "isDnD":false,

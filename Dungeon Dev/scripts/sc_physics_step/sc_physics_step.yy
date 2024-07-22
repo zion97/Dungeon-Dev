@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_physics_step",
   "isCompatibility":false,
   "isDnD":false,

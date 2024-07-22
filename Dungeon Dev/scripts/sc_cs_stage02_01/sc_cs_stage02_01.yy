@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_cs_stage02_01",
   "isCompatibility":false,
   "isDnD":false,

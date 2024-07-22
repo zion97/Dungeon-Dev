@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"MobDepStruct",
   "isCompatibility":false,
   "isDnD":false,

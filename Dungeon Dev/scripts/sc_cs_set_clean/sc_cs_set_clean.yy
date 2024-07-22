@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_cs_set_clean",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_control_battle_ui",
   "isCompatibility":false,
   "isDnD":false,

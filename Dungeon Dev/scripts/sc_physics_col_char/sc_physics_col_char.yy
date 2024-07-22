@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_physics_col_char",
   "isCompatibility":false,
   "isDnD":false,

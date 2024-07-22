@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_control_set_game_spd",
   "isCompatibility":false,
   "isDnD":false,

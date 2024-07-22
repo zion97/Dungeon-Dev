@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_cs_create_talk",
   "isCompatibility":false,
   "isDnD":false,

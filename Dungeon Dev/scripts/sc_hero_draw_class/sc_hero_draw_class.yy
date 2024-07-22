@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_hero_draw_class",
   "isCompatibility":false,
   "isDnD":false,

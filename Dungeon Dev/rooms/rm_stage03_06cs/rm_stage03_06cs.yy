@@ -1,5 +1,5 @@
 {
-  "$GMRoom":"",
+  "$GMRoom":"v1",
   "%Name":"rm_stage03_06cs",
   "creationCodeFile":"",
   "inheritCode":false,
@@ -11,7 +11,7 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Control","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"","%Name":"inst_3257894C_2_1_2_2_1_1_1_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3257894C_2_1_2_2_1_1_1_2_1","objectId":{"name":"obj_control_cs","path":"objects/obj_control_cs/obj_control_cs.yy",},"properties":[
+        {"$GMRInstance":"v1","%Name":"inst_3257894C_2_1_2_2_1_1_1_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3257894C_2_1_2_2_1_1_1_2_1","objectId":{"name":"obj_control_cs","path":"objects/obj_control_cs/obj_control_cs.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_control_cs","path":"objects/obj_control_cs/obj_control_cs.yy",},"propertyId":{"name":"cs_sc","path":"objects/obj_control_cs/obj_control_cs.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_cs_stage03_06",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_control_cs","path":"objects/obj_control_cs/obj_control_cs.yy",},"propertyId":{"name":"file_name","path":"objects/obj_control_cs/obj_control_cs.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"stage03_01.csv",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_control_cs","path":"objects/obj_control_cs/obj_control_cs.yy",},"propertyId":{"name":"next_room","path":"objects/obj_control_cs/obj_control_cs.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_stage03_06",},

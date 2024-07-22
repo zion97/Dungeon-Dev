@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_control_dep_mob",
   "isCompatibility":false,
   "isDnD":false,

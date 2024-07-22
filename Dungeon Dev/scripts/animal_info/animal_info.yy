@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"animal_info",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"vsls_use_script",
   "isCompatibility":false,
   "isDnD":false,

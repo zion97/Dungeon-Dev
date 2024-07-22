@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_csv_to_string",
   "isCompatibility":false,
   "isDnD":false,
