@@ -708,6 +708,7 @@
     {"id":{"name":"spr_lan_button","path":"sprites/spr_lan_button/spr_lan_button.yy",},},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
     {"id":{"name":"spr_main_button_0","path":"sprites/spr_main_button_0/spr_main_button_0.yy",},},
+    {"id":{"name":"spr_main_button_1","path":"sprites/spr_main_button_1/spr_main_button_1.yy",},},
     {"id":{"name":"spr_main_button_2","path":"sprites/spr_main_button_2/spr_main_button_2.yy",},},
     {"id":{"name":"spr_main_button_back","path":"sprites/spr_main_button_back/spr_main_button_back.yy",},},
     {"id":{"name":"spr_main_button","path":"sprites/spr_main_button/spr_main_button.yy",},},

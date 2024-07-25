@@ -12,4 +12,5 @@ ind_func[1]	= function() { room_goto(rm_option); }
 ind_func[2]	= function() { game_end(); }
 
 if		(ind_button == 0)	{ sprite_index	= spr_main_button_0; }
+else if (ind_button == 1)	{ sprite_index	= spr_main_button_1; }
 else if (ind_button == 2)	{ sprite_index	= spr_main_button_2; }
