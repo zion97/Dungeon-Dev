@@ -734,6 +734,7 @@
     {"id":{"name":"spr_mob_orc_shield_stand","path":"sprites/spr_mob_orc_shield_stand/spr_mob_orc_shield_stand.yy",},},
     {"id":{"name":"spr_mob_orc_shield_walk","path":"sprites/spr_mob_orc_shield_walk/spr_mob_orc_shield_walk.yy",},},
     {"id":{"name":"spr_option_back1","path":"sprites/spr_option_back1/spr_option_back1.yy",},},
+    {"id":{"name":"spr_option_text_lan","path":"sprites/spr_option_text_lan/spr_option_text_lan.yy",},},
     {"id":{"name":"spr_pic_maw_angry","path":"sprites/spr_pic_maw_angry/spr_pic_maw_angry.yy",},},
     {"id":{"name":"spr_pic_maw_ember","path":"sprites/spr_pic_maw_ember/spr_pic_maw_ember.yy",},},
     {"id":{"name":"spr_pic_maw_laugh","path":"sprites/spr_pic_maw_laugh/spr_pic_maw_laugh.yy",},},

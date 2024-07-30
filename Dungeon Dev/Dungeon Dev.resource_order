@@ -605,6 +605,7 @@
     {"name":"spr_mob_orc_shield_atk","order":2,"path":"sprites/spr_mob_orc_shield_atk/spr_mob_orc_shield_atk.yy",},
     {"name":"spr_mob_orc_shield_death","order":3,"path":"sprites/spr_mob_orc_shield_death/spr_mob_orc_shield_death.yy",},
     {"name":"spr_mob_orc_shield_stand","order":1,"path":"sprites/spr_mob_orc_shield_stand/spr_mob_orc_shield_stand.yy",},
+    {"name":"spr_option_text_lan","order":1,"path":"sprites/spr_option_text_lan/spr_option_text_lan.yy",},
     {"name":"spr_pic_maw_angry","order":3,"path":"sprites/spr_pic_maw_angry/spr_pic_maw_angry.yy",},
     {"name":"spr_pic_maw_ember","order":5,"path":"sprites/spr_pic_maw_ember/spr_pic_maw_ember.yy",},
     {"name":"spr_pic_maw_laugh","order":4,"path":"sprites/spr_pic_maw_laugh/spr_pic_maw_laugh.yy",},

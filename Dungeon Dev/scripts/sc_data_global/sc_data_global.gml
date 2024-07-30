@@ -19,13 +19,14 @@ function sc_data_global()
 		var _f_file	= "font\\" + "font_data.csv";
 		var _f_data	= load_csv(_f_file);
 		
-		global.font_name		= array_create(5);
-		global.font_name[0]		= font_add("font\\font_kr.otf", _f_data[#1, 1], 0, 0, _f_data[#1, 4], _f_data[#1, 5]);
-		global.font_name[1]		= font_add("font\\font_kr.otf", _f_data[#2, 1], 0, 0, _f_data[#2, 4], _f_data[#2, 5]);
-		
-		global.font_text		= array_create(5);
-		global.font_text[0]		= font_add("font\\font_kr.otf", _f_data[#1, 2], 0, 0, _f_data[#1, 4], _f_data[#1, 5]);
-		global.font_text[1]		= font_add("font\\font_kr.otf", _f_data[#2, 2], 0, 0, _f_data[#2, 4], _f_data[#2, 5]);
+		global.font_max		= 2;
+		global.font_name		= array_create(global.font_max);
+		global.font_text		= array_create(global.font_max);
+		for (var _i = 0; _i < global.font_max; _i++)
+		{
+			global.font_name[_i]		= font_add("font\\" + _f_data[# _i+1, 7], _f_data[# _i+1, 1], 0, 0, _f_data[# _i+1, 4], _f_data[# _i+1, 5]);
+			global.font_text[_i]		= font_add("font\\" + _f_data[# _i+1, 7], _f_data[# _i+1, 2], 0, 0, _f_data[# _i+1, 4], _f_data[# _i+1, 5]);
+		}
 		
 		global.font_num			= font_add("font\\font_kr.otf", 16, 0, 0, 32, 128);
 	}
