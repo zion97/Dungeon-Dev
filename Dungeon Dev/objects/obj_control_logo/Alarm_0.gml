@@ -4,8 +4,16 @@
 //var _ind		= 0;
 //global.rm_index	= _ind;
 //room_goto(global.rm_stage[_ind]);
+if (global.lan < 0)
+{
+	room_goto(rm_lan);
+}
+else
+{
+	room_goto(rm_main);
+}
 //room_goto(rm_lan);
-room_goto(rm_main);
+
 
 //room_goto(rm_stage01_01cs);
 //room_goto(rm_stage01_07cs);

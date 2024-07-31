@@ -5,4 +5,5 @@ function sc_data_load()
 	VSLS_File_Load(global.save_file);
 	
 	global.ind_clear	= sc_vsls_define_value("ind_clear", 0);
+	global.lan			= sc_vsls_define_value("ind_lan", -1);
 }
